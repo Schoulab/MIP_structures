@@ -1,0 +1,1325 @@
+Query         Q_CFAP77_fl
+Match_columns 250
+No_of_seqs    136 out of 711
+Neff          7.36927
+Searched_HMMs 182718
+Date          Tue Apr 18 12:15:38 2023
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Chlamydomonas_reinhardtii/Chlamydomonas_reinhardtii -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Homo_sapiens/Homo_sapiens -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Paramecium_tetraurelia/Paramecium_tetraurelia -o ../results/CFAP77_fl.hhr -oa3m ../results/CFAP77_fl.a3m -p 20 -Z 5000 -loc -z 1 -b 1 -B 5000 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 NP_997300.1 cilia- and flagell 100.0 4.6E-59 2.5E-64  421.9  23.4  250    1-250    71-320 (320)
+  2 NP_001269886.1 cilia- and flag 100.0 9.4E-57 5.1E-62  401.7  22.1  227   24-250    58-284 (284)
+  3 XP_001451161.1 hypothetical pr 100.0 1.6E-47 8.9E-53  332.7  17.4  197   22-222     9-214 (215)
+  4 XP_001435003.1 hypothetical pr 100.0 2.5E-47 1.4E-52  331.7  18.0  193   25-221    12-213 (216)
+  5 XP_001425325.1 hypothetical pr 100.0 9.3E-47 5.1E-52  327.8  17.7  192   25-220    12-212 (215)
+  6 XP_001444446.1 hypothetical pr 100.0 7.9E-47 4.3E-52  328.6  17.2  193   25-221    12-213 (216)
+  7 XP_011516972.1 PREDICTED: unch 100.0 3.1E-46 1.7E-51  331.6  20.6  199   26-230    60-258 (268)
+  8 XP_001444538.1 hypothetical pr 100.0 6.3E-46 3.5E-51  320.6  18.0  192   24-219     8-205 (205)
+  9 XP_001424804.1 hypothetical pr 100.0 1.7E-45 9.1E-51  322.5  16.8  199   17-220     4-226 (229)
+ 10 XP_001428257.1 hypothetical pr 100.0 4.5E-45 2.4E-50  320.1  16.1  192   24-220    11-227 (230)
+ 11 XP_001430834.1 hypothetical pr 100.0 1.4E-44 7.6E-50  311.8  15.9  184   24-219    13-203 (203)
+ 12 XP_001702484.1 flagellar assoc 100.0 1.8E-44 9.7E-50  322.3  16.3  196   24-225    26-251 (270)
+ 13 XP_001456771.1 hypothetical pr 100.0 1.2E-43 6.7E-49  306.0  14.8  184   24-219    13-203 (203)
+ 14 PF14825.9 ; CFAP77 ; Cilia- an 100.0 5.8E-36 3.2E-41  252.4  14.6  145   26-170     7-172 (173)
+ 15 XP_001430875.1 hypothetical pr 100.0 1.5E-34 8.1E-40  241.0  13.6  146   24-216    12-158 (159)
+ 16 XP_011516973.1 PREDICTED: unch 100.0 7.6E-35 4.2E-40  248.0  12.1  132   25-156    59-190 (198)
+ 17 XP_001456809.1 hypothetical pr 100.0 1.1E-33 5.9E-39  236.3  11.9  146   24-216    12-159 (160)
+ 18 XP_001445661.1 hypothetical pr 100.0 1.3E-33 7.2E-39  238.0  11.4  155   25-218    13-170 (170)
+ 19 XP_016870200.1 PREDICTED: unch 100.0 1.7E-31 9.5E-37  224.7  11.2  119   25-143    59-177 (178)
+ 20 XP_001450004.1 hypothetical pr  99.9 3.8E-24 2.1E-29  192.4  11.6  126   24-197    12-138 (272)
+ 21 XP_001695261.1 flagella associ  93.4    0.73   4E-06   47.8   6.2  101   33-154   156-265 (424)
+ 22 XP_001436779.1 hypothetical pr  91.6    0.92 5.1E-06   43.9   4.1   87   33-142   171-259 (259)
+ 23 XP_001449358.1 hypothetical pr  88.4     8.8 4.8E-05   40.6   8.1  119   31-154   128-292 (431)
+ 24 XP_006715713.1 PREDICTED: unch  85.5     3.9 2.1E-05   37.5   3.4   28  137-164    82-109 (173)
+ 25 XP_001423908.1 hypothetical pr  81.6     6.9 3.8E-05   41.0   3.9   99   33-154   176-277 (416)
+ 26 XP_001436779.1 hypothetical pr  76.7     8.8 4.8E-05   37.6   2.8   37   31-67    108-148 (259)
+ 27 XP_001695261.1 flagella associ  75.2      14 7.7E-05   39.1   3.9   42   32-74    222-269 (424)
+ 28 NP_001093629.1 uncharacterized  73.5      15 8.3E-05   36.9   3.4   28  137-164   204-231 (295)
+ 29 XP_011513423.1 PREDICTED: unch  73.5      15 8.3E-05   36.9   3.4   28  137-164   204-231 (295)
+ 30 XP_006715712.1 PREDICTED: unch  73.3      15 8.3E-05   36.8   3.4   28  137-164   204-231 (291)
+ 31 XP_001423908.1 hypothetical pr  72.4      15 8.2E-05   38.7   3.4   38   30-67    112-153 (416)
+ 32 PF17662.4 ; DUF5524 ; Family o  71.4      15 8.4E-05   36.8   3.0   28  137-164   204-231 (284)
+ 33 XP_001449358.1 hypothetical pr  68.5      84 0.00046   33.9   7.5   85   85-170    36-123 (431)
+ 34 XP_001436779.1 hypothetical pr  66.1      85 0.00047   31.4   6.6   75   96-171    30-104 (259)
+ 35 NP_115516.1 enkurin domain-con  64.2      18 9.8E-05   37.4   2.0   64  137-215    83-146 (346)
+ 36 XP_016861231.1 PREDICTED: EF-h  61.4      34 0.00019   36.9   3.3   37   30-67    361-401 (473)
+ 37 XP_001423908.1 hypothetical pr  52.3      53 0.00029   35.0   3.1   39   31-69    238-276 (416)
+ 38 XP_001424804.1 hypothetical pr  49.3      64 0.00035   31.7   2.9   41   24-68    103-143 (229)
+ 39 XP_001428257.1 hypothetical pr  49.1      55  0.0003   32.1   2.5   41   24-68    103-143 (230)
+ 40 XP_011516973.1 PREDICTED: unch  47.7      59 0.00032   31.3   2.3   38   30-68    147-186 (198)
+ 41 XP_001425325.1 hypothetical pr  47.4      75 0.00041   30.9   3.0   41   24-68     96-136 (215)
+ 42 XP_001451161.1 hypothetical pr  45.6      78 0.00043   30.6   2.8   41   24-68     96-136 (215)
+ 43 XP_001449358.1 hypothetical pr  44.9      98 0.00054   33.5   3.6   38   31-68    253-290 (431)
+ 44 XP_001444446.1 hypothetical pr  43.6      79 0.00043   30.7   2.5   41   24-68     96-136 (216)
+ 45 XP_011531687.1 PREDICTED: EF-h  43.3 2.1E+02  0.0011   32.2   5.8   89   52-166    54-146 (622)
+ 46 XP_005264946.1 PREDICTED: EF-h  42.2      97 0.00053   36.3   3.3   37   30-67    361-401 (810)
+ 47 XP_011531687.1 PREDICTED: EF-h  41.8      90 0.00049   34.7   3.0   37   30-67    150-190 (622)
+ 48 XP_001435003.1 hypothetical pr  40.4 1.1E+02 0.00061   29.7   3.0   41   24-68     96-136 (216)
+ 49 XP_001444538.1 hypothetical pr  37.6 1.3E+02 0.00073   29.0   3.0   41   24-68     92-132 (205)
+ 50 XP_001423908.1 hypothetical pr  36.4 3.9E+02  0.0021   29.2   6.2   71   99-170    38-108 (416)
+ 51 XP_016861231.1 PREDICTED: EF-h  35.7 3.1E+02  0.0017   30.6   5.3   72   99-170   286-361 (473)
+ 52 XP_016861230.1 PREDICTED: EF-h  35.2 1.2E+02 0.00066   34.6   2.7   37   30-67    231-271 (703)
+ 53 XP_001456771.1 hypothetical pr  29.6 2.2E+02  0.0012   27.7   3.0   37   30-68     98-134 (203)
+ 54 NP_653316.3 EF-hand domain-con  29.1   2E+02  0.0011   34.2   3.2   36   31-67    362-401 (833)
+ 55 XP_011531684.1 PREDICTED: EF-h  28.9 2.6E+02  0.0014   33.2   3.9   72   99-170   265-340 (812)
+ 56 XP_011531684.1 PREDICTED: EF-h  27.6   2E+02  0.0011   34.0   2.9   36   31-67    341-380 (812)
+ 57 XP_001445661.1 hypothetical pr  24.6 3.9E+02  0.0021   25.3   3.6   42  111-152    14-56  (170)
+ 58 XP_005264946.1 PREDICTED: EF-h  24.6 5.9E+02  0.0033   30.7   5.6   75   96-170   283-361 (810)
+ 59 XP_011516972.1 PREDICTED: unch  22.7   3E+02  0.0017   28.3   2.7   38   30-68    147-186 (268)
+ 60 XP_005264946.1 PREDICTED: EF-h  21.7 5.1E+02  0.0028   31.1   4.5  111   23-154   416-533 (810)
+ 61 XP_001430834.1 hypothetical pr  21.7 3.5E+02  0.0019   26.4   2.8   37   30-68     98-134 (203)
+ 62 NP_653316.3 EF-hand domain-con  21.4 6.6E+02  0.0036   30.4   5.2   75   97-171   284-362 (833)
+ 63 NP_997300.1 cilia- and flagell  20.6 3.7E+02   0.002   28.5   2.9   38   30-68    183-222 (320)
+
+No 1
+>NP_997300.1 cilia- and flagella-associated protein 77 isoform 1 [Homo sapiens]
+Probab=100.00  E-value=4.6e-59  Score=421.89  Aligned_cols=250  Identities=100%  Similarity=1.530  Sum_probs=222.0  Template_Neff=5.400
+
+Q ss_pred             CCCCcccccccchhhhhhhhccCcccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCc
+Q Q_CFAP77_fl       1 SVGTSYSVYDSSAVQKVIPSLAGHHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPH   80 (250)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~   80 (250)
+                      ++++.|.+|+++++...++-..+|++.+|++++||+++++||+||+++|+||+++.+|+|||++||++|..+.+.+..+.
+T Consensus        71 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~k~~lGk~k~~ty~LP~~dfvYG~~~~rd~~Ga~eai~~W~~~~~~~~~~~  150 (320)
+T NP_997300.1      71 SVGTSYSVYDSSAVQKVIPSLAGHHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPH  150 (320)
+T ss_pred             cccceeeeccccccccccccccCcccCCCCcccCCCCCCCcccCCCCCcccceeccCCCCCHHHHHchhcccCCCCCCcc
+Confidence            36788999999999999999999999999999999999999999999999999999999999999999999655532345
+
+
+Q ss_pred             ccCCCHHHHhHHHHHcCCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHH
+Q Q_CFAP77_fl      81 ELTRNYIAMNRGAVKAGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQ  160 (250)
+Q Consensus        81 ~~~~DF~~lNk~A~k~G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~e  160 (250)
+                      ..++||++||++|+++||+||+|+++||+.|||+++.....+....++.++++|+||++++|++||.+||+|.|+++|++
+T Consensus       151 ~~~rDFiamNr~Aik~GlvTAkE~~~fRk~hDIR~k~~~~~~~~~~~p~~ppdmtyGiptRPSTPI~dLLqh~Y~~ew~e  230 (320)
+T NP_997300.1     151 ELTRNYIAMNRGAVKAGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQ  230 (320)
+T ss_pred             ccCCCHHHHHHHHHHcCCCCHHHHHHHHHhcCeecCccccccccCCCCCCCCCCCCCCCCCCCCCHHHHHhhHHHHHHHH
+Confidence            67899999999999999999999999999999998866543223334457899999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHhhcccCCccccccchhhhcCCCCCCCCCCCCcchhcCcccccCCCCHHHHHHHHHHhHHhhhcccC
+Q Q_CFAP77_fl     161 EQKATQKAIKLEKKQKVVLGKLYETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPTEADRQRALKAHREECAVRQG  240 (250)
+Q Consensus       161 e~~~~~~~~~~~~~~k~~~~~~~~Tras~lr~~~~~~~~k~~fKM~RF~~V~prvdt~r~~~~~~~a~~~~~~~~~~r~g  240 (250)
+                      ++.+.+......++.+.....+++|+||.|+++..+.+++++|||+||+||+|+|+||++..++++||+++++|++.|.|
+T Consensus       231 ~q~~~~~~~~~~kk~k~~~~~~~eTRAS~Lrk~~~~~~~~~lfKM~RFqkV~prl~Tf~s~~~r~~a~~~~~~~~~~R~G  310 (320)
+T NP_997300.1     231 EQKATQKAIKLEKKQKVVLGKLYETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPTEADRQRALKAHREECAVRQG  310 (320)
+T ss_pred             HHHHHHHHHHHHHHHHhhcCCccCchHHHHhhcCCCCCCCcccCChhHcccccccccCCCHHHHHHHHHHHHHhhHhhcc
+Confidence            99998765544333233457889999999998776778889999999999999999999999999999999999999999
+
+
+Q ss_pred             cccccccCCC
+Q Q_CFAP77_fl     241 TLRMGNYTHP  250 (250)
+Q Consensus       241 ~~~~g~~~~~  250 (250)
+                      ++|+|||+.+
+T Consensus       311 ~~g~G~y~~~  320 (320)
+T NP_997300.1     311 TLRMGNYTHP  320 (320)
+T ss_pred             ccccCCCCCC
+Confidence            9999999863
+
+
+No 2
+>NP_001269886.1 cilia- and flagella-associated protein 77 isoform 2 [Homo sapiens]
+Probab=100.00  E-value=9.4e-57  Score=401.73  Aligned_cols=227  Identities=96%  Similarity=1.475  Sum_probs=202.3  Template_Neff=5.600
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARE  103 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take  103 (250)
+                      ..|+||+|++||+++++||+||+++|+||+++.+|+|||+|||++|..+.+.++.+..+++||++||++|+++||+||+|
+T Consensus        58 ~~N~LL~K~~lGk~k~~~y~LP~~~fvYG~~~~rd~~Gv~eai~~W~~~~~~~~~~~~~~rDFi~mNr~Aik~GlvtAke  137 (284)
+T NP_001269886.1   58 FQNPLIVKAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARE  137 (284)
+T ss_pred             ccCcchhhcccCCCCCceecCCCCCcccceeeccCCCCHHHHHchhhccCCCCCCccccCCCHHHHHHHHHHcCCCCHHH
+Confidence            45999999999999999999999999999999999999999999999975554335678899999999999999999999
+
+
+Q ss_pred             HHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCcc
+Q Q_CFAP77_fl     104 NLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLY  183 (250)
+Q Consensus       104 ~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~  183 (250)
+                      ++.||+.|||+++.....+....++.++++|+||++++|+|||.+||+|.|+++|++++.+.+.....+++.+.....++
+T Consensus       138 ~~~yRk~hdIr~k~~~~~~~~~~~p~~p~d~tyG~~trpstPi~~Llq~~Y~~ew~e~q~~~~~~~~~~kk~k~~~~~~~  217 (284)
+T NP_001269886.1  138 NLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLY  217 (284)
+T ss_pred             HHHHHHhcCeeccccccccccCCCCCCCCCCCCCCCCCCCCCHHHHHhhHHHHHHHHHHHHHHHHHHHHHHhhhhcCCcc
+Confidence            99999999999987654333344555789999999999999999999999999999999998876655443333456889
+
+
+Q ss_pred             ccccchhhhcCCCCCCCCCCCCcchhcCcccccCCCCHHHHHHHHHHhHHhhhcccCcccccccCCC
+Q Q_CFAP77_fl     184 ETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPTEADRQRALKAHREECAVRQGTLRMGNYTHP  250 (250)
+Q Consensus       184 ~Tras~lr~~~~~~~~k~~fKM~RF~~V~prvdt~r~~~~~~~a~~~~~~~~~~r~g~~~~g~~~~~  250 (250)
+                      +||||.|++...+++++++|||+||++|+|+|+||++.+++++||+++++|+++|.|++|+|||+.+
+T Consensus       218 eTRaS~LRk~~~~~~~~~lwKM~rFqkV~p~l~Tf~~~~~r~~a~~~~~~~~~~r~g~~~~g~y~~~  284 (284)
+T NP_001269886.1  218 ETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPTEADRQRALKAHREECAVRQGTLRMGNYTHP  284 (284)
+T ss_pred             CChHHHHhhcCCCCCCCCccCChhhccCccccccCCCHHHHHHHHHHHHHhhHhhccccccCCCCCC
+Confidence            9999999988777888999999999999999999999999999999999999999999999999864
+
+
+No 3
+>XP_001451161.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.6e-47  Score=332.67  Aligned_cols=197  Identities=20%  Similarity=0.304  Sum_probs=165.5  Template_Neff=7.200
+
+Q ss_pred             cCcccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCH
+Q Q_CFAP77_fl      22 AGHHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTA  101 (250)
+Q Consensus        22 ~~~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~ta  101 (250)
+                      .-+.|+||+|++||+++++||+||+++|+||+++.+|+|||++||++|..|.++.  ...+++||++||++|+++||+||
+T Consensus         9 ~~~~N~LL~k~~lGk~k~~~~~LP~~~fvYG~~~~~d~~ga~ev~~~W~~~~~~~--~~~~~~DF~~mNk~Ai~~G~~ta   86 (215)
+T XP_001451161.1    9 HNHSNPLLMKDDVGKSKPSTYNLPNQDFIYGQPLSRDKEGAKEVTMTWKFHQESQ--DRVPNRDFAELNKQSIHNGSVKA   86 (215)
+T ss_pred             cCCCCCccccCCCCCCCCCCCCCCCCCeeCcccCCCCCCcHHHHHhhcccCCCCC--CCCCCCCHHHHHHHHHHcCCCCH
+Confidence            4458999999999999999999999999999999999999999999999987553  46778999999999999999999
+
+
+Q ss_pred             HHHHHHHHHcCcccCchhccccCCCCCCCC-CCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccC
+Q Q_CFAP77_fl     102 RENLLYRQLNDIRISDQDDRRMKKEPPPLP-PNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLG  180 (250)
+Q Consensus       102 ke~~~fR~~hd~r~~~~~~~~~~~~~~~~~-~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~  180 (250)
+                      +|+++||++|||+++.....  ......+| ++|+||++++|+|||.+||+|.|+++|++++.+.|.........+.+..
+T Consensus        87 ke~~~fR~~~dir~~~~~~~--~~~~~~~P~~~~~yG~~~rpstPi~~ll~~~Y~~ew~e~~~~~~~~~~~~~~~~~~~~  164 (215)
+T XP_001451161.1   87 HDMYKYRQTHDARLQIKKGT--NIQAIELPEEEFRYGRKNRPSTPMKLVMGNSYGIEAESTILDKYQHRAGSQDSKMTSS  164 (215)
+T ss_pred             HHHHHHHHHcCceeeccCCC--CCCCCCCCccccccCCCCCCCCCHHHHhcchhHHHHHHHHHHHHHHHhcccccccccC
+Confidence            99999999999998765432  11222333 6999999999999999999999999999998887754433222223445
+
+
+Q ss_pred             Cccccccchhhhc--------CCCCCCCCCCCCcchhcCcccccCCCCHH
+Q Q_CFAP77_fl     181 KLYETRSSQLRKY--------KPPVKLDTLWHMPHFQKVGRHLDTFPTEA  222 (250)
+Q Consensus       181 ~~~~Tras~lr~~--------~~~~~~k~~fKM~RF~~V~prvdt~r~~~  222 (250)
+                      .+++|+||.|+..        ..+++++++|||+||++|+|+|+|||+..
+T Consensus       165 ~~~~Tras~l~~~~~~~~~~~~~~~~~~~~fKM~kF~~v~~rl~T~~~~~  214 (215)
+T XP_001451161.1  165 VVKGNKASQLFHDSNHKKLAAIQGVEKKEPFKMEKFKSVNPKINTNLSTK  214 (215)
+T ss_pred             CCCCCHHHHHHHhHhHHHHHhcCCCCCCCCcCChhhhcCCCccccCCCCC
+Confidence            6789999998654        23457889999999999999999999863
+
+
+No 4
+>XP_001435003.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=2.5e-47  Score=331.71  Aligned_cols=193  Identities=21%  Similarity=0.292  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      25 HIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        25 ~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      .|.||+|++||+++++|++||+++|+||+.+.+|+|||++||++|..|.+++  ....++||++||++|+++||+||+|+
+T Consensus        12 ~N~LL~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~~ga~e~~~~W~~~~~~~--~~~~~~DF~~mNk~Ai~~G~~take~   89 (216)
+T XP_001435003.1   12 SNPVLMKDDVGKPKPSTYNLPKQDYVYGLPLIRDKEGAKEVTMTWKFHQESQ--DRIPNRDFAELNKMSVFNGSLTAHDM   89 (216)
+T ss_pred             CCCccccCCCCCCCCCCcCCCCCCccCcccCcCCCCcHHHHHhhcccCCCCC--CCCCCCCHHHHHHHHHHcCCCCHHHH
+
+
+Q ss_pred             HHHHHHcCcccCchhccccCCCCCCCC-CCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCcc
+Q Q_CFAP77_fl     105 LLYRQLNDIRISDQDDRRMKKEPPPLP-PNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLY  183 (250)
+Q Consensus       105 ~~fR~~hd~r~~~~~~~~~~~~~~~~~-~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~  183 (250)
+                      ++||++|||+++....  .......+| ++|+||++++|++||.+||+|.|+++|++++.+.+.........+.....++
+T Consensus        90 ~~fR~~h~ir~~~~~~--~~~~~~~~P~~~~~fG~~~rpstPi~~ll~~~Y~~ew~~~~~~~~~~~~~~~~~k~~~~~~~  167 (216)
+T XP_001435003.1   90 YKYRQTHDARLQVKKG--TNIQAIELPEEEFRYGRKNRPSTPMKLVMGNSYGIEAASITLDKYYKRAGSQESKMTNTIVR  167 (216)
+T ss_pred             HHHHHHcCceeecCCC--CCCCCCCCCccccccCCCCCCCCCHHHHhcchhHHHHHHHHHHHHHHHhhhhhhcccCCCCC
+
+
+Q ss_pred             ccccchhhhcCC--------CCCCCCCCCCcchhcCcccccCCCCH
+Q Q_CFAP77_fl     184 ETRSSQLRKYKP--------PVKLDTLWHMPHFQKVGRHLDTFPTE  221 (250)
+Q Consensus       184 ~Tras~lr~~~~--------~~~~k~~fKM~RF~~V~prvdt~r~~  221 (250)
+                      +|+||.|+....        +..++++|||+||++|+|+|+||++.
+T Consensus       168 ~Tras~lr~~~~~~~~~~~~~~~~~~~fKM~rF~~v~~rl~t~~~~  213 (216)
+T XP_001435003.1  168 PNKASQLFHESNHKKLAVIKGTEKKEPFKMEKFKTVAARTDTNLIT  213 (216)
+T ss_pred             CCHHHHHHhhcchhhhhhccCCCCCCCcCChhhcCCcccccCCccc
+
+
+No 5
+>XP_001425325.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=9.3e-47  Score=327.76  Aligned_cols=192  Identities=20%  Similarity=0.306  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      25 HIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        25 ~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      .|.||+|++||+++++|++||+++|+||+.+.+|+|||++||++|..|.++.  ....++||++||++|+++||+||+|+
+T Consensus        12 ~N~LL~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~~ga~e~~~~W~~~~~s~--~~~~~~DF~~mNk~a~~~G~~take~   89 (215)
+T XP_001425325.1   12 TNPLLMKDDVGKSKPSTYNLPNQDFIYGQPLSRDKEGAKEVTMTWKFHQESQ--DHLPNRDFAELNKQSIHNGSFKAHDM   89 (215)
+T ss_pred             CCCccccCCCCCCCCCCCCCCCCCeeCcccCCCCCCcHHHHHhhcccCCCCc--CCCCCCCHHHHHHHHHHCCCCCHHHH
+
+
+Q ss_pred             HHHHHHcCcccCchhccccCCCCCCCCC-CCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCcc
+Q Q_CFAP77_fl     105 LLYRQLNDIRISDQDDRRMKKEPPPLPP-NMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLY  183 (250)
+Q Consensus       105 ~~fR~~hd~r~~~~~~~~~~~~~~~~~~-~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~  183 (250)
+                      ++||++|||+++....  .......+|+ +|+||++++|++||.+||+|.|+.+|++.+.+.|.......+.+.....++
+T Consensus        90 ~~fR~~~~ir~k~~~~--~~~~~~~~P~~~~~fG~~~rpstPi~~ll~~~Y~~e~~~~~~~~y~~~~~~~~~~~~~~~~~  167 (215)
+T XP_001425325.1   90 YKFRQTHDARLKVKKG--TNIQAIELPEEEFRYGRKNRPSTPMKLVMGNSYCIEAESTILDKYQQRAGSQDSKMTSSMVK  167 (215)
+T ss_pred             HHHHHHcCceeccCCC--CCCCCcCCCccccccCCCCCCCCCHHHHhcchHHHHHHHHHHHHHHHHhcccchhhccccCC
+
+
+Q ss_pred             ccccchhhhc--------CCCCCCCCCCCCcchhcCcccccCCCC
+Q Q_CFAP77_fl     184 ETRSSQLRKY--------KPPVKLDTLWHMPHFQKVGRHLDTFPT  220 (250)
+Q Consensus       184 ~Tras~lr~~--------~~~~~~k~~fKM~RF~~V~prvdt~r~  220 (250)
+                      .|+++.|+..        ....+++.+|||+||++|+|+|+||++
+T Consensus       168 ~Tras~l~~~~~~~~~~~~~~~~~~~~fKm~kF~~v~prl~T~~~  212 (215)
+T XP_001425325.1  168 GNKASQLFHDTNHKKLAAIQGVEKKEPFKMEKFKSVTSKINTNLS  212 (215)
+T ss_pred             CCHHHHhHHhhhHHHHHhhcCCCCCCCCCChhhcCCCCccccCcC
+
+
+No 6
+>XP_001444446.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=7.9e-47  Score=328.56  Aligned_cols=193  Identities=21%  Similarity=0.291  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      25 HIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        25 ~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      .|.||+|++||+++++|++||+++|+||+++.+|+|||++||++|..|.+++  ....++||++||++|+++||+||+|+
+T Consensus        12 ~N~LL~k~~lGk~k~~~~~LP~~~fvYG~~~~~d~~ga~ev~~~W~~~~~~~--~~~~~~DF~~~Nk~A~~~G~~take~   89 (216)
+T XP_001444446.1   12 SNPVLMKDDVGKPKPSTYNLPKQDFVYGLPLIRDKEGAKEVTMTWKFHLESL--NRIPNRDFAQLNKMSVFNGSLTAHDM   89 (216)
+T ss_pred             CCCccccCCCCCCCCCCcCCCCCCccCcccCcCCCCcHHHHHhhhccccccc--CCCCCCCHHHHHHHHHHcCCCCHHHH
+
+
+Q ss_pred             HHHHHHcCcccCchhccccCCCCCCCCC-CCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCcc
+Q Q_CFAP77_fl     105 LLYRQLNDIRISDQDDRRMKKEPPPLPP-NMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLY  183 (250)
+Q Consensus       105 ~~fR~~hd~r~~~~~~~~~~~~~~~~~~-~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~  183 (250)
+                      ++||++|+++++....  .......+|+ +|+||++++|++||.+||+|.|+++|++++.+.+.......+.+.+...++
+T Consensus        90 ~~fR~~h~ir~~~~~~--~~~~~~~~p~~~~~yG~~~rpstPi~~ll~~~Y~~ew~e~~~~~~~~~~~~~~~~~~~~~~~  167 (216)
+T XP_001444446.1   90 YKFRQTHDARLQVKKG--TNIQAIELPEEEFRYGRKNRPSTPMKLVMGNSYGIEAASITLDKYYKRAGSQESRMTSTIVK  167 (216)
+T ss_pred             HHHHHHcCceeeccCC--CCcCCcCCChhhcccCCCCCCCCCHHHHhcchhHHHHHHHHHHHHHHHhchhhcccccCCCC
+
+
+Q ss_pred             ccccchhhhc---C-----CCCCCCCCCCCcchhcCcccccCCCCH
+Q Q_CFAP77_fl     184 ETRSSQLRKY---K-----PPVKLDTLWHMPHFQKVGRHLDTFPTE  221 (250)
+Q Consensus       184 ~Tras~lr~~---~-----~~~~~k~~fKM~RF~~V~prvdt~r~~  221 (250)
+                      .|+|+.|+..   .     ...+++.+|||+||++|+|+|+||++.
+T Consensus       168 ~TrAs~l~~~~~~~~~~~~~~~~~~~~fKM~rF~~v~~r~~T~~~~  213 (216)
+T XP_001444446.1  168 PNKASQLFHEINHKKLAVIKGIEKKEPFKMEKFKTVSARTDTNLIA  213 (216)
+T ss_pred             CCcHHHHHHHHhHhhhhccCCCCCCCCcCCcccccCCccccCcccc
+
+
+No 7
+>XP_011516972.1 PREDICTED: uncharacterized protein C9orf171 isoform X1 [Homo sapiens]
+Probab=100.00  E-value=3.1e-46  Score=331.63  Aligned_cols=199  Identities=90%  Similarity=1.375  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHHH
+Q Q_CFAP77_fl      26 IKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARENL  105 (250)
+Q Consensus        26 ~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~~  105 (250)
+                      |.||++++||+++++||+||+++|+||+++.+|+|||++||++|..+.+.+..+...++||++||++|+++||+||+|++
+T Consensus        60 N~LL~K~~lGk~k~~~y~LP~~~fvYG~~~~rd~~Ga~eai~~W~~~~~~~~~~~~~~rDFi~mNk~Aik~GlvTAke~~  139 (268)
+T XP_011516972.1   60 NPLIVKAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARENL  139 (268)
+T ss_pred             CcchhccccCCCCCceecCCCCCeecceeeccCCCCHHHHHchhhccCCCCCCccccCCCHHHHHHHHHHcCCCCHHHHH
+
+
+Q ss_pred             HHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCcccc
+Q Q_CFAP77_fl     106 LYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLYET  185 (250)
+Q Consensus       106 ~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~~T  185 (250)
+                      +||+.|||+++..........++.++++|+||++++|++||.+||+|.|+++|++++.+.+......++.+.....+++|
+T Consensus       140 ~fRk~hdIr~k~~~~~~~~~~~p~~p~dmtyG~ptRpSTPi~~Llqh~Y~~ew~e~q~~~~~~~~~~kk~k~~~~~i~eT  219 (268)
+T XP_011516972.1  140 LYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLYET  219 (268)
+T ss_pred             HHHHhcCeecCccccccccCCCCCCCCCCCcCCCCCCCCCHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHhhcCCccCC
+
+
+Q ss_pred             ccchhhhcCCCCCCCCCCCCcchhcCcccccCCCCHHHHHHHHHH
+Q Q_CFAP77_fl     186 RSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPTEADRQRALKA  230 (250)
+Q Consensus       186 ras~lr~~~~~~~~k~~fKM~RF~~V~prvdt~r~~~~~~~a~~~  230 (250)
+                      +||.|++...+.+++++|||+||++|      .|+.+.-++-.+.
+T Consensus       220 RaS~Lrk~~~~~~~~~lwKM~rFqkv------~~~~~~~~~~~~~  258 (268)
+T XP_011516972.1  220 RSSQLRKYKPPVKLDTLWHMPHFQKS------DVPEERGAKVYQG  258 (268)
+T ss_pred             hHHHHhhcCCCCCCCCCCCChhHccC------CCChHHHHHHHHH
+
+
+No 8
+>XP_001444538.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=6.3e-46  Score=320.60  Aligned_cols=192  Identities=18%  Similarity=0.242  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARE  103 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take  103 (250)
+                      ..|.||+|++||+++++|++||+ +|+||+.+.+|+|||++||++|..|.+++  ....++||++||++|+++||+||+|
+T Consensus         8 ~~N~LL~k~~vGk~k~~~~~lP~-~~~YG~~~~~d~ega~ev~~~W~~~~~~~--~~~~~~DF~~~Nk~A~~~G~~take   84 (205)
+T XP_001444538.1    8 RANSLLLKDSVGAAKQSIYTIPN-DIYFGKAIVHDTEGASQVTSTWYYHNNSE--QNPPDRDFMKLNKMCISSKLHDQKQ   84 (205)
+T ss_pred             cCCcccccCCCCCCCCCccCCCC-CcccceeccCCCCcHHHHHhhcccCCCCC--CCCCCCCHHHHHHHHHHcCCCCHHH
+
+
+Q ss_pred             HHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHH--HhhcccCC
+Q Q_CFAP77_fl     104 NLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEK--KQKVVLGK  181 (250)
+Q Consensus       104 ~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~--~~k~~~~~  181 (250)
+                      +++||++|||+++.... .........+++|+||++++|++||.+||++.|+++|++++.+.|......+  +.+.....
+T Consensus        85 ~~~fR~~hdir~~~~~~-~~~~~~~~~~~~~~yG~~~rpstpi~~ll~~~Y~~~~~e~~~~~y~~~~~~~~~~~~~~~~~  163 (205)
+T XP_001444538.1   85 FYLFRQSNDARVFRRRG-CSQIEMNLPDENFRYGKPYLPQSPMKNVLSGSYMNEAEQLMDKKYDAITKYKQQQNKRPSTA  163 (205)
+T ss_pred             HHHHHHhCCceeeccCC-CCcccCCCCCCCcccCcCCCCCCCHHHHHcchhHHHHHHHHHHHHHHHHHHHHHcCCCCCCC
+
+
+Q ss_pred             ccccccchhhhcC----CCCCCCCCCCCcchhcCcccccCCC
+Q Q_CFAP77_fl     182 LYETRSSQLRKYK----PPVKLDTLWHMPHFQKVGRHLDTFP  219 (250)
+Q Consensus       182 ~~~Tras~lr~~~----~~~~~k~~fKM~RF~~V~prvdt~r  219 (250)
+                      ++.|++|.++...    ....++.+|||+||++|+|+|+|+.
+T Consensus       164 ~~~Tkas~l~~~~~~~~~~~~~~~~fKMkkF~~v~~ri~T~~  205 (205)
+T XP_001444538.1  164 TKHTKASKLAYQSLTKSLNKSQQPQFKLKEFEKVEPKTKTRF  205 (205)
+T ss_pred             CCCCHHHHHHHHHhhhhCCCCCCCCcCCccccCCCCCcCCCC
+
+
+No 9
+>XP_001424804.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.7e-45  Score=322.47  Aligned_cols=199  Identities=20%  Similarity=0.334  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             hhhhccCcccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHc
+Q Q_CFAP77_fl      17 VIPSLAGHHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKA   96 (250)
+Q Consensus        17 ~~~~~~~~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~   96 (250)
+                      +.+.+-=..|.||+|++||+++++|++||+++|+||+++.+|+|||++||++|..|.+++  ....++||++||++|+++
+T Consensus         4 ~~p~~~~~~N~LL~K~~lGk~k~~~~~LP~~~fvYG~~~~~d~~ga~ev~~~W~~~~~s~--~~~~~~DF~~mNk~Av~~   81 (229)
+T XP_001424804.1    4 TPPFSQNHTNPLLTKDDVGKSKPSTYNLPNQDFVYGHPLARDKEGAKEVTMTWKFHQESQ--DKVPNRDFAELNKQSIHN   81 (229)
+T ss_pred             CCCccccCCCCccccCCCCCCCCCCCCCCCCCccCcccCCCCCCcHHHHHhhcccCCCCC--CCCCCCCHHHHHHHHHHC
+
+
+Q ss_pred             CCCCH-------HHHHHHHHHcCcccCchhccccCCCCCCCCC-CCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      97 GLVTA-------RENLLYRQLNDIRISDQDDRRMKKEPPPLPP-NMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKA  168 (250)
+Q Consensus        97 G~~ta-------ke~~~fR~~hd~r~~~~~~~~~~~~~~~~~~-~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~  168 (250)
+                      |||||       +|+++||++|||+++....  .......+|+ +|+||++++|++||.+||+|.|+++|++++.+.+..
+T Consensus        82 G~vta~~~~~~~ke~~~fR~~hdir~k~~~~--~~~~~~~~P~~~~tfG~~~rpstPi~~ll~~~Y~~~w~~~~~~~~~~  159 (229)
+T XP_001424804.1   82 GSVKAHVTVHSIQDMYKFRQTHDARLKLKKG--TNIQAIELPEEEFRYGRKNRPSTPMKLVMGNSYGIEAESTILEKYQV  159 (229)
+T ss_pred             CCccccccCccHHHHHHHHHHccceeeccCC--CCCCCCCCCccccccCcCCCCCCCHHHHhcchhHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHH-------Hhhccc---------CCccccccchhhhcCCCCCCCCCCCCcchhcCcccccCCCC
+Q Q_CFAP77_fl     169 IKLEK-------KQKVVL---------GKLYETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPT  220 (250)
+Q Consensus       169 ~~~~~-------~~k~~~---------~~~~~Tras~lr~~~~~~~~k~~fKM~RF~~V~prvdt~r~  220 (250)
+                      .....       ..+.+.         ...++|++++|+... +.+++++|||+||++|+|+|+||++
+T Consensus       160 ~~~~~~~~~~~~~~k~~~~~~~~~ka~~~~~etr~s~lr~~~-~~~~~~~fKm~kF~~V~prl~Tf~~  226 (229)
+T XP_001424804.1  160 RASSQVTIIQIKDSKLSSSIVKSNKASQLFYDTNHKKLAAIR-GVEKKEPFKMEKFKTVNSKINTNLS  226 (229)
+T ss_pred             HHHhhhhhHHhcccccccchhccchHhhhhHhhhHHHHHHhc-CCCCCCCCCCHhHcCCCCccccCcC
+
+
+No 10
+>XP_001428257.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=4.5e-45  Score=320.11  Aligned_cols=192  Identities=20%  Similarity=0.329  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHH-
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAR-  102 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~tak-  102 (250)
+                      ..|.||+|++||+++++|++||+++|+||+.+.+|+|||++||++|..|.+++  ....++||++||++|+++|||||+ 
+T Consensus        11 ~~N~LL~K~~lGk~k~~~~~LP~~~fvYG~~~~~d~~ga~ev~~~W~~~~~~~--~~~~~~DF~~mNk~Ai~~G~vta~~   88 (230)
+T XP_001428257.1   11 HTNPLLMKDDVGKSKPSTFNLPNQDFVYGQPLARDKEGAKEVTMTWKFHQESQ--DRVPNRDFPELNKQSIHNGSVKAHV   88 (230)
+T ss_pred             CCCCccccCCCCCCCCCccCCCCCCcccccCCCCCcccHHHHHhhcccCCCCC--CCCCCCCHHHHHHHHHHCCCccccc
+
+
+Q ss_pred             ------HHHHHHHHcCcccCchhccccCCCCCCCCC-CCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHH--
+Q Q_CFAP77_fl     103 ------ENLLYRQLNDIRISDQDDRRMKKEPPPLPP-NMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEK--  173 (250)
+Q Consensus       103 ------e~~~fR~~hd~r~~~~~~~~~~~~~~~~~~-~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~--  173 (250)
+                            |+++||++|||+++....  .......+|+ +|+||++++|++||.+||+|.|+++|++++.+.+......+  
+T Consensus        89 ~~~~~~e~~~fR~~hdir~k~~~~--~~~~~~~~P~~~~~yG~~~rpstPi~~ll~~~Y~~~w~~~~~~~~~~~~~~~~~  166 (230)
+T XP_001428257.1   89 TVHSIQDMYKFRQTHDARLKLKKG--TNIQAIELPEEEFRYGRKNRPSTPMKLVMGNSYGIEAESQILDKYQGRASSQVS  166 (230)
+T ss_pred             ccccHHHHHHHHHHccceeeccCC--CCCCCCCCChhhhccCcCCCCCCCHHHHhcchhHHHHHHHHHHHHHHHhhhhcc
+
+
+Q ss_pred             ------Hhhccc---------CCccccccchhhhcCCCCCCCCCCCCcchhcCcccccCCCC
+Q Q_CFAP77_fl     174 ------KQKVVL---------GKLYETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHLDTFPT  220 (250)
+Q Consensus       174 ------~~k~~~---------~~~~~Tras~lr~~~~~~~~k~~fKM~RF~~V~prvdt~r~  220 (250)
+                            ..+...         ...++|+++.++.. .+.+++++|||+||++|+|+|+||++
+T Consensus       167 ~~~~~~~~~~~~~~~~~~kas~~~~et~~s~lr~~-~~~~~~~~fKM~rF~~v~prl~T~~~  227 (230)
+T XP_001428257.1  167 FKTYIKDSKLSSSLVKGNKASQLFYDTNHKKLAAI-QGVEKKEPFKMEKFKTVNPKINTNLS  227 (230)
+T ss_pred             ccccccCcccccccCCCChhhhhhhhhcHHHHHhh-cCCCCCCCCCCccccCCCCccccCCC
+
+
+No 11
+>XP_001430834.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.4e-44  Score=311.80  Aligned_cols=184  Identities=18%  Similarity=0.215  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeecc-CCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIR-GLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAR  102 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~-~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~tak  102 (250)
+                      ..|.||+|++||+++++|++||  +|+||+.+. .|+|||++||++|. |.++.  ....++||++||++|+++||+||+
+T Consensus        13 ~~N~LL~k~~lGk~k~~~~~LP--~~~yG~~~~~~d~~ga~e~~~~w~-~~~~~--~~~~~~DF~~mNk~Ai~~G~vtak   87 (203)
+T XP_001430834.1   13 SANPLIVKDDVGKAKPSTYPIP--DCAFGSRTVAVKEESLGEVLCHMQ-HFASM--DIRPEKDFKKTNIMSIKHNLCTAK   87 (203)
+T ss_pred             CCCcccccCCCCCCCCCCCCCC--CCcccccCCCCCcccHHHHHhhhc-cCCCC--CCCCCCCHHHHHHHHHHcCCCCHH
+
+
+Q ss_pred             HHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCc
+Q Q_CFAP77_fl     103 ENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKL  182 (250)
+Q Consensus       103 e~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~  182 (250)
+                      |+++||++|||+++...   .+...+..+++|+||++++|++||.+||+|.|+++|++.+.+.+....    .+.+...+
+T Consensus        88 e~~~fR~~hdir~k~~~---~~~~~~~~p~~~~fG~~~rpstPi~~ll~~~Y~~~~~q~~~~~~~~~~----~~~k~~~~  160 (203)
+T XP_001430834.1   88 EFQEFRQSHDIRQKVVQ---GKPKMTEIPKQQVFGRKNRTPSPIKNVLAFDYGAVAEKKQAEAYSNRP----STAKSRIS  160 (203)
+T ss_pred             HHHHHHHHCCceeccCC---CCCCCCCCCccccccCCCCCCCCHHHHHhhhHHHHHHHHHHHHhhcCC----ccccCCCC
+
+
+Q ss_pred             cccccchhh-----hcCC-CCCCCCCCCCcchhcCcccccCCC
+Q Q_CFAP77_fl     183 YETRSSQLR-----KYKP-PVKLDTLWHMPHFQKVGRHLDTFP  219 (250)
+Q Consensus       183 ~~Tras~lr-----~~~~-~~~~k~~fKM~RF~~V~prvdt~r  219 (250)
+                      ++|+||.|+     +... +.+++++|||+||++|+|+|+|++
+T Consensus       161 ~~Tras~lr~~~~~k~~~~~~~~~~~fkm~kF~kv~pri~t~~  203 (203)
+T XP_001430834.1  161 VETKSSKLLKETIKKNQLMQSQPEQLKKLSQFANIQAKTKSRY  203 (203)
+T ss_pred             CCCHHHHHHHHHHHHcccCCCCchhhccCHhhccCCCCCcCCC
+
+
+No 12
+>XP_001702484.1 flagellar associated protein [Chlamydomonas reinhardtii]
+Probab=100.00  E-value=1.8e-44  Score=322.27  Aligned_cols=196  Identities=20%  Similarity=0.326  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCC---cccCCCHHHHhHHHHHcCCCC
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCP---HELTRNYIAMNRGAVKAGLVT  100 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~---~~~~~DF~~lNk~A~k~G~~t  100 (250)
+                      ..+.||+|++||+++++||+||+++|+||+++.+|+|||++||++|..|.+++  .   ...++||++||++|+++||+|
+T Consensus        26 ~~N~LL~K~~lGk~k~~~~~LP~~~fvYG~~~~rd~~Ga~evi~~W~~~~p~~--~~~~~~~~rDFi~mNk~Aik~Glvt  103 (270)
+T XP_001702484.1   26 NQNPLLAHAPLGTVKPVLFNNPPPEKVFGYTPAKDPEGAREVMMVWKGHNASP--GKDEVKPSPDFKTLNKMAVASGLST  103 (270)
+T ss_pred             cCCcccccCCCCCCCCceecCCCcccccccCCCCCCCcHHHHHhhhcccCCCC--CCCCCCCCCCHHHHHHHHHHcCCCC
+
+
+Q ss_pred             HHHHHHHHHHcC-cccCchhccc-----cCCCCCCCCCC---CcCCCcCCC------------CCCHHHHHHHhhHHHHH
+Q Q_CFAP77_fl     101 ARENLLYRQLND-IRISDQDDRR-----MKKEPPPLPPN---MTFGIRARP------------STPFFDLLQHRYLQLWV  159 (250)
+Q Consensus       101 ake~~~fR~~hd-~r~~~~~~~~-----~~~~~~~~~~~---~tyG~~~rp------------stpm~~Lls~~Y~~eW~  159 (250)
+                      |+|+++||++|+ |+++......     ....++.++++   |+||++++|            ++||.+||+|.|+++|+
+T Consensus       104 ake~~~fR~~hd~ir~k~~~~~~~~~~~~~~~~P~~p~~~~~~tyG~~~rp~~~~~~~~~~~~stPi~~Llq~~Y~~~w~  183 (270)
+T XP_001702484.1  104 AKDLPAFRKEHADVKLKTAHEVNAASPTRRSNLPTIPPSKQGNMFGMPSGYRTAEVVRSFGPEEPPVKYLVQGAYQDEWV  183 (270)
+T ss_pred             HhhHHHHHHHcCceecccHHhhcCCCCCccCCCCCCCcccCCCcccccCCccchhHHhhhCCCCCcHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhhcccCCccccccch------hhhcCCCCCCCCCCCCcchhcCcccccCCCCHHHHH
+Q Q_CFAP77_fl     160 QEQKATQKAIKLEKKQKVVLGKLYETRSSQ------LRKYKPPVKLDTLWHMPHFQKVGRHLDTFPTEADRQ  225 (250)
+Q Consensus       160 ee~~~~~~~~~~~~~~k~~~~~~~~Tras~------lr~~~~~~~~k~~fKM~RF~~V~prvdt~r~~~~~~  225 (250)
+                      +++.+.+....   ..+.....+..|+++.      +++...+. ++++|||+||++|+|+|+||++..+++
+T Consensus       184 e~~~~~~~~~~---~~~~~~~~~r~tKas~g~~~~tlrk~~~p~-~~~lfKM~rF~kV~prl~Tf~~~~~r~  251 (270)
+T XP_001702484.1  184 RKNLEAEAAGS---GRGRPYIPPAPTKAVLGHSYGASRYLQPPN-NEEPWKMSKFKTVGPKVTQYSGGSVRA  251 (270)
+T ss_pred             HHHHHHHHhhc---cCCCCCCCCCCCchhhcccccccccCCCCC-CCCCCCCcchhcCCCcccCCCCCcccc
+
+
+No 13
+>XP_001456771.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.2e-43  Score=306.05  Aligned_cols=184  Identities=20%  Similarity=0.224  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeecc-CCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIR-GLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAR  102 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~-~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~tak  102 (250)
+                      ..|.||+|++||+++++|++||  +|+||+.+. .++|||++||+ |..|.++.  ....++||++||++|+++||+||+
+T Consensus        13 ~~N~LL~k~~vGk~k~~~~~LP--~~~yG~~~~~~~~~g~~~~~~-w~~~~~~~--~~~~~~DF~~~Nk~Ai~~G~vtak   87 (203)
+T XP_001456771.1   13 STNPLIVKDDVGKAKPNTYPIP--NCAFGTRTVPGKEETLAEVLC-HMQHFASN--EIRPEKDFKKTNIMSIKQNLYTAK   87 (203)
+T ss_pred             CCCCccccCCCCCCCCCCCCCC--CCcccccCCCCChhhHHHHHh-hhccCCCC--CCCCCCCHHHHHHHHHHcCCCCHH
+
+
+Q ss_pred             HHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCc
+Q Q_CFAP77_fl     103 ENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKL  182 (250)
+Q Consensus       103 e~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~  182 (250)
+                      |+++||++|||+++....   .......|++|+||++++|++||.+||+|.|+++|++...+.+....    .+.+...+
+T Consensus        88 e~~~fR~~~~ir~k~~~~---~~~~~~~p~~~~fG~~~rpstPi~~ll~~~Y~~~~eq~~~~~~~~~~----~~~k~~~~  160 (203)
+T XP_001456771.1   88 DFQEFRQSHDIRLKVVQG---KPRMTETPKLQVFGRKNKTPSPIKNVLAYDYGAVAEKKQAEAYTSRP----STAKSRIS  160 (203)
+T ss_pred             HHHHHHHhCCccccccCC---CCCCCCCCcccccCCCCCCCCCHHHHHhcchhHHHHHHHHHHhhcCc----ccccCCCC
+
+
+Q ss_pred             cccccc-hhhhcC-----CCCCCCCCCCCcchhcCcccccCCC
+Q Q_CFAP77_fl     183 YETRSS-QLRKYK-----PPVKLDTLWHMPHFQKVGRHLDTFP  219 (250)
+Q Consensus       183 ~~Tras-~lr~~~-----~~~~~k~~fKM~RF~~V~prvdt~r  219 (250)
+                      ++|++| +++...     .+.+++++|||+||++|+|+|+||.
+T Consensus       161 ~~Tras~llr~~~~~~~~~~~~~~~~fKm~kF~~v~prl~T~~  203 (203)
+T XP_001456771.1  161 VETKSSKLLRETIKKNHLMQSQPEQLKKLSQFANVKPKTKTRY  203 (203)
+T ss_pred             CCCHHHHHHHHHHHHcccCCCCchhccCChhhcCCCCCCcCCC
+
+
+No 14
+>PF14825.9 ; CFAP77 ; Cilia- and flagella-associated protein 77
+Probab=100.00  E-value=5.8e-36  Score=252.42  Aligned_cols=145  Identities=20%  Similarity=0.345  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCC-CcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      26 IKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTC-PHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        26 ~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~-~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      |.||+|++||+++++|++||+++|+||+....++|||++||++|..|.+++.. ....++||++||++|+++||+||+|+
+T Consensus         7 N~LL~k~~lGk~k~~~~~lP~~~~~yG~~~~~~~~ga~~v~~~W~~~~~~~~~~~~~~~~DF~amNk~A~~~G~~take~   86 (173)
+T D8TUN9_VOLCA/1    7 NPLLTHPELGSVKKILFNNPPSDKVFGYTPPKDPEGAREVMMIWKGHQASPSQDVVKPSPDFKTLNKMSVTSGLSDAKDL   86 (173)
+T ss_pred             CCcccCCCCCCCccCcccCCCCCccccccCCCCcccHHHHHhhccccCCCCCCCCCCCCCCHHHHHHHHHHcCCCChhHH
+
+
+Q ss_pred             HHHHHH-cCcccCchhcccc----CCCCCCCC---CCCcCCCcCCCCC------------CHHHHHHHhhHHHHHHHHHH
+Q Q_CFAP77_fl     105 LLYRQL-NDIRISDQDDRRM----KKEPPPLP---PNMTFGIRARPST------------PFFDLLQHRYLQLWVQEQKA  164 (250)
+Q Consensus       105 ~~fR~~-hd~r~~~~~~~~~----~~~~~~~~---~~~tyG~~~rpst------------pm~~Lls~~Y~~eW~ee~~~  164 (250)
+                      ++||++ |+++++.......    +..++.+|   +++|||++++|++            ||.+||++.|+++|++++..
+T Consensus        87 ~~fR~~~~~i~~k~~~~~~~~~~~~~~~~~~ps~~~~~tfG~~s~p~t~~~~~~~~~~~~pi~~li~~~Y~~~w~~~~~~  166 (173)
+T D8TUN9_VOLCA/1   87 PFFRKMHSDVTVKTGLDRSPSASRRSALPTIPASKTSSVFGMPSAHRSAEVIRTHGPEEPPVKYLVQGAYQDDWVRKNLE  166 (173)
+T ss_pred             HHHHHhcCCeeecCCCCCCCCccccCCCCCCCCCCCCcccccCCCCCcHHHHHccCCCCCCHHHHHhhhhHHHHHHHHHH
+
+
+Q ss_pred             HHHHHH
+Q Q_CFAP77_fl     165 TQKAIK  170 (250)
+Q Consensus       165 ~~~~~~  170 (250)
+                      .+...+
+T Consensus       167 ~~~~~~  172 (173)
+T D8TUN9_VOLCA/1  167 AEAAGS  172 (173)
+T ss_pred             HHHhcC
+
+
+No 15
+>XP_001430875.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.5e-34  Score=241.01  Aligned_cols=146  Identities=19%  Similarity=0.178  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARE  103 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take  103 (250)
+                      ..|.||+|++||+++++|++||+++|+||+.+.+|+||                      +||++||++|+        |
+T Consensus        12 ~~N~LL~k~~vGk~k~~~~~LP~~~f~YG~~~~~d~~g----------------------~DF~~~Nk~a~--------e   61 (159)
+T XP_001430875.1   12 SKNILLLKDDIGKPKPSTRNLPGNNFAYGKQSKRDPIQ----------------------IQFANLECENQ--------I   61 (159)
+T ss_pred             cCCeecccCCCCCCCCCCcCCCCCCeeCcccCCCCcCc----------------------CCcchhhHHHH--------H
+
+
+Q ss_pred             HHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCcc
+Q Q_CFAP77_fl     104 NLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLY  183 (250)
+Q Consensus       104 ~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~  183 (250)
+                      +++||++|+|+.             ..+++|+||++++|++||.+||+|.|+++|++++...+......   +. ...++
+T Consensus        62 ~~~fR~~h~i~~-------------~~~~~~tyG~~~rpstPi~~ll~~~Y~~~w~e~~~~~~~~~~~~---k~-~~~~~  124 (159)
+T XP_001430875.1   62 NSSLRRNHRIQR-------------SDITLMTHGIKYKPQTPFDKILKQQYASEAKELLDKIYQQRINS---EP-KKQYI  124 (159)
+T ss_pred             HHHHHHHCCCCC-------------CCCCcccCCCcCCCCCCHHHHHHhhhHHHHHHHHHHHHHHHHhh---CC-Ccccc
+
+
+Q ss_pred             ccccchhhhcC-CCCCCCCCCCCcchhcCccccc
+Q Q_CFAP77_fl     184 ETRSSQLRKYK-PPVKLDTLWHMPHFQKVGRHLD  216 (250)
+Q Consensus       184 ~Tras~lr~~~-~~~~~k~~fKM~RF~~V~prvd  216 (250)
+                      +|+++.|+... .+..++++|||+||++|+|+|+
+T Consensus       125 ~tr~s~Lr~~~~~~~~~~~~fKM~rF~~v~~ki~  158 (159)
+T XP_001430875.1  125 NNRSFSLRQQYNTKKHQKIIAKPQKNQEIKFKIC  158 (159)
+T ss_pred             cchHHHhhhhhCCCccccCCCCCcchhcCCCccC
+
+
+No 16
+>XP_011516973.1 PREDICTED: uncharacterized protein C9orf171 isoform X2 [Homo sapiens]
+Probab=100.00  E-value=7.6e-35  Score=248.01  Aligned_cols=132  Identities=83%  Similarity=1.294  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      25 HIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        25 ~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      .+.||+|++||+++++||+||+++|+||+++.+++|||+|||++|..+.+.+..+...++||++||++|+++||+||+|+
+T Consensus        59 ~N~LLvK~~LGK~k~~~y~LP~~~fvYG~~~~rd~eGa~eai~~W~~~~~~~~~~~~~~rDFiamNr~Aik~GlvTAkE~  138 (198)
+T XP_011516973.1   59 QNPLIVKAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  138 (198)
+T ss_pred             cCcchhhcccCCCCCceecCCCCCcccceeecCCCCCHHHHHhHhhccCCCCCCccccCCCHHHHHHHHHHhcCCCHHHH
+
+
+Q ss_pred             HHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHH
+Q Q_CFAP77_fl     105 LLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQ  156 (250)
+Q Consensus       105 ~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~  156 (250)
+                      ++||++|||+++.....+....++.++++|+||++++|++||.+||++.|.+
+T Consensus       139 ~~yR~~hDIR~K~~~~~~~~~~~P~~ppdmtyG~ptRPs~pv~~~i~~~~~n  190 (198)
+T XP_011516973.1  139 LLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARKLSKQIEKFRSNITN  190 (198)
+T ss_pred             HHHHHhcCcccCchhcccccCCCCCCCCCCCCCCCCCCCchHHHHHHHhhcc
+
+
+No 17
+>XP_001456809.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.1e-33  Score=236.29  Aligned_cols=146  Identities=18%  Similarity=0.240  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARE  103 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take  103 (250)
+                      ..|.||+|++||+++++|++||+++|+||+.+.+|+|||                      ||++||+         |+|
+T Consensus        12 ~~N~LL~k~~vGk~k~~~~~LP~~~f~YG~~~~~d~ega----------------------dF~~lN~---------a~e   60 (160)
+T XP_001456809.1   12 SKNILLLKDDIGKPKPSTRNLPDDSFRYGKSSKRDPIQI----------------------QFSTLEC---------GNE   60 (160)
+T ss_pred             cCCcccccCCCCCCCCCCcCCCCCCccccccCCCCcccc----------------------ChHHccc---------chH
+
+
+Q ss_pred             HHHH-HHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCc
+Q Q_CFAP77_fl     104 NLLY-RQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKL  182 (250)
+Q Consensus       104 ~~~f-R~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~  182 (250)
+                      +++| |+.|++.             +..+++|+||++++|++||.+||++.|+++|++++.+.+.....   .+.+...+
+T Consensus        61 ~~~f~R~~~~~~-------------~~~~~~~tyG~~~rpstPi~~li~~~Y~~~w~e~~~~~~~~~~~---~~~~~~~~  124 (160)
+T XP_001456809.1   61 ISSFMRRNHRAQ-------------NSDINLMTHGIRYKPQTPLDKVLKQQYASEAKEHLDKIYQQRMK---TEPKTQSF  124 (160)
+T ss_pred             HHHHhhHhCCCC-------------CCCcCcccCCccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHh---hCCCcccC
+
+
+Q ss_pred             cccccchhh-hcCCCCCCCCCCCCcchhcCccccc
+Q Q_CFAP77_fl     183 YETRSSQLR-KYKPPVKLDTLWHMPHFQKVGRHLD  216 (250)
+Q Consensus       183 ~~Tras~lr-~~~~~~~~k~~fKM~RF~~V~prvd  216 (250)
+                      ++|+++.|+ .......++++|||+||++|+|+|+
+T Consensus       125 ~~Tras~lr~~~~~~~~~~~~fKMkrF~~v~~ri~  159 (160)
+T XP_001456809.1  125 NKNRSFSLRQQHNTKKEQKKMFKLQQFQDIKSKIF  159 (160)
+T ss_pred             CCcHHHHhhhhhCCccccccccCChhHccCccccC
+
+
+No 18
+>XP_001445661.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=100.00  E-value=1.3e-33  Score=238.00  Aligned_cols=155  Identities=15%  Similarity=0.137  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      25 HIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        25 ~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      .|.||+|++||+++++|++||+++|+||+.+..|+|||++||++|..|.+++....             +.+|++|+.++
+T Consensus        13 ~N~LL~k~~lGk~k~~~~~lP~~~f~YG~~~~~d~~g~~e~~~~W~~~~~~~~~~~-------------~~~glpt~~~~   79 (170)
+T XP_001445661.1   13 NNILLLRGDVGRAKPSVSDLPDSSYSYGKKINRDGIGMKEITSDWQYGNSSHHKKS-------------KTVKLPEDTFV   79 (170)
+T ss_pred             CCceeccCCCCCCCCCCcCCCCCCccCCeecCCCCCCHHHHHhhcccCCCCCCCcC-------------ccCCCCCchHh
+
+
+Q ss_pred             HHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCccc
+Q Q_CFAP77_fl     105 LLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLYE  184 (250)
+Q Consensus       105 ~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~~  184 (250)
+                      +.||                       ..+++|++++|++||.+||+|.|+++|++++.+.+.....   .+.+...+++
+T Consensus        80 yg~r-----------------------~~~~~~~~~RPsTPi~~Ll~~~Y~~ew~e~~~~~~~~~~~---~k~k~~~~~~  133 (170)
+T XP_001445661.1   80 YGLR-----------------------NKQPQYYQSRPSTPFGKIIKMNYGNEAADIIENLYRMRSQ---RIPKKQVIQK  133 (170)
+T ss_pred             cCcC-----------------------CCCCcccCCCCCCCHHHHHhchhHHHHHHHHHHHHHHHHh---cCCccccCCC
+
+
+Q ss_pred             cccchhhhcC---CCCCCCCCCCCcchhcCcccccCC
+Q Q_CFAP77_fl     185 TRSSQLRKYK---PPVKLDTLWHMPHFQKVGRHLDTF  218 (250)
+Q Consensus       185 Tras~lr~~~---~~~~~k~~fKM~RF~~V~prvdt~  218 (250)
+                      |++|.|+...   ...+++.+|||+||++|+++|++|
+T Consensus       134 Tras~Lr~~~~~~~~~~~~~lfkm~kF~kv~~rl~~~  170 (170)
+T XP_001445661.1  134 NRSYSLRLEHNTKQKEEEHKEFKIKRFLEIKSKIYQL  170 (170)
+T ss_pred             CHHHHHHHHhccCCccccccccCChhHhccccccccC
+
+
+No 19
+>XP_016870200.1 PREDICTED: uncharacterized protein C9orf171 isoform X3 [Homo sapiens]
+Probab=99.97  E-value=1.7e-31  Score=224.69  Aligned_cols=119  Identities=92%  Similarity=1.435  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHH
+Q Q_CFAP77_fl      25 HIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  104 (250)
+Q Consensus        25 ~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~  104 (250)
+                      .|.||++++||+++++||+||+++|+||+.+.+++|||+|||++|..+.+.+..+...++||++||++|+++||+||+|+
+T Consensus        59 ~N~LLvK~~LGk~k~~~y~LP~~~fvYG~~~~rd~eGa~eai~~W~~~~~~~~~~~~~~rDFi~mNk~Aik~GlvTAkE~  138 (178)
+T XP_016870200.1   59 QNPLIVKAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTAREN  138 (178)
+T ss_pred             cCcchhccccCCCCcceecCCCCCcccceeeccCCCCHHHHHhHhhccCCCCCCccccCCCHHHHHHHHHHcCCCCHHHH
+
+
+Q ss_pred             HHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCC
+Q Q_CFAP77_fl     105 LLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPS  143 (250)
+Q Consensus       105 ~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rps  143 (250)
+                      ++||++|||+++.....+....++.++++|+||++++|+
+T Consensus       139 ~~yR~~hDiR~k~~~~~~~~~~~P~~ppd~tyG~~tRps  177 (178)
+T XP_016870200.1  139 LLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRAREQ  177 (178)
+T ss_pred             HHHHHhcCeecCchhcccccCCCCCCCCCCCCCCCCCCC
+
+
+No 20
+>XP_001450004.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=99.92  E-value=3.8e-24  Score=192.40  Aligned_cols=126  Identities=19%  Similarity=0.240  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHH
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARE  103 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take  103 (250)
+                      ..|.||+|++||+++++|++||+++|+||+.+.+|+|||++||++|..|.+++...                        
+T Consensus        12 ~~N~LL~K~~lGK~k~~~~~LP~~dfvYG~~~~~d~eGa~evi~~W~~~~~s~~~k------------------------   67 (272)
+T XP_001450004.1   12 TNNILLLRGDVGKAKPSVSDLPDSSYQYGKKINRDGIGMKEITSDWQYGNTSHHKK------------------------   67 (272)
+T ss_pred             CCCceeeeCCCCCCCCCCCCCCCCCccCCeecCCCCCCHHHHHhhcccCCCCcCCC------------------------
+
+
+Q ss_pred             HHHHHHHcCcccCchhccccCCCCCCCC-CCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCc
+Q Q_CFAP77_fl     104 NLLYRQLNDIRISDQDDRRMKKEPPPLP-PNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKL  182 (250)
+Q Consensus       104 ~~~fR~~hd~r~~~~~~~~~~~~~~~~~-~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~  182 (250)
+                                           ...+.+| ++|+||++++|++||.+||+|.|+++|++++...+.....   .+.+...+
+T Consensus        68 ---------------------~~~~~lPspd~tfGip~RPSTPI~~LL~~~Y~~~w~e~q~~~~~~~~~---~k~k~~~~  123 (272)
+T XP_001450004.1   68 ---------------------SKTVNLPEDTFVYGLRNKPSTPFGNVMKMNYGNEAADFIENIYRMRSQ---RIPKKQII  123 (272)
+T ss_pred             ---------------------CCCCCCCCCCccccCCCCCCCCHHHHHhhhhHHHHHHHHHHHHHHHHc---cCCCccCC
+
+
+Q ss_pred             cccccchhhhcCCCC
+Q Q_CFAP77_fl     183 YETRSSQLRKYKPPV  197 (250)
+Q Consensus       183 ~~Tras~lr~~~~~~  197 (250)
+                      ++||||.|++.....
+T Consensus       124 ~eTRaS~LR~~~~~~  138 (272)
+T XP_001450004.1  124 QKNRSYSLRLEHNTK  138 (272)
+T ss_pred             CCChHHHHhhccccc
+
+
+No 21
+>XP_001695261.1 flagella associated protein [Chlamydomonas reinhardtii]
+Probab=93.45  E-value=0.73  Score=47.77  Aligned_cols=101  Identities=20%  Similarity=0.276  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCC-----CceeeeeccCC-CCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHHHH
+Q Q_CFAP77_fl      33 ELGKPRERSYSLPGI-----NFNYGLYIRGL-DGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARENLL  106 (250)
+Q Consensus        33 ~lGk~k~~~~~LP~~-----~f~YG~~~~~d-~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~~~  106 (250)
+                      .+|..+.+.|+-+..     +++||.....+ ..+|+.+|. |......+                   ...+.++.+.+
+T Consensus       156 ~pGEQ~~R~Y~w~~~~~dp~~~rFG~~~~~~~G~~vk~~L~-~~~~~~~~-------------------~~~iv~k~~~D  215 (424)
+T XP_001695261.1  156 QPGEQRRRDYNWDAAGIDPAQHRFGAVDRNGVGDGVRKALQ-PGLDPSLQ-------------------APKVLPKLHED  215 (424)
+T ss_pred             CCcceeccCCCCcccCCCcccCccCcCCcCCCcHHHHHHhc-cCCCcccC-------------------CCceecccHHH
+
+
+Q ss_pred             HHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCC--CCC-HHHHHHHhh
+Q Q_CFAP77_fl     107 YRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARP--STP-FFDLLQHRY  154 (250)
+Q Consensus       107 fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rp--stp-m~~Lls~~Y  154 (250)
+                      ||..+.-.|.....-...... .++++++||+...+  ... +.+||+..|
+T Consensus       216 fr~~~~~~LGk~~~~~~~~~~-~vp~dh~FG~~~~~~~de~~v~ell~~~~  265 (424)
+T XP_001695261.1  216 FKATATDYLGRPRQLGTGDRP-QLAPDHAFGQPSMRKGREPGVGELLTGRF  265 (424)
+T ss_pred             HHHHHhhcCCCccCCCCCCCC-CCCCCccccccCCCCCCCCCHHHHhcCCC
+
+
+No 22
+>XP_001436779.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=91.62  E-value=0.92  Score=43.86  Aligned_cols=87  Identities=13%  Similarity=0.205  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCCCCCCCCC--CCCceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHHHHHHHH
+Q Q_CFAP77_fl      33 ELGKPRERSYSLP--GINFNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARENLLYRQL  110 (250)
+Q Consensus        33 ~lGk~k~~~~~LP--~~~f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~~~fR~~  110 (250)
+                      .+|..+.+.|+-+  +.+++||.....+..+|+.+|. |........                  .=.+..+-+.+||+.
+T Consensus       171 ~pGEq~~R~Y~~~~~~~~~~FG~~~~~~g~~vk~~L~-~~~~~~~~~------------------~~~iv~k~~~df~~~  231 (259)
+T XP_001436779.1  171 EAGEQKNREYNWKINPNDYRFGKKEEREQEQVKKILQ-HELTQNQYP------------------KTTIISKNQEDWKNY  231 (259)
+T ss_pred             CccchhccCCCCCCCCccCCCCCCChhhHHHHHHHhc-hhhcccCCC------------------CceeeehhHHHHHHH
+
+
+Q ss_pred             cCcccCchhccccCCCCCCCCCCCcCCCcCCC
+Q Q_CFAP77_fl     111 NDIRISDQDDRRMKKEPPPLPPNMTFGIRARP  142 (250)
+Q Consensus       111 hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rp  142 (250)
+                      +.-.|..    ........++++++||+..++
+T Consensus       232 ~~~~LGk----p~~~~~~~vp~dh~FG~~~~~  259 (259)
+T XP_001436779.1  232 NEDPLGK----PKNQAQLNLRMPQIFGEMKKR  259 (259)
+T ss_pred             HcCCCCC----CCCccccCCCCCccceeecCC
+
+
+No 23
+>XP_001449358.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=88.43  E-value=8.8  Score=40.56  Aligned_cols=119  Identities=13%  Similarity=0.161  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHcc--------------------------------cccCCC
+Q Q_CFAP77_fl      31 QAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIGR--------------------------------WNVFKQ   74 (250)
+Q Consensus        31 k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~~--------------------------------W~~~~~   74 (250)
+                      +..||++....+.||    ..+|+||.+....+..|+++|.-                                |.....
+T Consensus       128 r~PLGks~~~~~~lP~~~~~~~~tFG~~t~~~e~sa~elI~P~k~~~e~~e~h~lY~~SH~~y~pGEQ~~R~Y~w~~~~~  207 (431)
+T XP_001449358.1  128 KEPLGTMPTRNYNWPEESKSDGFAFGQKIPPSEFTAKEVVFPPDAKRDEESVRLMYLKSHGNFEAGEQKNREYKWNVNPT  207 (431)
+T ss_pred             CCCCCCCCCCCCCCCcccCCCCCccCCCCCCCCCChHHHhCCCCcccchHHHHHHhhcccCCCCccchHccCCCCCCCCC
+
+
+Q ss_pred             CCCCCcccCCCHHHHhHHHHH---------cCCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCC-
+Q Q_CFAP77_fl      75 QPTCPHELTRNYIAMNRGAVK---------AGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPST-  144 (250)
+Q Consensus        75 ~~~~~~~~~~DF~~lNk~A~k---------~G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpst-  144 (250)
+                      ...=-.....|- ..=+.|+.         .-.+.++-+..||..+.-.|...    ...-.-..+++++||++.++.. 
+T Consensus       208 ~~rFG~~~~~~~-~~vkk~L~~~~~~~~~~~~~ivsK~~~df~~~t~~~LGk~----~~~~~~~~~~~~~FG~~~~~de~  282 (431)
+T XP_001449358.1  208 DYRFGKKDEREQ-EQMKKILQHELTQNQYPKTTIISKNQEDWKNYNEDPLGKP----KNQAQINSRMPAIFGEMKKDEQW  282 (431)
+T ss_pred             CCCCCCCCHHhH-HHHHHHhhhHhhccCCCCceeeeccHHHHHHHhcCCCCCC----CChhhccCCCCceeeecCCcccC
+
+
+Q ss_pred             CHHHHHHHhh
+Q Q_CFAP77_fl     145 PFFDLLQHRY  154 (250)
+Q Consensus       145 pm~~Lls~~Y  154 (250)
+                      .+.+||.+.|
+T Consensus       283 ~a~dli~~~~  292 (431)
+T XP_001449358.1  283 TAGQCINGQP  292 (431)
+T ss_pred             cHHHHhcCCC
+
+
+No 24
+>XP_006715713.1 PREDICTED: uncharacterized protein C7orf57 isoform X5 [Homo sapiens]
+Probab=85.50  E-value=3.9  Score=37.53  Aligned_cols=28  Identities=29%  Similarity=0.584  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CCcCCCCCCHHHHHHHhhHHHHHHHHHH
+Q Q_CFAP77_fl     137 GIRARPSTPFFDLLQHRYLQLWVQEQKA  164 (250)
+Q Consensus       137 G~~~rpstpm~~Lls~~Y~~eW~ee~~~  164 (250)
+                      +......+.|..||++.|.++|.+++..
+T Consensus        82 ~qkksePVNmSKLLSnGY~~DW~qq~~~  109 (173)
+T XP_006715713.1   82 GQKNSSPTNFSKLISNGYKDEWLQQQQR  109 (173)
+T ss_pred             CCCCCCCCcHHHHHhcchHHHHHHHHHh
+
+
+No 25
+>XP_001423908.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=81.63  E-value=6.9  Score=40.98  Aligned_cols=99  Identities=9%  Similarity=0.102  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCCC--ceeeeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHHHHHHHH
+Q Q_CFAP77_fl      33 ELGKPRERSYSLPGIN--FNYGLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARENLLYRQL  110 (250)
+Q Consensus        33 ~lGk~k~~~~~LP~~~--f~YG~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~~~fR~~  110 (250)
+                      .+|..+.+.|+-|-..  ++||.....+..+|+.+|. |........                  .-.+..+-+..|++.
+T Consensus       176 ~pGEQ~~R~Y~~~~d~~~~~FG~~~~~~g~~vk~~L~-~~~~~~~~~------------------~~~iv~k~~~df~~~  236 (416)
+T XP_001423908.1  176 EAGEQKNREYNWKINPNDYRFGKKEDREQEQMKKILQ-HEITQNQYP------------------KTTIISKNQEDWKNY  236 (416)
+T ss_pred             CcccccccCCCCCCCcccCCCCCCChhhhHHHHHHhh-HHHHhccCC------------------CceeeehhHHHHHHH
+
+
+Q ss_pred             cCcccCchhccccCCCCCCCCCCCcCCCcCCC-CCCHHHHHHHhh
+Q Q_CFAP77_fl     111 NDIRISDQDDRRMKKEPPPLPPNMTFGIRARP-STPFFDLLQHRY  154 (250)
+Q Consensus       111 hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rp-stpm~~Lls~~Y  154 (250)
+                      +.-.|...    .....-..+++++||+..++ .-.+.++|...|
+T Consensus       237 t~~~LGk~----~~~~~~~~~~~h~FG~~~~~d~~~~~~ci~~~~  277 (416)
+T XP_001423908.1  237 NEDPLGKP----KNQAQLNPRMPQIFGEMKKDEQWTAGQCINGQP  277 (416)
+T ss_pred             HcCCCCCC----CChhhcCCCCCcccccccCcccCCHHHHcCCCc
+
+
+No 26
+>XP_001436779.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=76.65  E-value=8.8  Score=37.62  Aligned_cols=37  Identities=24%  Similarity=0.366  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCCCCCCCCCCCC----CCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      31 QAELGKPRERSYSLPG----INFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        31 k~~lGk~k~~~~~LP~----~~f~YG~~~~~d~ega~evl~   67 (250)
+                      +..||++....+.||+    .+|+||......++.|+++|.
+T Consensus       108 r~PLGk~~~~~~~lP~~~~~~~~tFG~~~~~~~~sa~eli~  148 (259)
+T XP_001436779.1  108 KEPLGTMPTRNYNWPDEAKSDGFAFGQKIPPSEYSAKEVVF  148 (259)
+T ss_pred             cCCCCCCCCCCCCCCcccCCCCCccccCCCCccccchHhcC
+
+
+No 27
+>XP_001695261.1 flagella associated protein [Chlamydomonas reinhardtii]
+Probab=75.17  E-value=14  Score=39.12  Aligned_cols=42  Identities=21%  Similarity=0.234  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCC----CCCCCCCCCceeeeeccC--CCCCHHHHHcccccCCC
+Q Q_CFAP77_fl      32 AELGKPRE----RSYSLPGINFNYGLYIRG--LDGGVPEAIGRWNVFKQ   74 (250)
+Q Consensus        32 ~~lGk~k~----~~~~LP~~~f~YG~~~~~--d~ega~evl~~W~~~~~   74 (250)
+                      +.||+++.    ....+| ++|+||.....  |..+|+++|..|.....
+T Consensus       222 ~~LGk~~~~~~~~~~~vp-~dh~FG~~~~~~~de~~v~ell~~~~~~~~  269 (424)
+T XP_001695261.1  222 DYLGRPRQLGTGDRPQLA-PDHAFGQPSMRKGREPGVGELLTGRFGADE  269 (424)
+T ss_pred             hcCCCccCCCCCCCCCCC-CCccccccCCCCCCCCCHHHHhcCCCCCCc
+
+
+No 28
+>NP_001093629.1 uncharacterized protein C7orf57 isoform 1 [Homo sapiens]
+Probab=73.47  E-value=15  Score=36.85  Aligned_cols=28  Identities=29%  Similarity=0.584  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCcCCCCCCHHHHHHHhhHHHHHHHHHH
+Q Q_CFAP77_fl     137 GIRARPSTPFFDLLQHRYLQLWVQEQKA  164 (250)
+Q Consensus       137 G~~~rpstpm~~Lls~~Y~~eW~ee~~~  164 (250)
+                      +......+.|..||++.|.++|.+++..
+T Consensus       204 ~~kk~epVnfSKLLSnGY~~dW~qq~~~  231 (295)
+T NP_001093629.1  204 GQKNSSPTNFSKLISNGYKDEWLQQQQR  231 (295)
+T ss_pred             CCCCCCCCcHHHHHhcchhHHHHHHHHH
+
+
+No 29
+>XP_011513423.1 PREDICTED: uncharacterized protein C7orf57 isoform X1 [Homo sapiens]
+Probab=73.47  E-value=15  Score=36.85  Aligned_cols=28  Identities=29%  Similarity=0.584  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCcCCCCCCHHHHHHHhhHHHHHHHHHH
+Q Q_CFAP77_fl     137 GIRARPSTPFFDLLQHRYLQLWVQEQKA  164 (250)
+Q Consensus       137 G~~~rpstpm~~Lls~~Y~~eW~ee~~~  164 (250)
+                      +......+.|..||++.|.++|.+++..
+T Consensus       204 ~~kk~epVnfSKLLSnGY~~dW~qq~~~  231 (295)
+T XP_011513423.1  204 GQKNSSPTNFSKLISNGYKDEWLQQQQR  231 (295)
+T ss_pred             CCCCCCCCcHHHHHhcchhHHHHHHHHH
+
+
+No 30
+>XP_006715712.1 PREDICTED: uncharacterized protein C7orf57 isoform X2 [Homo sapiens]
+Probab=73.31  E-value=15  Score=36.79  Aligned_cols=28  Identities=29%  Similarity=0.584  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CCcCCCCCCHHHHHHHhhHHHHHHHHHH
+Q Q_CFAP77_fl     137 GIRARPSTPFFDLLQHRYLQLWVQEQKA  164 (250)
+Q Consensus       137 G~~~rpstpm~~Lls~~Y~~eW~ee~~~  164 (250)
+                      +......+.|..||++.|.++|.+++..
+T Consensus       204 ~~kk~epVnfSKLLSnGY~~dW~qq~~~  231 (291)
+T XP_006715712.1  204 GQKNSSPTNFSKLISNGYKDEWLQQQQR  231 (291)
+T ss_pred             CCCCCCCCcHHHHHhcchhHHHHHHHHH
+
+
+No 31
+>XP_001423908.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=72.41  E-value=15  Score=38.72  Aligned_cols=38  Identities=24%  Similarity=0.336  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      .+..||++....+.||    ..+|+||.+....+++|+++|.
+T Consensus       112 ~r~pLGk~~~~~~~lP~~~~~~~~tFG~~t~~~~~sa~eli~  153 (416)
+T XP_001423908.1  112 IKEPLGTMPTRNYNWPEEAKSDGFAFGQKIPPSEYSAKEVVF  153 (416)
+T ss_pred             cCCCCCCCCCCCCCCCcccCCCCCccCCCCCCCCCChHHHhC
+
+
+No 32
+>PF17662.4 ; DUF5524 ; Family of unknown function (DUF5524)
+Probab=71.39  E-value=15  Score=36.78  Aligned_cols=28  Identities=32%  Similarity=0.634  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             CCcCCCCCCHHHHHHHhhHHHHHHHHHH
+Q Q_CFAP77_fl     137 GIRARPSTPFFDLLQHRYLQLWVQEQKA  164 (250)
+Q Consensus       137 G~~~rpstpm~~Lls~~Y~~eW~ee~~~  164 (250)
+                      |......+.|..||++.|..+|+++++.
+T Consensus       204 ~~k~~~PvnmSKLLS~GY~~eW~~qqr~  231 (284)
+T A0A0D9RTG2_CHL  204 GQKNSSPTNFSKLISNGYKDEWLQQQRA  231 (284)
+T ss_pred             CCCCCCCCCHHHHHhccchHHHHHHHhh
+
+
+No 33
+>XP_001449358.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=68.52  E-value=84  Score=33.95  Aligned_cols=85  Identities=12%  Similarity=0.028  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CHHHHhHHHHH---cCCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHH
+Q Q_CFAP77_fl      85 NYIAMNRGAVK---AGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQE  161 (250)
+Q Consensus        85 DF~~lNk~A~k---~G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee  161 (250)
+                      +|-..-..|++   ..-.|+..++.||+...--.......-....-+..+.+++||+.+.++..+.+||.-.. ..+.+.
+T Consensus        36 ~~~~~~~~cl~~~~~rp~TP~~ikkfr~s~~~~pG~~~~h~G~a~Dp~~~~~~~hGi~t~~s~~a~dll~p~~-~~~~~~  114 (431)
+T XP_001449358.1   36 AFNQFKAKQIQSVTQVPETPPHIKKYRKSYKHQHGCSILHPGLVDAPKPQGNWLYGKKTDPSDKAGDLFKQQP-EGIKEL  114 (431)
+T ss_pred             hhHHHHHHHhccccCCCCCcHHHHHHHHhcCCCCCcEEeCcccCCCCCCCCCccCceecCCCCCHHHHhcCCC-chHHHH
+
+
+Q ss_pred             HHHHHHHHH
+Q Q_CFAP77_fl     162 QKATQKAIK  170 (250)
+Q Consensus       162 ~~~~~~~~~  170 (250)
+                      +.+..+...
+T Consensus       115 ~~e~kE~~Y  123 (431)
+T XP_001449358.1  115 INEINEQKY  123 (431)
+T ss_pred             HHHHHHHHh
+
+
+No 34
+>XP_001436779.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=66.12  E-value=85  Score=31.36  Aligned_cols=75  Identities=11%  Similarity=0.004  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             cCCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      96 AGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKL  171 (250)
+Q Consensus        96 ~G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~  171 (250)
+                      ....|+.++..||+...-........-....-+....+++||+++.++..+.+||.-.-... .+.+.+..+....
+T Consensus        30 ~~p~TP~~vkkfr~~~~~~pG~~~~h~G~a~Dp~~~~~~~~G~~s~~s~~~~~ll~p~~ks~-~~~~~~~~E~~Y~  104 (259)
+T XP_001436779.1   30 QVPETPSHIKKYRKSYKHQFGCSILHPGLVDAPKPQGNWVYGRKTDQSDKVGELFRQQPQGI-RELINEINEQKYA  104 (259)
+T ss_pred             CCCCCHHHHHHHHhhhCCCCCceEcCcccCCCCCCCCCcccceecCCCCcHHHHcCCCchhH-HHHHHHHHHHHhh
+
+
+No 35
+>NP_115516.1 enkurin domain-containing protein 1 [Homo sapiens]
+Probab=64.22  E-value=18  Score=37.41  Aligned_cols=64  Identities=20%  Similarity=0.357  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhhcccCCccccccchhhhcCCCCCCCCCCCCcchhcCcccc
+Q Q_CFAP77_fl     137 GIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIKLEKKQKVVLGKLYETRSSQLRKYKPPVKLDTLWHMPHFQKVGRHL  215 (250)
+Q Consensus       137 G~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~~~~~~k~~~~~~~~Tras~lr~~~~~~~~k~~fKM~RF~~V~prv  215 (250)
+                      |+.-.+..+....-..+|..|-+..++..++..+.++..               +-.......+.+|||+||++|.++|
+T Consensus        83 ~~~~~~~~~~~~~~pkDh~kEN~rrireiQ~~~keke~~---------------~e~~~~~pvkalwks~Ky~~V~SkV  146 (346)
+T NP_115516.1      83 GISLGPGASLKRKDPKDHEKENLRRIREIQKRFREQERS---------------REQGQPRPLKALWRSPKYDKVESRV  146 (346)
+T ss_pred             CcccCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHH---------------HHhcCCCChhHHhcCccccccHHHH
+
+
+No 36
+>XP_016861231.1 PREDICTED: EF-hand domain-containing family member B isoform X6 [Homo sapiens]
+Probab=61.37  E-value=34  Score=36.95  Aligned_cols=37  Identities=22%  Similarity=0.354  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             CCCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      .|..||+....++.||    ..+|+||.+...+ +.|.++|.
+T Consensus       361 kRePLGKS~dr~~~LPegvd~~ntTFGvkt~kd-~SAkELIn  401 (473)
+T XP_016861231.1  361 RRAPLGKSHDQAPGLPKGMDTTNTTFGTAVIKE-YSAKDVVN  401 (473)
+T ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCCccccccCC-CcHHHHhC
+
+
+No 37
+>XP_001423908.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=52.27  E-value=53  Score=35.02  Aligned_cols=39  Identities=18%  Similarity=0.244  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHccc
+Q Q_CFAP77_fl      31 QAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGRW   69 (250)
+Q Consensus        31 k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~W   69 (250)
+                      .+.||+++.....-.+.+|+||.....+..+|+++|...
+T Consensus       238 ~~~LGk~~~~~~~~~~~~h~FG~~~~~d~~~~~~ci~~~  276 (416)
+T XP_001423908.1  238 EDPLGKPKNQAQLNPRMPQIFGEMKKDEQWTAGQCINGQ  276 (416)
+T ss_pred             cCCCCCCCChhhcCCCCCcccccccCcccCCHHHHcCCC
+
+
+No 38
+>XP_001424804.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=49.26  E-value=64  Score=31.65  Aligned_cols=41  Identities=17%  Similarity=0.216  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+.......   .......||+++++||+++ +....+.++|++
+T Consensus       103 hdir~k~~~~---~~~~~~~~P~~~~tfG~~~-rpstPi~~ll~~  143 (229)
+T XP_001424804.1  103 HDARLKLKKG---TNIQAIELPEEEFRYGRKN-RPSTPMKLVMGN  143 (229)
+T ss_pred             ccceeeccCC---CCCCCCCCCccccccCcCC-CCCCCHHHHhcc
+
+
+No 39
+>XP_001428257.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=49.15  E-value=55  Score=32.06  Aligned_cols=41  Identities=17%  Similarity=0.216  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+.......   .......||+++|+||+++ +....+.++|.+
+T Consensus       103 hdir~k~~~~---~~~~~~~~P~~~~~yG~~~-rpstPi~~ll~~  143 (230)
+T XP_001428257.1  103 HDARLKLKKG---TNIQAIELPEEEFRYGRKN-RPSTPMKLVMGN  143 (230)
+T ss_pred             ccceeeccCC---CCCCCCCCChhhhccCcCC-CCCCCHHHHhcc
+
+
+No 40
+>XP_011516973.1 PREDICTED: uncharacterized protein C9orf171 isoform X2 [Homo sapiens]
+Probab=47.66  E-value=59  Score=31.31  Aligned_cols=38  Identities=13%  Similarity=0.044  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CCCCCCCCCCCCCCCC--CCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP--GINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP--~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      ++-..+........+|  +++|+||+++ +..+.++++|.+
+T Consensus       147 IR~K~~~~~~~~~~~P~~ppdmtyG~pt-RPs~pv~~~i~~  186 (198)
+T XP_011516973.1  147 IRISDQDDRRMKKEPPPLPPNMTFGIRA-RKLSKQIEKFRS  186 (198)
+T ss_pred             cccCchhcccccCCCCCCCCCCCCCCCC-CCCchHHHHHHH
+
+
+No 41
+>XP_001425325.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=47.40  E-value=75  Score=30.86  Aligned_cols=41  Identities=17%  Similarity=0.220  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+..-....   .+.....||+++++||+++ +....+.++|++
+T Consensus        96 ~~ir~k~~~~---~~~~~~~~P~~~~~fG~~~-rpstPi~~ll~~  136 (215)
+T XP_001425325.1   96 HDARLKVKKG---TNIQAIELPEEEFRYGRKN-RPSTPMKLVMGN  136 (215)
+T ss_pred             cCceeccCCC---CCCCCcCCCccccccCCCC-CCCCCHHHHhcc
+
+
+No 42
+>XP_001451161.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=45.59  E-value=78  Score=30.64  Aligned_cols=41  Identities=17%  Similarity=0.215  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+.......   .......||+++++||.++ +....+.++|++
+T Consensus        96 ~dir~~~~~~---~~~~~~~~P~~~~~yG~~~-rpstPi~~ll~~  136 (215)
+T XP_001451161.1   96 HDARLQIKKG---TNIQAIELPEEEFRYGRKN-RPSTPMKLVMGN  136 (215)
+T ss_pred             cCceeeccCC---CCCCCCCCCccccccCCCC-CCCCCHHHHhcc
+
+
+No 43
+>XP_001449358.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=44.85  E-value=98  Score=33.51  Aligned_cols=38  Identities=16%  Similarity=0.216  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      31 QAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        31 k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      .+.||+++.....-++.+++||.....+..+|+++|.+
+T Consensus       253 ~~~LGk~~~~~~~~~~~~~~FG~~~~~de~~a~dli~~  290 (431)
+T XP_001449358.1  253 EDPLGKPKNQAQINSRMPAIFGEMKKDEQWTAGQCING  290 (431)
+T ss_pred             cCCCCCCCChhhccCCCCceeeecCCcccCcHHHHhcC
+
+
+No 44
+>XP_001444446.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=43.62  E-value=79  Score=30.69  Aligned_cols=41  Identities=17%  Similarity=0.221  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+.......   .......||+++++||+++ +....+.++|++
+T Consensus        96 h~ir~~~~~~---~~~~~~~~p~~~~~yG~~~-rpstPi~~ll~~  136 (216)
+T XP_001444446.1   96 HDARLQVKKG---TNIQAIELPEEEFRYGRKN-RPSTPMKLVMGN  136 (216)
+T ss_pred             cCceeeccCC---CCcCCcCCChhhcccCCCC-CCCCCHHHHhcc
+
+
+No 45
+>XP_011531687.1 PREDICTED: EF-hand domain-containing family member B isoform X4 [Homo sapiens]
+Probab=43.26  E-value=2.1e+02  Score=32.20  Aligned_cols=89  Identities=17%  Similarity=0.138  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeeccCCCCCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHcCCCCHHHHHHHHHHcCcccCchhccccCCCCCCCC
+Q Q_CFAP77_fl      52 GLYIRGLDGGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKAGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLP  131 (250)
+Q Consensus        52 G~~~~~d~ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~  131 (250)
+                      |+.... .++|+++|. +.  .+.+                      +|+.++..||+...-........-.+..-+...
+T Consensus        54 g~~~~~-~~~~~~cl~-~~--~~~~----------------------~tp~~~~~~~~~~~~~~g~~~~~~~~~~d~~~~  107 (622)
+T XP_011531687.1   54 GKVIPV-GYRVATCLT-EK--LPRL----------------------ITPPEAKKYFNFRYPPAGVERVFYGRANDPQIA  107 (622)
+T ss_pred             CeeeeC-CCcHHHHhc-cc--CCCC----------------------CCchHHHhhccCCCCCCCCeEeeecccCCccch
+
+
+Q ss_pred             CCCcCCCcCCCCCCHHHHHH----HhhHHHHHHHHHHHH
+Q Q_CFAP77_fl     132 PNMTFGIRARPSTPFFDLLQ----HRYLQLWVQEQKATQ  166 (250)
+Q Consensus       132 ~~~tyG~~~rpstpm~~Lls----~~Y~~eW~ee~~~~~  166 (250)
+                      +.++||+.+.++..+.+||.    ..|+....+.....|
+T Consensus       108 ~~~~~g~~~~~~~~~~~~~~p~~~~~~~~~~~~~~e~~y  146 (622)
+T XP_011531687.1  108 PYLTHGIRSKISVLANTLINPQPITTFQQKIKDKKESIY  146 (622)
+T ss_pred             hhccCCcccCCchhHHHhcCCCCCchHHHHHHHHHHHHH
+
+
+No 46
+>XP_005264946.1 PREDICTED: EF-hand domain-containing family member B isoform X2 [Homo sapiens]
+Probab=42.19  E-value=97  Score=36.35  Aligned_cols=37  Identities=22%  Similarity=0.354  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      .|..||+....++.||    ..+++||.+...+ +.|+++|.
+T Consensus       361 ~r~PLGks~~~~~~lP~~~~~~~~tFG~~~~~~-~sa~eli~  401 (810)
+T XP_005264946.1  361 RRAPLGKSHDQAPGLPKGMDTTNTTFGTAVIKE-YSAKDVVN  401 (810)
+T ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCCCcccccCC-CcHHHHhC
+
+
+No 47
+>XP_011531687.1 PREDICTED: EF-hand domain-containing family member B isoform X4 [Homo sapiens]
+Probab=41.83  E-value=90  Score=34.73  Aligned_cols=37  Identities=22%  Similarity=0.354  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      .|..||+....++.||    ..+++||.++..+ ++|+++|.
+T Consensus       150 ~~~plg~~~~~~~~lp~~~~~~~~~fG~~~~~~-~~~~~~i~  190 (622)
+T XP_011531687.1  150 RRAPLGKSHDQAPGLPKGMDTTNTTFGTAVIKE-YSAKDVVN  190 (622)
+T ss_pred             cCCCCCCCCCCCCCCCCCCCcccCccCceeccC-CchhHhcC
+
+
+No 48
+>XP_001435003.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=40.39  E-value=1.1e+02  Score=29.74  Aligned_cols=41  Identities=17%  Similarity=0.221  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+.......   .......||+++++||.++ +....+.++|++
+T Consensus        96 h~ir~~~~~~---~~~~~~~~P~~~~~fG~~~-rpstPi~~ll~~  136 (216)
+T XP_001435003.1   96 HDARLQVKKG---TNIQAIELPEEEFRYGRKN-RPSTPMKLVMGN  136 (216)
+T ss_pred             cCceeecCCC---CCCCCCCCCccccccCCCC-CCCCCHHHHhcc
+
+
+No 49
+>XP_001444538.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=37.64  E-value=1.3e+02  Score=28.99  Aligned_cols=41  Identities=15%  Similarity=0.163  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      24 HHIKGGPQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        24 ~~~~~~~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      |.+.......   .....-.+|+++++||+++.. ...+.++|++
+T Consensus        92 hdir~~~~~~---~~~~~~~~~~~~~~yG~~~rp-stpi~~ll~~  132 (205)
+T XP_001444538.1   92 NDARVFRRRG---CSQIEMNLPDENFRYGKPYLP-QSPMKNVLSG  132 (205)
+T ss_pred             CCceeeccCC---CCcccCCCCCCCcccCcCCCC-CCCHHHHHcc
+
+
+No 50
+>XP_001423908.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=36.42  E-value=3.9e+02  Score=29.21  Aligned_cols=71  Identities=13%  Similarity=-0.001  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHHHhhHHHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      99 VTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQHRYLQLWVQEQKATQKAIK  170 (250)
+Q Consensus        99 ~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls~~Y~~eW~ee~~~~~~~~~  170 (250)
+                      .||..+..||+...--.......-....-+....+++||+.+.++..+.+||.-. ...+.+.+.+..+...
+T Consensus        38 ~tp~~i~k~r~~~~~~pG~~~~~~G~a~Dp~~~~~~~~G~~~~~s~~~~~ll~p~-~~~~~~~~~~~~E~~Y  108 (416)
+T XP_001423908.1   38 ETPPHIKKYRKSYKHQFGCSILHPGLVDAPKPQGNWVYGRKTDLSDKAGELFRQQ-PQGIRELINEINEQKY  108 (416)
+T ss_pred             CCchHHHHHHHhcCCCCCcEEcCcccCCCCCCCCCcccccccCCCCcHHHHhcCC-chHHHHHHHHHHHHHh
+
+
+No 51
+>XP_016861231.1 PREDICTED: EF-hand domain-containing family member B isoform X6 [Homo sapiens]
+Probab=35.75  E-value=3.1e+02  Score=30.61  Aligned_cols=72  Identities=17%  Similarity=0.176  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             CCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHH----HhhHHHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      99 VTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQ----HRYLQLWVQEQKATQKAIK  170 (250)
+Q Consensus        99 ~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls----~~Y~~eW~ee~~~~~~~~~  170 (250)
+                      +|+.++..||+...-........-....-+.+++.++||+.+..+..+.+||.    ..|+....+.....|....
+T Consensus       286 ~TPe~VKKfRks~~p~pG~~rvhyGranDP~i~~~l~hGi~S~~Sd~a~dLInP~~kT~Fqq~i~e~KEaiY~S~k  361 (473)
+T XP_016861231.1  286 ITPPEAKKYFNFRYPPAGVERVFYGRANDPQIAPYLTHGIRSKISVLANTLINPQPITTFQQKIKDKKESIYLSNR  361 (473)
+T ss_pred             CCHHHHHHHhccCCCCCCceEeeccccCCCCCcccccCceeccCchhHHHhcCCCCCcHHHHHHHHHHHHHHhhhc
+
+
+No 52
+>XP_016861230.1 PREDICTED: EF-hand domain-containing family member B isoform X3 [Homo sapiens]
+Probab=35.18  E-value=1.2e+02  Score=34.57  Aligned_cols=37  Identities=22%  Similarity=0.354  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      .|..||+....++.||    ..+++||.++..+ +.|+++|.
+T Consensus       231 ~~~plg~~~~~~~~lP~~~~~~~~~fG~~~~~~-~~~~~~i~  271 (703)
+T XP_016861230.1  231 RRAPLGKSHDQAPGLPKGMDTTNTTFGTAVIKE-YSAKDVVN  271 (703)
+T ss_pred             cCCCCCCCCCCCCCCCCCCCCCCCcccceeccc-cchhHccC
+
+
+No 53
+>XP_001456771.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=29.62  E-value=2.2e+02  Score=27.68  Aligned_cols=37  Identities=8%  Similarity=0.028  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      ++-.+...+.....+| ++++||+++ +....+.++|++
+T Consensus        98 ir~k~~~~~~~~~~~p-~~~~fG~~~-rpstPi~~ll~~  134 (203)
+T XP_001456771.1   98 IRLKVVQGKPRMTETP-KLQVFGRKN-KTPSPIKNVLAY  134 (203)
+T ss_pred             ccccccCCCCCCCCCC-cccccCCCC-CCCCCHHHHHhc
+
+
+No 54
+>NP_653316.3 EF-hand domain-containing family member B isoform 1 [Homo sapiens]
+Probab=29.15  E-value=2e+02  Score=34.15  Aligned_cols=36  Identities=22%  Similarity=0.372  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      31 QAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        31 k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      |..||+....++.||    ..+++||.++..+ +.|+++|.
+T Consensus       362 r~plG~~~~~~~~lP~~~~~~~ttFG~~~~~~-~s~~~li~  401 (833)
+T NP_653316.3     362 RAPLGKSHDQAPGLPKGMDTTNTTFGTAVIKE-YSAKDVVN  401 (833)
+T ss_pred             cCCCCCCCCCCCCCCCCCCCCCCcccccccCC-CChHHhcC
+
+
+No 55
+>XP_011531684.1 PREDICTED: EF-hand domain-containing family member B isoform X1 [Homo sapiens]
+Probab=28.88  E-value=2.6e+02  Score=33.24  Aligned_cols=72  Identities=17%  Similarity=0.176  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHH----HhhHHHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      99 VTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQ----HRYLQLWVQEQKATQKAIK  170 (250)
+Q Consensus        99 ~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls----~~Y~~eW~ee~~~~~~~~~  170 (250)
+                      +|+..+..||+...-........-....-+.+.+.++||+.+.++.++.+||.    ..|+....+.....|....
+T Consensus       265 ~tp~~v~k~~~~~~~~~g~~~~~~g~~~dp~~~~~~~~g~~s~~s~~~~~li~P~~~t~fq~~~~~~~E~~Y~s~~  340 (812)
+T XP_011531684.1  265 ITPPEAKKYFNFRYPPAGVERVFYGRANDPQIAPYLTHGIRSKISVLANTLINPQPITTFQQKIKDKKESIYLSNR  340 (812)
+T ss_pred             CCChhhhcccccCCCCCCCeEeeecccCCCCCcchhcCCcccCCcccHHHhcCCCCCchHHHHHHHHHHHHHhhhc
+
+
+No 56
+>XP_011531684.1 PREDICTED: EF-hand domain-containing family member B isoform X1 [Homo sapiens]
+Probab=27.65  E-value=2e+02  Score=34.04  Aligned_cols=36  Identities=22%  Similarity=0.372  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCC----CCCceeeeeccCCCCCHHHHHc
+Q Q_CFAP77_fl      31 QAELGKPRERSYSLP----GINFNYGLYIRGLDGGVPEAIG   67 (250)
+Q Consensus        31 k~~lGk~k~~~~~LP----~~~f~YG~~~~~d~ega~evl~   67 (250)
+                      +..||+....++.||    ..+++||.+...+ +.|+++|.
+T Consensus       341 ~~plG~~~~~~~~lP~~~~~~~ttFG~~~~~~-~s~~~li~  380 (812)
+T XP_011531684.1  341 RAPLGKSHDQAPGLPKGMDTTNTTFGTAVIKE-YSAKDVVN  380 (812)
+T ss_pred             cCCCCCCCCCCCCCCCCCCCCCCCcCcccCCC-CChHHccC
+
+
+No 57
+>XP_001445661.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=24.64  E-value=3.9e+02  Score=25.34  Aligned_cols=42  Identities=10%  Similarity=0.125  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             cCcccCchhccccCCCCCCCCCCCcCCCcC-CCCCCHHHHHHH
+Q Q_CFAP77_fl     111 NDIRISDQDDRRMKKEPPPLPPNMTFGIRA-RPSTPFFDLLQH  152 (250)
+Q Consensus       111 hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~-rpstpm~~Lls~  152 (250)
+                      |.+-++....+....-....+++++||+++ +....+.++|++
+T Consensus        14 N~LL~k~~lGk~k~~~~~lP~~~f~YG~~~~~d~~g~~e~~~~   56 (170)
+T XP_001445661.1   14 NILLLRGDVGRAKPSVSDLPDSSYSYGKKINRDGIGMKEITSD   56 (170)
+T ss_pred             CceeccCCCCCCCCCCcCCCCCCccCCeecCCCCCCHHHHHhh
+
+
+No 58
+>XP_005264946.1 PREDICTED: EF-hand domain-containing family member B isoform X2 [Homo sapiens]
+Probab=24.56  E-value=5.9e+02  Score=30.68  Aligned_cols=75  Identities=17%  Similarity=0.184  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             cCCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHH----HhhHHHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      96 AGLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQ----HRYLQLWVQEQKATQKAIK  170 (250)
+Q Consensus        96 ~G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls----~~Y~~eW~ee~~~~~~~~~  170 (250)
+                      .+.+|+.++..||+...-........-....-+...+.++||+.+.++..+.+||.    ..|+....+.....|....
+T Consensus       283 ~~p~TP~~vkk~r~~~~p~pG~~~~~~G~a~Dp~~~~~~~~Gi~s~~s~~~~~li~P~~~t~fq~~~~~~kE~~Y~S~~  361 (810)
+T XP_005264946.1  283 PRLITPPEAKKYFNFRYPPAGVERVFYGRANDPQIAPYLTHGIRSKISVLANTLINPQPITTFQQKIKDKKESIYLSNR  361 (810)
+T ss_pred             CCCCCHHHHHHHccCCCCCCCceEeeccccCCCCCCccccCCeecCCchhHHHhcCCCCCcHHHHHHHHHHHHHHhhhc
+
+
+No 59
+>XP_011516972.1 PREDICTED: uncharacterized protein C9orf171 isoform X1 [Homo sapiens]
+Probab=22.67  E-value=3e+02  Score=28.30  Aligned_cols=38  Identities=11%  Similarity=0.075  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCC--CCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP--GINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP--~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      ++-..+........+|  +++++||+++ +....+.++|++
+T Consensus       147 Ir~k~~~~~~~~~~~p~~p~dmtyG~pt-RpSTPi~~Llqh  186 (268)
+T XP_011516972.1  147 IRISDQDDRRMKKEPPPLPPNMTFGIRA-RPSTPFFDLLQH  186 (268)
+T ss_pred             eecCccccccccCCCCCCCCCCCcCCCC-CCCCCHHHHHhh
+
+
+No 60
+>XP_005264946.1 PREDICTED: EF-hand domain-containing family member B isoform X2 [Homo sapiens]
+Probab=21.74  E-value=5.1e+02  Score=31.14  Aligned_cols=111  Identities=19%  Similarity=0.265  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             Ccc--cCCCCCCCCCCCCCCCCCC--CCCCceeeeeccCCC--CCHHHHHcccccCCCCCCCCcccCCCHHHHhHHHHHc
+Q Q_CFAP77_fl      23 GHH--IKGGPQAELGKPRERSYSL--PGINFNYGLYIRGLD--GGVPEAIGRWNVFKQQPTCPHELTRNYIAMNRGAVKA   96 (250)
+Q Consensus        23 ~~~--~~~~~k~~lGk~k~~~~~L--P~~~f~YG~~~~~d~--ega~evl~~W~~~~~~~~~~~~~~~DF~~lNk~A~k~   96 (250)
+                      ||.  ++.--...+|-.+.+.|+-  =+..++||.+...+.  .+|..+|. |........                  .
+T Consensus       416 ~h~lY~~SH~~Y~pGEq~nR~Y~w~~f~~~~rFG~~t~~~~~G~~vkk~L~-~~~~~~~~~------------------~  476 (810)
+T XP_005264946.1  416 GHDLYVVSHNDYYAGEAKNRKYNPSSFHRCSVYGVPTPHFNDGRAMAKSLY-WLHELQMKR------------------G  476 (810)
+T ss_pred             ccccccCCccccCCccccCCCCCCCCCChhHccCCCCCCCCCcHHHHHHHH-HHHHhhhhc------------------C
+
+
+Q ss_pred             CCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCC-CCHHHHHHHhh
+Q Q_CFAP77_fl      97 GLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPS-TPFFDLLQHRY  154 (250)
+Q Consensus        97 G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rps-tpm~~Lls~~Y  154 (250)
+                      ..+.++++.+|+......+.....  ........+..++||....+. ..+.++|...+
+T Consensus       477 t~IvsK~~edfke~Fq~~LGk~~d--pd~d~~gv~~~~eFg~~l~~de~~v~~ll~~~~  533 (810)
+T XP_005264946.1  477 AKFVSKRADDFKEKFQHKLGRVLD--PIAETMNVPPDCTFGACLRPEEYGVGDLIHNRL  533 (810)
+T ss_pred             CccchHHHHHHHHHHHHHHCCCCC--CCcccCCCCcHHhhhhhcCcccCCHHHHHHhhc
+
+
+No 61
+>XP_001430834.1 hypothetical protein (macronuclear) [Paramecium tetraurelia strain d4-2]
+Probab=21.67  E-value=3.5e+02  Score=26.42  Aligned_cols=37  Identities=5%  Similarity=0.077  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLPGINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      ++-..+..+.....+| ++++||.++ +....+.++|++
+T Consensus        98 ir~k~~~~~~~~~~~p-~~~~fG~~~-rpstPi~~ll~~  134 (203)
+T XP_001430834.1   98 IRQKVVQGKPKMTEIP-KQQVFGRKN-RTPSPIKNVLAF  134 (203)
+T ss_pred             ceeccCCCCCCCCCCC-ccccccCCC-CCCCCHHHHHhh
+
+
+No 62
+>NP_653316.3 EF-hand domain-containing family member B isoform 1 [Homo sapiens]
+Probab=21.36  E-value=6.6e+02  Score=30.36  Aligned_cols=75  Identities=17%  Similarity=0.173  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCCHHHHHHHHHHcCcccCchhccccCCCCCCCCCCCcCCCcCCCCCCHHHHHH----HhhHHHHHHHHHHHHHHHHH
+Q Q_CFAP77_fl      97 GLVTARENLLYRQLNDIRISDQDDRRMKKEPPPLPPNMTFGIRARPSTPFFDLLQ----HRYLQLWVQEQKATQKAIKL  171 (250)
+Q Consensus        97 G~~take~~~fR~~hd~r~~~~~~~~~~~~~~~~~~~~tyG~~~rpstpm~~Lls----~~Y~~eW~ee~~~~~~~~~~  171 (250)
+                      +.+|+.++..||+...-........-.+..-+.+.+.++||+.+.++..+.+||.    ..|+....+.....|.....
+T Consensus       284 ~~~tp~~~~k~~~~~~~~~g~~~~~~g~~~dp~~~~~~~~g~~~~~s~~~~~li~p~~~t~fq~~~~~~kE~~Y~s~~r  362 (833)
+T NP_653316.3     284 RLITPPEAKKYFNFRYPPAGVERVFYGRANDPQIAPYLTHGIRSKISVLANTLINPQPITTFQQKIKDKKESIYLSNRR  362 (833)
+T ss_pred             CCCCHHHHHHHcccCCCCCCCeeeeccccCCCCCccccCCCcccCCchhHHHhcCCCCCchHHHHHHHHHHHHHhhhcc
+
+
+No 63
+>NP_997300.1 cilia- and flagella-associated protein 77 isoform 1 [Homo sapiens]
+Probab=20.57  E-value=3.7e+02  Score=28.53  Aligned_cols=38  Identities=11%  Similarity=0.075  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCC--CCCceeeeeccCCCCCHHHHHcc
+Q Q_CFAP77_fl      30 PQAELGKPRERSYSLP--GINFNYGLYIRGLDGGVPEAIGR   68 (250)
+Q Consensus        30 ~k~~lGk~k~~~~~LP--~~~f~YG~~~~~d~ega~evl~~   68 (250)
+                      ++-..+........+|  +++++||+++ +....+.++|++
+T Consensus       183 IR~k~~~~~~~~~~~p~~ppdmtyGipt-RPSTPI~dLLqh  222 (320)
+T NP_997300.1     183 IRISDQDDRRMKKEPPPLPPNMTFGIRA-RPSTPFFDLLQH  222 (320)
+T ss_pred             eecCccccccccCCCCCCCCCCCCCCCC-CCCCCHHHHHhh
+
+

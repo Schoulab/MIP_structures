@@ -1,0 +1,209 @@
+Query         Q_tex26_ct
+Match_columns 74
+No_of_seqs    106 out of 370
+Neff          7.28693
+Searched_HMMs 182718
+Date          Mon Apr 17 14:39:53 2023
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Chlamydomonas_reinhardtii/Chlamydomonas_reinhardtii -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Homo_sapiens/Homo_sapiens -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Paramecium_tetraurelia/Paramecium_tetraurelia -o ../results/tex26_ct.hhr -oa3m ../results/tex26_ct.a3m -p 20 -Z 5000 -loc -z 1 -b 1 -B 5000 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 XP_011533230.1 PREDICTED: test  99.9 1.7E-26 9.4E-32  148.9   4.9   73    2-74     30-102 (153)
+  2 NP_689538.1 testis-expressed s  99.9 5.5E-24   3E-29  148.8   5.0   73    2-74    166-238 (289)
+  3 XP_011533221.1 PREDICTED: test  99.9 5.5E-24   3E-29  148.7   5.0   73    2-74    165-237 (288)
+  4 XP_011533223.1 PREDICTED: test  99.8 1.6E-20 8.6E-26  130.7   5.1   70    1-74    165-234 (273)
+  5 XP_011533226.1 PREDICTED: test  99.7 3.8E-17 2.1E-22  113.4   3.5   74    1-74    165-241 (257)
+  6 XP_011533227.1 PREDICTED: test  99.6 5.9E-16 3.2E-21  106.8   4.6   70    1-70    165-234 (235)
+  7 XP_016858813.1 PREDICTED: unch  98.8 2.3E-08 1.2E-13   65.7   3.0   50    3-58     87-136 (143)
+  8 PF15667.8 ; GDWWSH ; Protein o  98.6 1.5E-07 8.1E-13   67.0   3.3   52    1-58     48-99  (247)
+  9 XP_016858812.1 PREDICTED: unch  98.6 1.8E-07   1E-12   65.5   3.0   52    1-58     27-78  (229)
+ 10 NP_001093866.1 uncharacterized  98.5 4.6E-07 2.5E-12   65.4   2.7   50    3-58     87-136 (287)
+ 11 XP_011530812.1 PREDICTED: unch  98.5 4.6E-07 2.5E-12   65.4   2.7   50    3-58     87-136 (287)
+ 12 XP_005264190.1 PREDICTED: unch  64.7      12 6.6E-05   27.1   0.7   15   44-58      1-15  (166)
+ 13 XP_005264191.1 PREDICTED: unch  64.7      12 6.6E-05   27.1   0.7   15   44-58      1-15  (166)
+ 14 XP_011530815.1 PREDICTED: unch  64.7      12 6.6E-05   27.1   0.7   15   44-58      1-15  (166)
+
+No 1
+>XP_011533230.1 PREDICTED: testis-expressed sequence 26 protein isoform X7 [Homo sapiens]
+Probab=99.94  E-value=1.7e-26  Score=148.88  Aligned_cols=73  Identities=100%  Similarity=1.524  Sum_probs=71.6  Template_Neff=3.800
+
+Q ss_pred             CCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchHHHhhhhhccCCCccCC
+Q Q_tex26_ct        2 LSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS   74 (74)
+Q Consensus         2 ~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~~~~~q~~~~~~TtY~~   74 (74)
+                      +|++|+..+|++.|||+|.+||.|.+.++|+++++|||||.++.+|+.||||+|+.+|||+|++.+++|||+|
+T Consensus        30 ~p~dWK~~iPrp~DTe~R~nYQ~P~q~pEL~~~~~rYGCns~~~ipa~GiVPtV~~shi~nQe~~K~~TTYqr  102 (153)
+T XP_011533230.1   30 LSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS  102 (153)
+T ss_pred             CChhHHHcCCCCCChhHHHHcCCCCCChhHhccccccCCCCCCCCCCCccCCcccHHHHhchhhhcCCchhhH
+Confidence            6899999999999999999999999999999999999999999999999999999999999999999999986
+
+
+No 2
+>NP_689538.1 testis-expressed sequence 26 protein [Homo sapiens]
+Probab=99.90  E-value=5.5e-24  Score=148.75  Aligned_cols=73  Identities=100%  Similarity=1.524  Sum_probs=71.5  Template_Neff=4.000
+
+Q ss_pred             CCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchHHHhhhhhccCCCccCC
+Q Q_tex26_ct        2 LSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS   74 (74)
+Q Consensus         2 ~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~~~~~q~~~~~~TtY~~   74 (74)
+                      ++++||..+|+++|||+|.+||.|.+.++|++.++|||||.++.+|+.||||+|+.+|||+|++++++|||+|
+T Consensus       166 ~~~dWK~~lP~plDTe~R~nYQ~P~q~pEL~~~s~rYGCns~~~ipa~GiVPsv~~shi~nQe~~K~~TTYq~  238 (289)
+T NP_689538.1     166 LSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS  238 (289)
+T ss_pred             CCchHHHhCCCCCChhHHHhcCCCCcChhHcCCcccccCCCCCCCCCCcccccccHHHHhchhhhcCCchhhH
+Confidence            6799999999999999999999999999999999999999999999999999999999999999999999986
+
+
+No 3
+>XP_011533221.1 PREDICTED: testis-expressed sequence 26 protein isoform X1 [Homo sapiens]
+Probab=99.90  E-value=5.5e-24  Score=148.67  Aligned_cols=73  Identities=100%  Similarity=1.524  Sum_probs=71.5  Template_Neff=4.000
+
+Q ss_pred             CCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchHHHhhhhhccCCCccCC
+Q Q_tex26_ct        2 LSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS   74 (74)
+Q Consensus         2 ~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~~~~~q~~~~~~TtY~~   74 (74)
+                      ++++||..+|+++|||+|.+||.|.+.+||+++++|||||+++++||.||||+|+.+|||+|++++++|||+|
+T Consensus       165 ~~~dWK~~lP~plDTe~R~nYQ~P~q~pEL~~~s~rYGCns~~~ipa~GiVPsv~~shi~nQe~~K~~TTYq~  237 (288)
+T XP_011533221.1  165 LSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS  237 (288)
+T ss_pred             CCchHHHhCCCCCChhHHHhcCCCCcChhHcCCcccccCCCCCCCCCCcccccccHHHHhchhhhcCCchhhH
+Confidence            6799999999999999999999999999999999999999999999999999999999999999999999986
+
+
+No 4
+>XP_011533223.1 PREDICTED: testis-expressed sequence 26 protein isoform X2 [Homo sapiens]
+Probab=99.83  E-value=1.6e-20  Score=130.70  Aligned_cols=70  Identities=76%  Similarity=1.197  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             CCCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchHHHhhhhhccCCCccCC
+Q Q_tex26_ct        1 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQTTYQS   74 (74)
+Q Consensus         1 ~~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~~~~~q~~~~~~TtY~~   74 (74)
+                      .++++|+..+|++.|||+|.+||.|.+.++|++.++|||||.++.+|+.||||+|+.+    |++.++.|||++
+T Consensus       165 ~~~~dWKk~lPrplDTEfR~nYQ~P~k~pEL~d~s~rYGCns~~~ips~GiVPsv~~s----qe~~kkqTtYq~  234 (273)
+T XP_011533223.1  165 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLDPDKGRP----WKARLHQCRFPV  234 (273)
+T ss_pred             CCChhHHHhCCCCCChhHHHhcCCCCcChhHcCCcccccCCCCCCCCCCCCCCCCCcc----HHHhcCCcccch
+
+
+No 5
+>XP_011533226.1 PREDICTED: testis-expressed sequence 26 protein isoform X3 [Homo sapiens]
+Probab=99.70  E-value=3.8e-17  Score=113.38  Aligned_cols=74  Identities=74%  Similarity=1.137  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CCCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchHH---HhhhhhccCCCccCC
+Q Q_tex26_ct        1 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSY---LRNQEHTKKQTTYQS   74 (74)
+Q Consensus         1 ~~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~~---~~~q~~~~~~TtY~~   74 (74)
+                      .++++|+..+|+++|||+|.+||.|.+.++|++.++|||||.++.+|+.||||++.-..   ++.|+++..-+-|++
+T Consensus       165 ~~~~dWKk~lPrplDTEfR~nYQ~P~k~pEL~d~s~rYGCns~~~ips~GiVPt~~~~~~~~~~~~~~~~~~~~~~~  241 (257)
+T XP_011533226.1  165 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVKAFPGPTNTLLRVQCQILSPVWFLH  241 (257)
+T ss_pred             CCChhHHHhCCCCCChhHHHhcCCCCcChhHcCCcccccCCCCCCCcccceecCCCCCchHHHhheeeecCchhHHH
+
+
+No 6
+>XP_011533227.1 PREDICTED: testis-expressed sequence 26 protein isoform X4 [Homo sapiens]
+Probab=99.65  E-value=5.9e-16  Score=106.78  Aligned_cols=70  Identities=77%  Similarity=1.293  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CCCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchHHHhhhhhccCCC
+Q Q_tex26_ct        1 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHSYLRNQEHTKKQT   70 (74)
+Q Consensus         1 ~~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~~~~~q~~~~~~T   70 (74)
+                      .++++|+..+|+++|||+|.+||.|.+.++|+++++|||||.++.+|+.||||.+..+-|+..+......
+T Consensus       165 ~~~~dWKk~lPrplDTEfR~nYQ~P~k~pEL~~~s~rYGCns~~~ipa~Giv~qvl~~fi~~~~~~~~~~  234 (235)
+T XP_011533227.1  165 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLDRQIIDRFIRTHCDTNKKK  234 (235)
+T ss_pred             CCChhHHHcCCCCCChhHHHhcCCCCcChhHcCCcccccCCCCCCCccCCcCHHHHHHHHHHHhcccccC
+
+
+No 7
+>XP_016858813.1 PREDICTED: uncharacterized protein C2orf73 isoform X4 [Homo sapiens]
+Probab=98.77  E-value=2.3e-08  Score=65.65  Aligned_cols=50  Identities=20%  Similarity=0.158  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             CchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchH
+Q Q_tex26_ct        3 SLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHS   58 (74)
+Q Consensus         3 ~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~   58 (74)
+                      ..+....+||+.+|++|.|||.+.+...   ..+|| +| ++. |++||||....+
+T Consensus        87 ~~e~~~qPpYd~~TTQRsDFQk~~c~l~---~~trH-Sn-~~~-Ps~GIVPv~~l~  136 (143)
+T XP_016858813.1   87 ALEPVFLPPYDSKSTQRSDFQKPSCPLV---LPVKH-SK-MQK-PSCGIETRSFCT  136 (143)
+T ss_pred             CCCcCCCCCCCCCccchhhhcCCCCCCC---CCCCc-cc-CCC-Ccceeecccccc
+
+
+No 8
+>PF15667.8 ; GDWWSH ; Protein of unknown function with motif GDWWSH
+Probab=98.60  E-value=1.5e-07  Score=67.03  Aligned_cols=52  Identities=21%  Similarity=0.148  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CCCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchH
+Q Q_tex26_ct        1 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHS   58 (74)
+Q Consensus         1 ~~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~   58 (74)
+                      ..+.+..+.++|+.+|++|.|||.+.....+   .+||++|.   .|++||||++.+.
+T Consensus        48 ~~~~~~~~~PpY~~~STqRsDfq~~~~~~~~---~~rhs~~~---~pa~GIVPl~~~~   99 (247)
+T CB073_BOVIN/38   48 GKGLENPFQPPYDTKSTQRSDFKKPTCPLVS---PVKHSKLQ---KPSYGIVPLVSPD   99 (247)
+T ss_pred             CCCCCCCCCCCCCCCCcchhHhcCCCCCCCC---CCCcccCC---CCCcCcccccCCc
+
+
+No 9
+>XP_016858812.1 PREDICTED: uncharacterized protein C2orf73 isoform X2 [Homo sapiens]
+Probab=98.57  E-value=1.8e-07  Score=65.51  Aligned_cols=52  Identities=25%  Similarity=0.208  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             CCCchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchH
+Q Q_tex26_ct        1 HLSLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHS   58 (74)
+Q Consensus         1 ~~~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~   58 (74)
+                      ....+....+||+.+|++|.|||.+.+.+.+   .+||++|..   |++||||++.+.
+T Consensus        27 ~~~~e~~~qPpYd~~TTQRsDFQ~~~c~l~~---ptrHs~~qk---Pa~GIVPLasp~   78 (229)
+T XP_016858812.1   27 GKALEPVFLPPYDSKSTQRSDFQKPSCPLVL---PVKHSKMQK---PSCGIVPLASPG   78 (229)
+T ss_pred             CCCCCcCCCCCCCCCcccchhcCCCCCCCCC---CCCcccCCC---CCceeeccCCCC
+
+
+No 10
+>NP_001093866.1 uncharacterized protein C2orf73 [Homo sapiens]
+Probab=98.46  E-value=4.6e-07  Score=65.38  Aligned_cols=50  Identities=26%  Similarity=0.240  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             CchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchH
+Q Q_tex26_ct        3 SLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHS   58 (74)
+Q Consensus         3 ~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~   58 (74)
+                      ..+....+||+.+|++|.|||.+.+.+.+   .+||+.+..   |++||||++.+.
+T Consensus        87 ~~e~~~qPpYd~~TTQRsDFQk~~c~lv~---pvrHs~~qk---Pa~GIVPLasp~  136 (287)
+T NP_001093866.1   87 ALEPVFLPPYDSKSTQRSDFQKPSCPLVL---PVKHSKMQK---PSCGIVPLASPG  136 (287)
+T ss_pred             CCCcCCCCCCCCCcccchhcCCCCCCCCC---CCCcccCCC---CCceeeccCCCC
+
+
+No 11
+>XP_011530812.1 PREDICTED: uncharacterized protein C2orf73 isoform X1 [Homo sapiens]
+Probab=98.46  E-value=4.6e-07  Score=65.38  Aligned_cols=50  Identities=26%  Similarity=0.240  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             CchhhcCCCCCCCCchhhhcCCCCCChhhcCCccccccCCCCCCCCcccccccchH
+Q Q_tex26_ct        3 SLEWKKLLPQPPDTEFRRNYQIPAKIPELQDFSFKYGCYSSLPVASQGLVPSVLHS   58 (74)
+Q Consensus         3 ~~~~~~~~p~~~dT~~R~~Yq~p~~~~~l~~~~tR~g~n~~~~~pa~GIVP~~~~~   58 (74)
+                      ..+....+||+.+|++|.|||.+.+.+.+   .+||+.+..   |++||||++.+.
+T Consensus        87 ~~e~~~qPpYd~~TTQRsDFQk~~c~lv~---pvrHs~~qk---Pa~GIVPLasp~  136 (287)
+T XP_011530812.1   87 ALEPVFLPPYDSKSTQRSDFQKPSCPLVL---PVKHSKMQK---PSCGIVPLASPG  136 (287)
+T ss_pred             CCCcCCCCCCCCCcccchhcCCCCCCCCC---CCCcccCCC---CCceeeccCCCC
+
+
+No 12
+>XP_005264190.1 PREDICTED: uncharacterized protein C2orf73 isoform X3 [Homo sapiens]
+Probab=64.70  E-value=12  Score=27.07  Aligned_cols=15  Identities=27%  Similarity=0.370  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             CCCCCcccccccchH
+Q Q_tex26_ct       44 LPVASQGLVPSVLHS   58 (74)
+Q Consensus        44 ~~~pa~GIVP~~~~~   58 (74)
+                      ...|++||||.+.++
+T Consensus         1 ~qkPa~GIVPla~~~   15 (166)
+T XP_005264190.1    1 MQKPSCGIVPLASPG   15 (166)
+T ss_pred             CCCCccccccCCCCC
+
+
+No 13
+>XP_005264191.1 PREDICTED: uncharacterized protein C2orf73 isoform X3 [Homo sapiens]
+Probab=64.70  E-value=12  Score=27.07  Aligned_cols=15  Identities=27%  Similarity=0.370  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             CCCCCcccccccchH
+Q Q_tex26_ct       44 LPVASQGLVPSVLHS   58 (74)
+Q Consensus        44 ~~~pa~GIVP~~~~~   58 (74)
+                      ...|++||||.+.++
+T Consensus         1 ~qkPa~GIVPla~~~   15 (166)
+T XP_005264191.1    1 MQKPSCGIVPLASPG   15 (166)
+T ss_pred             CCCCccccccCCCCC
+
+
+No 14
+>XP_011530815.1 PREDICTED: uncharacterized protein C2orf73 isoform X3 [Homo sapiens]
+Probab=64.70  E-value=12  Score=27.07  Aligned_cols=15  Identities=27%  Similarity=0.370  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             CCCCCcccccccchH
+Q Q_tex26_ct       44 LPVASQGLVPSVLHS   58 (74)
+Q Consensus        44 ~~~pa~GIVP~~~~~   58 (74)
+                      ...|++||||.+.++
+T Consensus         1 ~qkPa~GIVPla~~~   15 (166)
+T XP_011530815.1    1 MQKPSCGIVPLASPG   15 (166)
+T ss_pred             CCCCccccccCCCCC
+
+

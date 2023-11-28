@@ -1,0 +1,1621 @@
+Query         Q_fap222
+Match_columns 48
+No_of_seqs    8 out of 10
+Neff          1.79844
+Searched_HMMs 143138
+Date          Sat Sep  9 11:01:54 2023
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Homo_sapiens/Homo_sapiens -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Chlamydomonas_reinhardtii/Chlamydomonas_reinhardtii -o ../results/fap222_1.hhr -oa3m ../results/fap222_1.a3m -p 10 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 XP_001701412.1 flagellar assoc  99.9 1.6E-28 1.1E-33  165.9   2.4   48    1-48     41-88  (146)
+  2 NP_653262.1 uncharacterized pr  96.2  0.0065 4.5E-08   40.2   0.9   26   20-45    102-130 (154)
+  3 NP_001157782.1 protein FAM166B  95.8   0.013 8.9E-08   41.2   1.0   27   19-45    234-260 (275)
+  4 XP_011537649.1 PREDICTED: unch  95.7   0.014 9.7E-08   39.9   1.0   26   20-45    125-153 (177)
+  5 XP_011537649.1 PREDICTED: unch  94.7   0.056 3.9E-07   37.1   1.4   36    9-45     23-58  (177)
+  6 NP_001157782.1 protein FAM166B  94.6   0.046 3.2E-07   38.6   1.0   32   14-45    171-202 (275)
+  7 XP_016870207.1 PREDICTED: prot  94.5    0.07 4.9E-07   39.8   1.7   41    5-45    104-151 (230)
+  8 NP_653262.1 uncharacterized pr  94.2   0.073 5.1E-07   35.5   1.2   26   19-45     10-35  (154)
+  9 XP_016870207.1 PREDICTED: prot  93.4    0.13 8.8E-07   38.5   1.3   27   19-45    189-215 (230)
+ 10 PF10629.12 ; DUF2475 ; Protein  93.4    0.16 1.1E-06   28.8   1.5   27   19-45      1-27  (66)
+ 11 XP_016871242.1 PREDICTED: unch  92.3    0.21 1.5E-06   35.7   1.1   21   19-39    173-195 (234)
+ 12 XP_016871243.1 PREDICTED: unch  92.3    0.21 1.5E-06   35.7   1.1   21   19-39    173-195 (234)
+ 13 XP_016871244.1 PREDICTED: unch  92.3    0.21 1.5E-06   35.7   1.1   21   19-39    173-195 (234)
+ 14 NP_001093421.1 protein FAM166B  92.1     0.2 1.4E-06   35.7   0.9   32   14-45     82-113 (216)
+ 15 XP_006717171.2 PREDICTED: prot  92.1    0.17 1.2E-06   37.4   0.6   23   23-45    200-222 (301)
+ 16 XP_016871242.1 PREDICTED: unch  91.9    0.25 1.8E-06   35.3   1.1   28   18-45    100-130 (234)
+ 17 XP_016871243.1 PREDICTED: unch  91.9    0.25 1.8E-06   35.3   1.1   28   18-45    100-130 (234)
+ 18 XP_016871244.1 PREDICTED: unch  91.9    0.25 1.8E-06   35.3   1.1   28   18-45    100-130 (234)
+ 19 XP_011537646.1 PREDICTED: unch  91.5    0.29   2E-06   36.0   1.1   28   18-45    123-153 (257)
+ 20 XP_011537647.1 PREDICTED: unch  91.5    0.29   2E-06   36.0   1.1   28   18-45    123-153 (257)
+ 21 XP_011537648.1 PREDICTED: unch  91.5    0.29   2E-06   36.0   1.1   28   18-45    123-153 (257)
+ 22 NP_001274167.1 protein FAM166B  91.4    0.32 2.3E-06   34.9   1.2   25   14-38    217-241 (263)
+ 23 XP_011537646.1 PREDICTED: unch  91.4    0.34 2.4E-06   35.6   1.3   36    9-45     23-58  (257)
+ 24 XP_011537647.1 PREDICTED: unch  91.4    0.34 2.4E-06   35.6   1.3   36    9-45     23-58  (257)
+ 25 XP_011537648.1 PREDICTED: unch  91.4    0.34 2.4E-06   35.6   1.3   36    9-45     23-58  (257)
+ 26 XP_006717171.2 PREDICTED: prot  91.3    0.31 2.2E-06   36.2   1.1   24   16-39     45-68  (301)
+ 27 XP_016871242.1 PREDICTED: unch  91.0    0.37 2.6E-06   34.6   1.2   31   14-45      5-35  (234)
+ 28 XP_016871243.1 PREDICTED: unch  91.0    0.37 2.6E-06   34.6   1.2   31   14-45      5-35  (234)
+ 29 XP_016871244.1 PREDICTED: unch  91.0    0.37 2.6E-06   34.6   1.2   31   14-45      5-35  (234)
+ 30 XP_011537646.1 PREDICTED: unch  91.0    0.35 2.5E-06   35.5   1.1   21   19-39    196-218 (257)
+ 31 XP_011537647.1 PREDICTED: unch  91.0    0.35 2.5E-06   35.5   1.1   21   19-39    196-218 (257)
+ 32 XP_011537648.1 PREDICTED: unch  91.0    0.35 2.5E-06   35.5   1.1   21   19-39    196-218 (257)
+ 33 NP_001274167.1 protein FAM166B  90.8    0.31 2.2E-06   35.0   0.7   29   17-45     85-113 (263)
+ 34 NP_001157782.1 protein FAM166B  90.7    0.34 2.4E-06   34.5   0.8   28   18-45     86-113 (275)
+ 35 NP_001274168.1 protein FAM166B  90.6    0.35 2.4E-06   37.3   0.9   29   17-45     85-113 (306)
+ 36 XP_011537643.1 PREDICTED: unch  90.5     0.5 3.5E-06   36.4   1.6   37    5-45     91-130 (294)
+ 37 XP_011537644.1 PREDICTED: unch  90.5     0.5 3.5E-06   36.4   1.6   37    5-45     91-130 (294)
+ 38 XP_011537645.1 PREDICTED: unch  90.3    0.54 3.8E-06   36.1   1.6   37    5-45    114-153 (287)
+ 39 XP_006717171.2 PREDICTED: prot  90.1    0.45 3.2E-06   35.3   1.1   21   19-39    260-280 (301)
+ 40 NP_001157782.1 protein FAM166B  90.0    0.56 3.9E-06   33.4   1.4   31   15-45     11-41  (275)
+ 41 NP_001093421.1 protein FAM166B  89.4    0.64 4.4E-06   33.3   1.3   31   15-45     11-41  (216)
+ 42 NP_001001710.1 protein FAM166A  89.1    0.64 4.5E-06   35.1   1.2   24   14-38    272-295 (317)
+ 43 XP_011537642.1 PREDICTED: unch  88.4    0.72   5E-06   36.2   1.1   28   18-45    123-153 (317)
+ 44 NP_001274167.1 protein FAM166B  88.2    0.83 5.8E-06   32.9   1.3   31   15-45     11-41  (263)
+ 45 XP_011516997.1 PREDICTED: prot  87.6    0.85 5.9E-06   34.7   1.1   24   16-39     45-68  (314)
+ 46 XP_011516997.1 PREDICTED: prot  87.5    0.87 6.1E-06   34.6   1.1   21   19-39    273-293 (314)
+ 47 XP_011516996.1 PREDICTED: prot  87.5    0.93 6.5E-06   35.2   1.2   24   14-38    307-330 (352)
+ 48 XP_011537643.1 PREDICTED: unch  87.2     0.8 5.6E-06   35.4   0.8   22   23-45     14-35  (294)
+ 49 XP_011537644.1 PREDICTED: unch  87.2     0.8 5.6E-06   35.4   0.8   22   23-45     14-35  (294)
+ 50 XP_011516997.1 PREDICTED: prot  86.3     0.8 5.6E-06   34.8   0.4   23   23-45    213-235 (314)
+ 51 NP_001093421.1 protein FAM166B  85.3     1.2 8.6E-06   32.0   0.9   21    5-33    170-190 (216)
+ 52 XP_016859455.1 PREDICTED: UPF0  85.3     1.4 9.8E-06   31.7   1.1   25   16-40     21-45  (167)
+ 53 XP_011537645.1 PREDICTED: unch  84.2     1.8 1.2E-05   33.5   1.3   31   14-45     28-58  (287)
+ 54 NP_001274168.1 protein FAM166B  84.2     1.8 1.3E-05   33.7   1.3   31   15-45     11-41  (306)
+ 55 XP_011531112.1 PREDICTED: UPF0  84.1     1.7 1.2E-05   32.4   1.1   25   16-40     21-45  (206)
+ 56 XP_011531113.1 PREDICTED: UPF0  84.1     1.7 1.2E-05   32.4   1.1   25   16-40     21-45  (206)
+ 57 XP_011516330.1 PREDICTED: prot  83.9     1.4 9.8E-06   34.4   0.7   29   17-45     80-108 (301)
+ 58 XP_011537642.1 PREDICTED: unch  83.3       2 1.4E-05   33.9   1.3   31   14-45     28-58  (317)
+ 59 NP_001098989.1 UPF0573 protein  82.9     1.9 1.4E-05   31.9   1.0   23   18-40     18-40  (201)
+ 60 XP_001689677.1 predicted prote  82.9       2 1.4E-05   32.6   1.1   13   22-34    143-155 (187)
+ 61 XP_006717171.2 PREDICTED: prot  81.7     2.7 1.9E-05   31.5   1.4   34   12-45    110-144 (301)
+ 62 XP_011516330.1 PREDICTED: prot  81.4     1.9 1.3E-05   33.8   0.6   19   21-39     12-30  (301)
+ 63 XP_011516996.1 PREDICTED: prot  81.3     1.9 1.3E-05   33.6   0.5   23   18-40    246-268 (352)
+ 64 NP_001001710.1 protein FAM166A  81.1     2.5 1.8E-05   32.2   1.1   24   16-39     10-33  (317)
+ 65 XP_011537643.1 PREDICTED: unch  80.1     3.4 2.3E-05   32.2   1.5   20   14-34    169-189 (294)
+ 66 XP_011537644.1 PREDICTED: unch  80.1     3.4 2.3E-05   32.2   1.5   20   14-34    169-189 (294)
+ 67 XP_011516996.1 PREDICTED: prot  79.9     2.9   2E-05   32.7   1.1   24   16-39     45-68  (352)
+ 68 XP_011516999.1 PREDICTED: prot  79.4       3 2.1E-05   32.6   1.1   24   16-39     45-68  (255)
+ 69 XP_011516998.1 PREDICTED: prot  78.5     3.3 2.3E-05   33.1   1.1   24   16-39     45-68  (306)
+ 70 XP_011537645.1 PREDICTED: unch  77.3     4.6 3.2E-05   31.4   1.5   20   14-34    192-212 (287)
+ 71 NP_001001710.1 protein FAM166A  76.3     3.3 2.3E-05   31.6   0.5   23   18-40    211-233 (317)
+ 72 XP_001693237.1 flagellar assoc  76.0     3.8 2.6E-05   34.7   0.8   10   22-31    331-340 (496)
+ 73 XP_011537642.1 PREDICTED: unch  75.1     5.6 3.9E-05   31.6   1.5   20   14-34    192-212 (317)
+ 74 PF15073.9 ; SPATA48 ; Spermato  69.4     8.2 5.8E-05   25.6   1.1   14   19-32     12-25  (128)
+ 75 XP_001698455.1 flagellar assoc  68.2     6.5 4.5E-05   27.4   0.4   11   22-32     16-26  (352)
+ 76 XP_011516999.1 PREDICTED: prot  68.2      12 8.1E-05   29.6   1.8   37   12-48    110-146 (255)
+ 77 XP_011516997.1 PREDICTED: prot  66.4      11 7.4E-05   29.2   1.3   24   17-40    115-138 (314)
+ 78 XP_001693237.1 flagellar assoc  64.0      11 7.4E-05   32.3   1.0   11   21-31    377-387 (496)
+ 79 XP_011516998.1 PREDICTED: prot  62.2      17 0.00012   29.5   1.7   37   12-48    110-146 (306)
+ 80 NP_001001710.1 protein FAM166A  59.3      20 0.00014   27.7   1.6   37   12-48     75-111 (317)
+ 81 XP_011516996.1 PREDICTED: prot  56.5      24 0.00017   28.0   1.6   37   12-48    110-146 (352)
+ 82 XP_016880175.1 PREDICTED: alph  52.8      19 0.00013   29.9   0.6    9   23-31     39-47  (540)
+ 83 PF15073.9 ; SPATA48 ; Spermato  51.8      25 0.00018   23.5   1.0   17   15-31     52-68  (128)
+ 84 XP_011513354.1 PREDICTED: unch  41.5      36 0.00025   28.8   0.6   11   22-32    351-361 (424)
+ 85 XP_011516330.1 PREDICTED: prot  39.8      49 0.00034   26.6   1.1   27    5-39    165-191 (301)
+ 86 NP_001274167.1 protein FAM166B  39.7      46 0.00032   24.6   0.9   14   18-31    161-178 (263)
+ 87 NP_000254.2 alpha-N-acetylgluc  36.8      45 0.00031   29.1   0.6    9   23-31    242-250 (743)
+ 88 NP_001274168.1 protein FAM166B  34.0      77 0.00054   25.5   1.3   19    5-31    170-188 (306)
+ 89 NP_001155306.2 uncharacterized  32.3      64 0.00045   27.5   0.8   14   19-32    318-331 (438)
+ 90 NP_001180416.1 TFIIA-alpha and  26.2      96 0.00067   26.4   0.8   12   23-34     78-89  (444)
+ 91 XP_001691087.1 predicted prote  22.4      81 0.00057   23.0  -0.2   12   19-30    136-147 (251)
+ 92 XP_011510093.1 PREDICTED: pair  21.8 1.3E+02 0.00091   24.7   0.7    9   23-31    428-436 (500)
+ 93 NP_006863.2 TFIIA-alpha and be  21.1 1.3E+02 0.00091   26.1   0.6   12   23-34    112-123 (478)
+ 94 XP_001697520.1 predicted prote  15.7   2E+02  0.0014   27.2   0.6   14   23-36   1096-1109(1248)
+ 95 NP_003457.1 paired box protein  14.9 3.1E+02  0.0021   21.9   1.3   15   17-31    365-379 (450)
+ 96 XP_016868381.1 PREDICTED: pitu  14.3 2.6E+02  0.0018   20.1   0.8   19    8-26    102-120 (122)
+ 97 XP_016868382.1 PREDICTED: pitu  14.3 2.6E+02  0.0018   20.1   0.8   19    8-26    102-120 (122)
+ 98 XP_016868383.1 PREDICTED: pitu  14.3 2.6E+02  0.0018   20.1   0.8   19    8-26    102-120 (122)
+ 99 XP_011510092.1 PREDICTED: pair  13.6 2.7E+02  0.0019   23.0   0.7    9   23-31    428-436 (507)
+100 XP_016864113.1 PREDICTED: TNFA  13.0   3E+02  0.0021   21.2   0.8   24   19-42    291-314 (353)
+101 XP_016864114.1 PREDICTED: TNFA  13.0   3E+02  0.0021   21.2   0.8   24   19-42    291-314 (353)
+102 XP_001693237.1 flagellar assoc  12.8 2.8E+02   0.002   24.7   0.7   11   23-33     36-46  (496)
+103 PF15636.9 ; Tox-GHH ; GHH sign  12.6 2.7E+02  0.0019   15.9   0.4   12   18-29     46-57  (79)
+104 XP_011539952.1 PREDICTED: inte  12.2 1.6E+02  0.0011   22.9  -0.8   25   24-48     28-52  (476)
+105 XP_016857046.1 PREDICTED: inte  12.2 1.6E+02  0.0011   22.9  -0.8   25   24-48     28-52  (476)
+106 XP_016857047.1 PREDICTED: inte  12.2 1.6E+02  0.0011   22.9  -0.8   25   24-48     28-52  (476)
+107 PF19364.2 ; DUF5940 ; Family o  12.2 3.2E+02  0.0022   21.3   0.7   16   23-38     74-92  (166)
+108 XP_001702564.1 predicted prote  12.0 3.3E+02  0.0023   21.7   0.8   21   18-38    191-211 (267)
+109 XP_016873473.1 PREDICTED: seri  11.3   2E+02  0.0014   24.9  -0.5   12   19-30    225-236 (619)
+110 XP_016868378.1 PREDICTED: pitu  10.9 3.8E+02  0.0027   20.1   0.8   19    8-26    134-152 (154)
+111 XP_001693075.1 predicted prote  10.8 3.2E+02  0.0022   19.7   0.3    8   26-33    109-116 (155)
+112 PF04499.18 ; SAPS ; SIT4 phosp  10.7 2.2E+02  0.0015   24.0  -0.5   10   21-30    467-476 (525)
+113 NP_008955.1 transmembrane prot  10.5 2.6E+02  0.0018   21.0  -0.1   17   30-46    272-288 (351)
+114 PF08043.15 ; Xin ; Xin repeat   10.5 4.2E+02   0.003   13.2   0.6    7   13-19     10-16  (16)
+115 NP_001243391.1 integrator comp  10.4   2E+02  0.0014   23.0  -0.8   25   24-48     54-78  (502)
+
+No 1
+>XP_001701412.1 flagellar associated protein [Chlamydomonas reinhardtii]
+Probab=99.95  E-value=1.6e-28  Score=165.91  Aligned_cols=48  Identities=100%  Similarity=1.527  Sum_probs=47.2  Template_Neff=1.200
+
+Q ss_pred             CccccccCcccceeecccccCCCCCeeCccCCcchhheeecchhhccC
+Q Q_fap222          1 SQFEMNSLPSHKYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus         1 ~~F~mN~L~s~~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      ||||||+|+|++|||+||++||+|||+|||||++++|||||+|++|||
+T Consensus        41 sqfemn~lpshkyetlpi~~ghlpgy~ghvpgg~gaiaqrk~~~a~ht   88 (146)
+T XP_001701412.1   41 SQFEMNSLPSHKYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAAMHT   88 (146)
+T ss_pred             cceeccCCCccceeecccccCCCCCccCCCCCchHHHhccchhHHhHH
+Confidence            689999999999999999999999999999999999999999999997
+
+
+No 2
+>NP_653262.1 uncharacterized protein C10orf82 isoform 1 [Homo sapiens]
+Probab=96.16  E-value=0.0065  Score=40.21  Aligned_cols=26  Identities=23%  Similarity=0.428  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             cCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         20 SGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        20 ~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      .+.||||+||||+.... +  +++-..++
+T Consensus       102 ~~~IpGYTG~VPr~~~~~~~~G~~Y~~~t  130 (154)
+T NP_653262.1     102 EPPIPGWAGYLPRAKVTEFGCGTRYTVMA  130 (154)
+T ss_pred             CCCCCCCccccCchheeeccCCcccHHHH
+
+
+No 3
+>NP_001157782.1 protein FAM166B isoform 1 [Homo sapiens]
+Probab=95.77  E-value=0.013  Score=41.22  Aligned_cols=27  Identities=30%  Similarity=0.357  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..|.||||+||||+....++++-..++
+T Consensus       234 ~~g~IPgYtG~VP~~~~~~G~ty~~~t  260 (275)
+T NP_001157782.1  234 NLGLLPNYGGYVPGYKFQFGHTFGHLT  260 (275)
+T ss_pred             ccCcccCCCcccCccceecccccHHHH
+
+
+No 4
+>XP_011537649.1 PREDICTED: uncharacterized protein C10orf82 isoform X6 [Homo sapiens]
+Probab=95.71  E-value=0.014  Score=39.92  Aligned_cols=26  Identities=23%  Similarity=0.428  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         20 SGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        20 ~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      .+.||||+||||+.... +  +++-..++
+T Consensus       125 ~~~IpGYTGfVPr~~~~~~~~G~~Y~~~t  153 (177)
+T XP_011537649.1  125 EPPIPGWAGYLPRAKVTEFGCGTRYTVMA  153 (177)
+T ss_pred             CCCCCCCCcccCcceeeeccCCcccHHHH
+
+
+No 5
+>XP_011537649.1 PREDICTED: uncharacterized protein C10orf82 isoform X6 [Homo sapiens]
+Probab=94.65  E-value=0.056  Score=37.14  Aligned_cols=36  Identities=22%  Similarity=0.145  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cccceeecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222          9 PSHKYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus         9 ~s~~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +-....+.-.+...+|||+||||+...- +++-..++
+T Consensus        23 ~~~~~~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~t   58 (177)
+T XP_011537649.1   23 IMEPSKTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   58 (177)
+T ss_pred             hcCCccccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 6
+>NP_001157782.1 protein FAM166B isoform 1 [Homo sapiens]
+Probab=94.63  E-value=0.046  Score=38.60  Aligned_cols=32  Identities=19%  Similarity=0.235  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +......+.||||+||||+....++.+-..++
+T Consensus       171 ~~~~~~k~~iPGYtG~VP~~~~~~G~~y~~~t  202 (275)
+T NP_001157782.1  171 DDRDPRKFFMSGFTGYVPCARFLFGSSFPVLT  202 (275)
+T ss_pred             CCCChhhccCCccccccccHHHhhCCChHHHH
+
+
+No 7
+>XP_016870207.1 PREDICTED: protein FAM166A isoform X6 [Homo sapiens]
+Probab=94.53  E-value=0.07  Score=39.76  Aligned_cols=41  Identities=17%  Similarity=0.313  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             cccCcccceeecccccC-------CCCCeeCccCCcchhheeecchhh
+Q Q_fap222          5 MNSLPSHKYETLPIRSG-------HLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~g-------hlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      .+.+.-.+++++|-..+       .||||+||||.....++++-..++
+T Consensus       104 ~~~~d~~~~~~lP~~~~~~~~~K~~IPGYTGfVPr~r~~fGksY~~lT  151 (230)
+T XP_016870207.1  104 QETLDVGSFQRLPQLDHPNLIQRKAISGYAGFIPRFTWVMGLNYRDGV  151 (230)
+T ss_pred             CccccccccccCCCCCCCccccccCCCccccccCccceeccCccHHHH
+
+
+No 8
+>NP_653262.1 uncharacterized protein C10orf82 isoform 1 [Homo sapiens]
+Probab=94.21  E-value=0.073  Score=35.48  Aligned_cols=26  Identities=27%  Similarity=0.267  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             ccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +...+|||+||||+...- +++-.+++
+T Consensus        10 ~~~~iPGYtG~vP~~~~~-G~ty~~~~   35 (154)
+T NP_653262.1      10 NLPITPGYSGFVPFLSCQ-GMSKEDDM   35 (154)
+T ss_pred             CCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 9
+>XP_016870207.1 PREDICTED: protein FAM166A isoform X6 [Homo sapiens]
+Probab=93.41  E-value=0.13  Score=38.51  Aligned_cols=27  Identities=22%  Similarity=0.317  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             ccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..|.+|||+|||||....++.+-..++
+T Consensus       189 ~~G~IPGYTGhVPG~kf~fGkTYG~~T  215 (230)
+T XP_016870207.1  189 SQGLIPFYMGFIPAMQDNYALTFGNST  215 (230)
+T ss_pred             CCCcccceecccccchhhhcCcchHHH
+
+
+No 10
+>PF10629.12 ; DUF2475 ; Protein of unknown function (DUF2475)
+Probab=93.39  E-value=0.16  Score=28.82  Aligned_cols=27  Identities=26%  Similarity=0.404  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..+.+|||+||+|.-...+++.-..+.
+T Consensus         1 ~p~~~p~Y~G~~P~~~~~~G~tyg~~t   27 (66)
+T H3BEG8_LATCH/1    1 LPALMPGYLGHTPTAYFRCGETYGNAT   27 (66)
+T ss_pred             CCcCCCCCCCCCCCcccccCCCccHHH
+
+
+No 11
+>XP_016871242.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=92.28  E-value=0.21  Score=35.69  Aligned_cols=21  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             ccCCCCCeeCc-cC-Ccchhhee
+Q Q_fap222         19 RSGHLPGYQGH-VP-GGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gH-VP-g~~~~~aQ   39 (48)
+                      ..|-+|||+|| || |....++.
+T Consensus       173 ~~gmIP~YtG~~IP~G~kf~fG~  195 (234)
+T XP_016871242.1  173 HEELLPKYPDFSIPDGSCPALGR  195 (234)
+T ss_pred             CccCCCCCCCCcCCCCCCCCCCC
+
+
+No 12
+>XP_016871243.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=92.28  E-value=0.21  Score=35.69  Aligned_cols=21  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             ccCCCCCeeCc-cC-Ccchhhee
+Q Q_fap222         19 RSGHLPGYQGH-VP-GGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gH-VP-g~~~~~aQ   39 (48)
+                      ..|-+|||+|| || |....++.
+T Consensus       173 ~~gmIP~YtG~~IP~G~kf~fG~  195 (234)
+T XP_016871243.1  173 HEELLPKYPDFSIPDGSCPALGR  195 (234)
+T ss_pred             CccCCCCCCCCcCCCCCCCCCCC
+
+
+No 13
+>XP_016871244.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=92.28  E-value=0.21  Score=35.69  Aligned_cols=21  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             ccCCCCCeeCc-cC-Ccchhhee
+Q Q_fap222         19 RSGHLPGYQGH-VP-GGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gH-VP-g~~~~~aQ   39 (48)
+                      ..|-+|||+|| || |....++.
+T Consensus       173 ~~gmIP~YtG~~IP~G~kf~fG~  195 (234)
+T XP_016871244.1  173 HEELLPKYPDFSIPDGSCPALGR  195 (234)
+T ss_pred             CccCCCCCCCCcCCCCCCCCCCC
+
+
+No 14
+>NP_001093421.1 protein FAM166B isoform 2 [Homo sapiens]
+Probab=92.14  E-value=0.2  Score=35.68  Aligned_cols=32  Identities=25%  Similarity=0.343  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      .......+.+|||+||||+....++.+-...+
+T Consensus        82 ~~~~~~~~~iPGYtG~IP~~~~~~G~~y~~~~  113 (216)
+T NP_001093421.1   82 GQERLSSSMIPGYTGFVPRAQFIFAKNCSQVW  113 (216)
+T ss_pred             CcccccccCCCCccccccccceeeccChHHHH
+
+
+No 15
+>XP_006717171.2 PREDICTED: protein FAM166A isoform X4 [Homo sapiens]
+Probab=92.13  E-value=0.17  Score=37.42  Aligned_cols=23  Identities=17%  Similarity=0.342  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCeeCccCCcchhheeecchhh
+Q Q_fap222         23 LPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        23 lPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ||||+||||.....+++|-..++
+T Consensus       200 IpGYTGfVPr~r~~~G~sY~~~t  222 (301)
+T XP_006717171.2  200 ISGYAGFIPRFTWVMGLNYRDGV  222 (301)
+T ss_pred             ccccccccchhhhccccCcHHHH
+
+
+No 16
+>XP_016871242.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=91.85  E-value=0.25  Score=35.34  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      ...+.||||+||||+.... +  ++|-..++
+T Consensus       100 ~~~~~ipGytG~vP~~~~~~~g~G~~y~~~t  130 (234)
+T XP_016871242.1  100 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  130 (234)
+T ss_pred             CCCCCCCCCCcccCcceeeeccCCcchHHHH
+
+
+No 17
+>XP_016871243.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=91.85  E-value=0.25  Score=35.34  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      ...+.||||+||||+.... +  ++|-..++
+T Consensus       100 ~~~~~ipGytG~vP~~~~~~~g~G~~y~~~t  130 (234)
+T XP_016871243.1  100 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  130 (234)
+T ss_pred             CCCCCCCCCCcccCcceeeeccCCcchHHHH
+
+
+No 18
+>XP_016871244.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=91.85  E-value=0.25  Score=35.34  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      ...+.||||+||||+.... +  ++|-..++
+T Consensus       100 ~~~~~ipGytG~vP~~~~~~~g~G~~y~~~t  130 (234)
+T XP_016871244.1  100 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  130 (234)
+T ss_pred             CCCCCCCCCCcccCcceeeeccCCcchHHHH
+
+
+No 19
+>XP_011537646.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=91.53  E-value=0.29  Score=35.96  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      ...+.||||+||||+...- +  ++|-..++
+T Consensus       123 ~~~~~ipGYtG~iP~~~~~~~glG~~y~~~t  153 (257)
+T XP_011537646.1  123 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  153 (257)
+T ss_pred             CCCCCCCCCCcccCcceeEeccCCcccHHHH
+
+
+No 20
+>XP_011537647.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=91.53  E-value=0.29  Score=35.96  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      ...+.||||+||||+...- +  ++|-..++
+T Consensus       123 ~~~~~ipGYtG~iP~~~~~~~glG~~y~~~t  153 (257)
+T XP_011537647.1  123 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  153 (257)
+T ss_pred             CCCCCCCCCCcccCcceeEeccCCcccHHHH
+
+
+No 21
+>XP_011537648.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=91.53  E-value=0.29  Score=35.96  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      ...+.||||+||||+...- +  ++|-..++
+T Consensus       123 ~~~~~ipGYtG~iP~~~~~~~glG~~y~~~t  153 (257)
+T XP_011537648.1  123 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  153 (257)
+T ss_pred             CCCCCCCCCCcccCcceeEeccCCcccHHHH
+
+
+No 22
+>NP_001274167.1 protein FAM166B isoform 3 [Homo sapiens]
+Probab=91.38  E-value=0.32  Score=34.88  Aligned_cols=25  Identities=40%  Similarity=0.570  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhhe
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIA   38 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~a   38 (48)
+                      ++.+-..|-+|+|+|||||..-.++
+T Consensus       217 ~iy~~~~gl~P~Y~G~vPg~~~~~g  241 (263)
+T NP_001274167.1  217 RTYPQNLGLLPNYGGYVPGYKFQFG  241 (263)
+T ss_pred             CccCCCCccCCCCCCCccccccccc
+
+
+No 23
+>XP_011537646.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=91.36  E-value=0.34  Score=35.60  Aligned_cols=36  Identities=22%  Similarity=0.145  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cccceeecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222          9 PSHKYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus         9 ~s~~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +-.+-++.-.+...||||+||||+..-- +++-++++
+T Consensus        23 ~~~~~~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~t   58 (257)
+T XP_011537646.1   23 IMEPSKTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   58 (257)
+T ss_pred             hccCccccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 24
+>XP_011537647.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=91.36  E-value=0.34  Score=35.60  Aligned_cols=36  Identities=22%  Similarity=0.145  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cccceeecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222          9 PSHKYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus         9 ~s~~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +-.+-++.-.+...||||+||||+..-- +++-++++
+T Consensus        23 ~~~~~~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~t   58 (257)
+T XP_011537647.1   23 IMEPSKTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   58 (257)
+T ss_pred             hccCccccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 25
+>XP_011537648.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=91.36  E-value=0.34  Score=35.60  Aligned_cols=36  Identities=22%  Similarity=0.145  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cccceeecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222          9 PSHKYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus         9 ~s~~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +-.+-++.-.+...||||+||||+..-- +++-++++
+T Consensus        23 ~~~~~~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~t   58 (257)
+T XP_011537648.1   23 IMEPSKTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   58 (257)
+T ss_pred             hccCccccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 26
+>XP_006717171.2 PREDICTED: protein FAM166A isoform X4 [Homo sapiens]
+Probab=91.31  E-value=0.31  Score=36.15  Aligned_cols=24  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cccccCCCCCeeCccCCcchhhee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      .+-...+||||+||||.-.-.+++
+T Consensus        45 ~~~~p~~iPGYtG~~Pq~ky~~G~   68 (301)
+T XP_006717171.2   45 FTPEPHYVPGYAGFFPQLRYQVGN   68 (301)
+T ss_pred             CCCCCcCCCCcccccccchheecC
+
+
+No 27
+>XP_016871242.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=91.05  E-value=0.37  Score=34.56  Aligned_cols=31  Identities=26%  Similarity=0.234  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ++.--+...+|||+||||...-- +++-++++
+T Consensus         5 ~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~~   35 (234)
+T XP_016871242.1    5 KTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   35 (234)
+T ss_pred             cccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 28
+>XP_016871243.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=91.05  E-value=0.37  Score=34.56  Aligned_cols=31  Identities=26%  Similarity=0.234  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ++.--+...+|||+||||...-- +++-++++
+T Consensus         5 ~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~~   35 (234)
+T XP_016871243.1    5 KTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   35 (234)
+T ss_pred             cccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 29
+>XP_016871244.1 PREDICTED: uncharacterized protein C10orf82 isoform X5 [Homo sapiens]
+Probab=91.05  E-value=0.37  Score=34.56  Aligned_cols=31  Identities=26%  Similarity=0.234  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ++.--+...+|||+||||...-- +++-++++
+T Consensus         5 ~~~~~~~~~IPGYTGfVP~~~~~-GktY~~~~   35 (234)
+T XP_016871244.1    5 KTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   35 (234)
+T ss_pred             cccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 30
+>XP_011537646.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=90.96  E-value=0.35  Score=35.53  Aligned_cols=21  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             ccCCCCCeeCc-cC-Ccchhhee
+Q Q_fap222         19 RSGHLPGYQGH-VP-GGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gH-VP-g~~~~~aQ   39 (48)
+                      ..|-+|||+|| || |....+++
+T Consensus       196 ~~G~iP~YtG~~IP~G~kf~fG~  218 (257)
+T XP_011537646.1  196 HEELLPKYPDFSIPDGSCPALGR  218 (257)
+T ss_pred             CccCCCCCCCCcCCCCCCCCCCC
+
+
+No 31
+>XP_011537647.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=90.96  E-value=0.35  Score=35.53  Aligned_cols=21  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             ccCCCCCeeCc-cC-Ccchhhee
+Q Q_fap222         19 RSGHLPGYQGH-VP-GGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gH-VP-g~~~~~aQ   39 (48)
+                      ..|-+|||+|| || |....+++
+T Consensus       196 ~~G~iP~YtG~~IP~G~kf~fG~  218 (257)
+T XP_011537647.1  196 HEELLPKYPDFSIPDGSCPALGR  218 (257)
+T ss_pred             CccCCCCCCCCcCCCCCCCCCCC
+
+
+No 32
+>XP_011537648.1 PREDICTED: uncharacterized protein C10orf82 isoform X4 [Homo sapiens]
+Probab=90.96  E-value=0.35  Score=35.53  Aligned_cols=21  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             ccCCCCCeeCc-cC-Ccchhhee
+Q Q_fap222         19 RSGHLPGYQGH-VP-GGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gH-VP-g~~~~~aQ   39 (48)
+                      ..|-+|||+|| || |....+++
+T Consensus       196 ~~G~iP~YtG~~IP~G~kf~fG~  218 (257)
+T XP_011537648.1  196 HEELLPKYPDFSIPDGSCPALGR  218 (257)
+T ss_pred             CccCCCCCCCCcCCCCCCCCCCC
+
+
+No 33
+>NP_001274167.1 protein FAM166B isoform 3 [Homo sapiens]
+Probab=90.77  E-value=0.31  Score=34.98  Aligned_cols=29  Identities=28%  Similarity=0.419  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         17 PIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        17 Pi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ....+.+|||+||||+....++.+-...+
+T Consensus        85 ~~~~~~ipgYtG~iP~~~~~~g~~~~~~~  113 (263)
+T NP_001274167.1   85 RLSSSMIPGYTGFVPRAQFIFAKNCSQVW  113 (263)
+T ss_pred             ccccccCcccccccchhheeeccChHHHH
+
+
+No 34
+>NP_001157782.1 protein FAM166B isoform 1 [Homo sapiens]
+Probab=90.67  E-value=0.34  Score=34.46  Aligned_cols=28  Identities=29%  Similarity=0.445  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             cccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      .....||||+||||....-++++-..++
+T Consensus        86 ~~~~~iPGYtG~vP~~~~~~G~ty~~~t  113 (275)
+T NP_001157782.1   86 LSSSMIPGYTGFVPRAQFIFAKNCSQVW  113 (275)
+T ss_pred             cccCCCCCCccccCcccceecCCHHHHH
+
+
+No 35
+>NP_001274168.1 protein FAM166B isoform 4 [Homo sapiens]
+Probab=90.57  E-value=0.35  Score=37.35  Aligned_cols=29  Identities=28%  Similarity=0.419  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             ccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         17 PIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        17 Pi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ....+.+|||+||||+....++++-...+
+T Consensus        85 ~~~epmIPGYTGfVP~~~~~~Gkty~~~t  113 (306)
+T NP_001274168.1   85 RLSSSMIPGYTGFVPRAQFIFAKNCSQVW  113 (306)
+T ss_pred             cccccCCCCccccccccceeeccChHHHH
+
+
+No 36
+>XP_011537643.1 PREDICTED: uncharacterized protein C10orf82 isoform X2 [Homo sapiens]
+Probab=90.53  E-value=0.5  Score=36.38  Aligned_cols=37  Identities=19%  Similarity=0.325  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cccCcccceeecccccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222          5 MNSLPSHKYETLPIRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      |.+....+|    .....||||+||||..... +  ++|-..++
+T Consensus        91 me~~dp~K~----~~eppIPGYTGfVPr~r~~e~glG~~Y~~~t  130 (294)
+T XP_011537643.1   91 LECKYVKKP----LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  130 (294)
+T ss_pred             ccccCCCCc----CCCCCCCCCCcccCcceeeeccCCCccHHHH
+
+
+No 37
+>XP_011537644.1 PREDICTED: uncharacterized protein C10orf82 isoform X2 [Homo sapiens]
+Probab=90.53  E-value=0.5  Score=36.38  Aligned_cols=37  Identities=19%  Similarity=0.325  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cccCcccceeecccccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222          5 MNSLPSHKYETLPIRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      |.+....+|    .....||||+||||..... +  ++|-..++
+T Consensus        91 me~~dp~K~----~~eppIPGYTGfVPr~r~~e~glG~~Y~~~t  130 (294)
+T XP_011537644.1   91 LECKYVKKP----LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  130 (294)
+T ss_pred             ccccCCCCc----CCCCCCCCCCcccCcceeeeccCCCccHHHH
+
+
+No 38
+>XP_011537645.1 PREDICTED: uncharacterized protein C10orf82 isoform X3 [Homo sapiens]
+Probab=90.31  E-value=0.54  Score=36.11  Aligned_cols=37  Identities=19%  Similarity=0.325  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cccCcccceeecccccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222          5 MNSLPSHKYETLPIRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      |.+....+|    +....||||+||||+.... +  ++|-..++
+T Consensus       114 me~~dp~K~----~~ePpIPGYTGfVPr~~~~e~glG~~Y~~~t  153 (287)
+T XP_011537645.1  114 LECKYVKKP----LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  153 (287)
+T ss_pred             ccccCCCCc----CCCCCCCCCCcccCcceeeeccCCCccHHHH
+
+
+No 39
+>XP_006717171.2 PREDICTED: protein FAM166A isoform X4 [Homo sapiens]
+Probab=90.13  E-value=0.45  Score=35.35  Aligned_cols=21  Identities=29%  Similarity=0.466  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ccCCCCCeeCccCCcchhhee
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      ..|-+|+|+|||||..-.++.
+T Consensus       260 ~~GliP~YtG~IPG~kf~~G~  280 (301)
+T XP_006717171.2  260 SQGLIPFYMGFIPAMQDNYAL  280 (301)
+T ss_pred             cCCCCcccCCCCccchhchhc
+
+
+No 40
+>NP_001157782.1 protein FAM166B isoform 1 [Homo sapiens]
+Probab=90.01  E-value=0.56  Score=33.45  Aligned_cols=31  Identities=26%  Similarity=0.340  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         15 TLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        15 TlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..+-...++|||+||||+-.-.++..-.+++
+T Consensus        11 ~~~~~~~~iPGYtG~~P~~k~~~G~tyg~~t   41 (275)
+T NP_001157782.1   11 LNPQNPHYIPGYTGHCPLLRFSVGQTYGQVT   41 (275)
+T ss_pred             CCCCCCCCCCCccCccCccceeecCcchHHH
+
+
+No 41
+>NP_001093421.1 protein FAM166B isoform 2 [Homo sapiens]
+Probab=89.38  E-value=0.64  Score=33.33  Aligned_cols=31  Identities=26%  Similarity=0.340  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             ecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         15 TLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        15 TlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..+-...+||||+||||...-.++++-.+.+
+T Consensus        11 l~~~~p~~IPGYtGy~Pq~k~~~G~TYg~~T   41 (216)
+T NP_001093421.1   11 LNPQNPHYIPGYTGHCPLLRFSVGQTYGQVT   41 (216)
+T ss_pred             CCCCCCCCCCCcccccCCcceeecCcchHHH
+
+
+No 42
+>NP_001001710.1 protein FAM166A [Homo sapiens]
+Probab=89.08  E-value=0.64  Score=35.11  Aligned_cols=24  Identities=25%  Similarity=0.433  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhhe
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIA   38 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~a   38 (48)
+                      +..+ ..|-+|.|+|||||..-.++
+T Consensus       272 ~iY~-~~GliP~YtG~VPG~kf~~G  295 (317)
+T NP_001001710.1  272 HIYS-SQGLIPFYMGFIPAMQDNYA  295 (317)
+T ss_pred             Cccc-CCCcCcccCCCCccchhhhc
+
+
+No 43
+>XP_011537642.1 PREDICTED: uncharacterized protein C10orf82 isoform X1 [Homo sapiens]
+Probab=88.41  E-value=0.72  Score=36.17  Aligned_cols=28  Identities=21%  Similarity=0.449  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             cccCCCCCeeCccCCcchh-h--eeecchhh
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGA-I--AQRKPAAA   45 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~-~--aQRkaqaa   45 (48)
+                      +....||||+||||+.... +  ++|-..++
+T Consensus       123 ~~eppIPGYTGfVPr~~~~e~GlG~~Y~~~t  153 (317)
+T XP_011537642.1  123 LQEPPIPGWAGYLPRAKVTEFGCGTRYTVMA  153 (317)
+T ss_pred             CCCCCCCCCCcccCcceeEeccCCCccHHHH
+
+
+No 44
+>NP_001274167.1 protein FAM166B isoform 3 [Homo sapiens]
+Probab=88.23  E-value=0.83  Score=32.92  Aligned_cols=31  Identities=26%  Similarity=0.340  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         15 TLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        15 TlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..+-..-.||||+||||...-.++++-...+
+T Consensus        11 l~~~~p~~IPGYtGy~P~~k~~~G~tYg~~T   41 (263)
+T NP_001274167.1   11 LNPQNPHYIPGYTGHCPLLRFSVGQTYGQVT   41 (263)
+T ss_pred             CCCCCCCCCCCcccccCCcceeecCchHHHH
+
+
+No 45
+>XP_011516997.1 PREDICTED: protein FAM166A isoform X2 [Homo sapiens]
+Probab=87.62  E-value=0.85  Score=34.71  Aligned_cols=24  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             cccccCCCCCeeCccCCcchhhee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      .+-...++|||+||||.-.-.+++
+T Consensus        45 ~tp~p~~iPGYtGycPq~ky~~G~   68 (314)
+T XP_011516997.1   45 FTPEPHYVPGYAGFFPQLRYQVGN   68 (314)
+T ss_pred             CCCCCCCCCCccccccchhheeCC
+
+
+No 46
+>XP_011516997.1 PREDICTED: protein FAM166A isoform X2 [Homo sapiens]
+Probab=87.53  E-value=0.87  Score=34.65  Aligned_cols=21  Identities=29%  Similarity=0.466  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ccCCCCCeeCccCCcchhhee
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      ..|-+|+|+|||||..-.++.
+T Consensus       273 ~~GliP~YtG~VPG~kf~~G~  293 (314)
+T XP_011516997.1  273 SQGLIPFYMGFIPAMQDNYAL  293 (314)
+T ss_pred             cCCCCcccCCCCccchhchhc
+
+
+No 47
+>XP_011516996.1 PREDICTED: protein FAM166A isoform X1 [Homo sapiens]
+Probab=87.45  E-value=0.93  Score=35.16  Aligned_cols=24  Identities=25%  Similarity=0.433  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhhe
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIA   38 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~a   38 (48)
+                      ++.+ ..|-+|.|+|||||..-.++
+T Consensus       307 ~IY~-~~GliP~YtG~VPG~kf~~G  330 (352)
+T XP_011516996.1  307 HIYS-SQGLIPFYMGFIPAMQDNYA  330 (352)
+T ss_pred             cccc-CCCcccccCCCCccchhhhc
+
+
+No 48
+>XP_011537643.1 PREDICTED: uncharacterized protein C10orf82 isoform X2 [Homo sapiens]
+Probab=87.21  E-value=0.8  Score=35.36  Aligned_cols=22  Identities=32%  Similarity=0.400  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             CCCeeCccCCcchhheeecchhh
+Q Q_fap222         23 LPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        23 lPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +|||+||||+..-- +++-.+.+
+T Consensus        14 IPGYTGFVPrlqf~-GkTY~~~t   35 (294)
+T XP_011537643.1   14 TPGYSGFVPFLSCQ-GMSKEDDM   35 (294)
+T ss_pred             CCCCCCccCCcccc-cCCHHHHH
+
+
+No 49
+>XP_011537644.1 PREDICTED: uncharacterized protein C10orf82 isoform X2 [Homo sapiens]
+Probab=87.21  E-value=0.8  Score=35.36  Aligned_cols=22  Identities=32%  Similarity=0.400  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             CCCeeCccCCcchhheeecchhh
+Q Q_fap222         23 LPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        23 lPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      +|||+||||+..-- +++-.+.+
+T Consensus        14 IPGYTGFVPrlqf~-GkTY~~~t   35 (294)
+T XP_011537644.1   14 TPGYSGFVPFLSCQ-GMSKEDDM   35 (294)
+T ss_pred             CCCCCCccCCcccc-cCCHHHHH
+
+
+No 50
+>XP_011516997.1 PREDICTED: protein FAM166A isoform X2 [Homo sapiens]
+Probab=86.31  E-value=0.8  Score=34.82  Aligned_cols=23  Identities=17%  Similarity=0.342  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             CCCeeCccCCcchhheeecchhh
+Q Q_fap222         23 LPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        23 lPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ||||+||||.....++++-..++
+T Consensus       213 IpGYtG~VPr~~~~~G~~y~~~t  235 (314)
+T XP_011516997.1  213 ISGYAGFIPRFTWVMGLNYRDGV  235 (314)
+T ss_pred             cCccccccchhheecccccHHHH
+
+
+No 51
+>NP_001093421.1 protein FAM166B isoform 2 [Homo sapiens]
+Probab=85.29  E-value=1.2  Score=31.97  Aligned_cols=21  Identities=19%  Similarity=0.363  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             cccCcccceeecccccCCCCCeeCccCCc
+Q Q_fap222          5 MNSLPSHKYETLPIRSGHLPGYQGHVPGG   33 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~ghlPGy~gHVPg~   33 (48)
+                      |.+...+||        -||||+||||.+
+T Consensus       170 me~~dp~K~--------~IsGytGfVPr~  190 (216)
+T NP_001093421.1  170 MDDRDPRKF--------FMSGTAGIWAEA  190 (216)
+T ss_pred             ccCCCCccc--------CCCCcceEeeee
+
+
+No 52
+>XP_016859455.1 PREDICTED: UPF0573 protein C2orf70 isoform X6 [Homo sapiens]
+Probab=85.28  E-value=1.4  Score=31.70  Aligned_cols=25  Identities=24%  Similarity=0.218  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cccccCCCCCeeCccCCcchhheee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      .+-....||||+||+|.-.-.++..
+T Consensus        21 ~~~~~~~iPGY~G~cP~~kf~~G~T   45 (167)
+T XP_016859455.1   21 TNSSVSGRERYQGHVPTVAFSFGAP   45 (167)
+T ss_pred             CCCCcccCCCcccccccccCeeCCC
+
+
+No 53
+>XP_011537645.1 PREDICTED: uncharacterized protein C10orf82 isoform X3 [Homo sapiens]
+Probab=84.23  E-value=1.8  Score=33.53  Aligned_cols=31  Identities=26%  Similarity=0.234  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      .+.-.+...+|||+||||...-- +++-.+.+
+T Consensus        28 ~~~~~~~~mIPGYTGFVPr~q~~-GktY~~~t   58 (287)
+T XP_011537645.1   28 KTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   58 (287)
+T ss_pred             cccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 54
+>NP_001274168.1 protein FAM166B isoform 4 [Homo sapiens]
+Probab=84.16  E-value=1.8  Score=33.74  Aligned_cols=31  Identities=26%  Similarity=0.340  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             ecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         15 TLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        15 TlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      ..+-+...||||+||||.-.-.+++.-.+.+
+T Consensus        11 L~~peP~~IPGYTGycPqlkyr~GkTYG~~T   41 (306)
+T NP_001274168.1   11 LNPQNPHYIPGYTGHCPLLRFSVGQTYGQVT   41 (306)
+T ss_pred             CCCCCCCCCCCccCcCCCcceeecCchHHHH
+
+
+No 55
+>XP_011531112.1 PREDICTED: UPF0573 protein C2orf70 isoform X4 [Homo sapiens]
+Probab=84.05  E-value=1.7  Score=32.39  Aligned_cols=25  Identities=24%  Similarity=0.218  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             cccccCCCCCeeCccCCcchhheee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      .+-....||||+||+|.-.-.+++.
+T Consensus        21 ~~~~p~~iPGY~G~cPq~kf~~G~T   45 (206)
+T XP_011531112.1   21 TNSSVSGRERYQGHVPTVAFSFGAP   45 (206)
+T ss_pred             CCCCcccCCCcccccccccCeecCC
+
+
+No 56
+>XP_011531113.1 PREDICTED: UPF0573 protein C2orf70 isoform X4 [Homo sapiens]
+Probab=84.05  E-value=1.7  Score=32.39  Aligned_cols=25  Identities=24%  Similarity=0.218  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             cccccCCCCCeeCccCCcchhheee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      .+-....||||+||+|.-.-.+++.
+T Consensus        21 ~~~~p~~iPGY~G~cPq~kf~~G~T   45 (206)
+T XP_011531113.1   21 TNSSVSGRERYQGHVPTVAFSFGAP   45 (206)
+T ss_pred             CCCCcccCCCcccccccccCeecCC
+
+
+No 57
+>XP_011516330.1 PREDICTED: protein FAM166B isoform X1 [Homo sapiens]
+Probab=83.90  E-value=1.4  Score=34.42  Aligned_cols=29  Identities=28%  Similarity=0.419  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             ccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         17 PIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        17 Pi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      .+....+|||+|+||+..-.++++-...+
+T Consensus        80 ~~~~pmIPGYTGFVPr~~~~fGktY~~~~  108 (301)
+T XP_011516330.1   80 RLSSSMIPGYTGFVPRAQFIFAKNCSQVW  108 (301)
+T ss_pred             cccccCCCCCccchhcccceecCCHHHHH
+
+
+No 58
+>XP_011537642.1 PREDICTED: uncharacterized protein C10orf82 isoform X1 [Homo sapiens]
+Probab=83.31  E-value=2  Score=33.87  Aligned_cols=31  Identities=26%  Similarity=0.234  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             eecccccCCCCCeeCccCCcchhheeecchhh
+Q Q_fap222         14 ETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAA   45 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaa   45 (48)
+                      .+.-.+...+|||+||||+..-- +++-.+.+
+T Consensus        28 k~~~~~~pmIPGYTGFVPr~qf~-GkTY~~~t   58 (317)
+T XP_011537642.1   28 KTFMRNLPITPGYSGFVPFLSCQ-GMSKEDDM   58 (317)
+T ss_pred             cccccCCCCCCCCCCccCCcccc-cCCHHHHH
+
+
+No 59
+>NP_001098989.1 UPF0573 protein C2orf70 isoform 1 [Homo sapiens]
+Probab=82.90  E-value=1.9  Score=31.89  Aligned_cols=23  Identities=39%  Similarity=0.731  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             cccCCCCCeeCccCCcchhheee
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      .....+|||+||+|.-.-.++..
+T Consensus        18 ~~P~~mPGY~G~cPq~kf~~G~T   40 (201)
+T NP_001098989.1   18 VPPGLMPGYQGHVPTVAFSFGAP   40 (201)
+T ss_pred             CCCccCCCCCCccCCccCeeCCC
+
+
+No 60
+>XP_001689677.1 predicted protein [Chlamydomonas reinhardtii]
+Probab=82.89  E-value=2  Score=32.57  Aligned_cols=13  Identities=54%  Similarity=1.308  Sum_probs=0.0  Template_Neff=2.300
+
+Q ss_pred             CCCCeeCccCCcc
+Q Q_fap222         22 HLPGYQGHVPGGV   34 (48)
+Q Consensus        22 hlPGy~gHVPg~~   34 (48)
+                      |||||.|++|-..
+T Consensus       143 HIPGY~GFIPaS~  155 (187)
+T XP_001689677.1  143 HIPGYSGHIPKTS  155 (187)
+T ss_pred             CCCCccccCCCCC
+
+
+No 61
+>XP_006717171.2 PREDICTED: protein FAM166A isoform X4 [Homo sapiens]
+Probab=81.68  E-value=2.7  Score=31.53  Aligned_cols=34  Identities=9%  Similarity=-0.018  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ceeecccccCCCCCeeCccCCcchhheeec-chhh
+Q Q_fap222         12 KYETLPIRSGHLPGYQGHVPGGVGAIAQRK-PAAA   45 (48)
+Q Consensus        12 ~YETlPi~~ghlPGy~gHVPg~~~~~aQRk-aqaa   45 (48)
+                      ..+...+....+|||+|+||+.....+++- +..+
+T Consensus       110 ~~~~~~~~~~~iPGYTGfIP~~~~~~g~~yg~~~~  144 (301)
+T XP_006717171.2  110 RVPCQDLTEPYIPHYTSRKGDSRDLGHPVYGEEAW  144 (301)
+T ss_pred             CCCCCCCCCCCCCCCcCccCChhhcCCCCccHHHH
+
+
+No 62
+>XP_011516330.1 PREDICTED: protein FAM166B isoform X1 [Homo sapiens]
+Probab=81.42  E-value=1.9  Score=33.75  Aligned_cols=19  Identities=26%  Similarity=0.217  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             CCCCCeeCccCCcchhhee
+Q Q_fap222         21 GHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        21 ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      +.+|||+||+|.-.-.+++
+T Consensus        12 ~~iPGYTGycPQlKy~~G~   30 (301)
+T XP_011516330.1   12 SLCCRYTGHCPLLRFSVGQ   30 (301)
+T ss_pred             ccCCCccCccCccceeecC
+
+
+No 63
+>XP_011516996.1 PREDICTED: protein FAM166A isoform X1 [Homo sapiens]
+Probab=81.27  E-value=1.9  Score=33.59  Aligned_cols=23  Identities=22%  Similarity=0.430  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             cccCCCCCeeCccCCcchhheee
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      |+.-.||||+||||-....++.|
+T Consensus       246 ~~~~~IpGYtGfVPr~~~~~G~~  268 (352)
+T XP_011516996.1  246 IQRKAISGYAGFIPRFTWVMGLN  268 (352)
+T ss_pred             hhcccCCccceeechhhhhcccC
+
+
+No 64
+>NP_001001710.1 protein FAM166A [Homo sapiens]
+Probab=81.09  E-value=2.5  Score=32.15  Aligned_cols=24  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             cccccCCCCCeeCccCCcchhhee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      .+-....+|||+||+|.-.-.+++
+T Consensus        10 ~~~~p~~iPGY~G~~P~~k~~~G~   33 (317)
+T NP_001001710.1   10 FTPEPHYVPGYAGFFPQLRYQVGN   33 (317)
+T ss_pred             CCCCCCCCCCccccccccceeecC
+
+
+No 65
+>XP_011537643.1 PREDICTED: uncharacterized protein C10orf82 isoform X2 [Homo sapiens]
+Probab=80.05  E-value=3.4  Score=32.22  Aligned_cols=20  Identities=30%  Similarity=0.650  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             eecccccCCCCCeeCc-cCCcc
+Q Q_fap222         14 ETLPIRSGHLPGYQGH-VPGGV   34 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gH-VPg~~   34 (48)
+                      +..+ ..|-+|.|+|| |||..
+T Consensus       169 ~IY~-~~GLiP~YtGh~IPg~~  189 (294)
+T XP_011537643.1  169 KVLQ-HEELLPKYPDFSIPAGT  189 (294)
+T ss_pred             cccC-CCcCCCCCCCCCCCCCC
+
+
+No 66
+>XP_011537644.1 PREDICTED: uncharacterized protein C10orf82 isoform X2 [Homo sapiens]
+Probab=80.05  E-value=3.4  Score=32.22  Aligned_cols=20  Identities=30%  Similarity=0.650  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             eecccccCCCCCeeCc-cCCcc
+Q Q_fap222         14 ETLPIRSGHLPGYQGH-VPGGV   34 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gH-VPg~~   34 (48)
+                      +..+ ..|-+|.|+|| |||..
+T Consensus       169 ~IY~-~~GLiP~YtGh~IPg~~  189 (294)
+T XP_011537644.1  169 KVLQ-HEELLPKYPDFSIPAGT  189 (294)
+T ss_pred             cccC-CCcCCCCCCCCCCCCCC
+
+
+No 67
+>XP_011516996.1 PREDICTED: protein FAM166A isoform X1 [Homo sapiens]
+Probab=79.88  E-value=2.9  Score=32.67  Aligned_cols=24  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             cccccCCCCCeeCccCCcchhhee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      .+-....+|||+||||.-.-.+++
+T Consensus        45 ~~~~p~~iPGYtG~~Pq~ky~~G~   68 (352)
+T XP_011516996.1   45 FTPEPHYVPGYAGFFPQLRYQVGN   68 (352)
+T ss_pred             CCCCCCCCCCccccccccceeecC
+
+
+No 68
+>XP_011516999.1 PREDICTED: protein FAM166A isoform X5 [Homo sapiens]
+Probab=79.45  E-value=3  Score=32.55  Aligned_cols=24  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             cccccCCCCCeeCccCCcchhhee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      .+....++|||+||||-..-.++.
+T Consensus        45 ~T~~P~~iPGYtGycPqlky~~G~   68 (255)
+T XP_011516999.1   45 FTPEPHYVPGYAGFFPQLRYQVGN   68 (255)
+T ss_pred             CCCCCcCCCCcccccccchheecC
+
+
+No 69
+>XP_011516998.1 PREDICTED: protein FAM166A isoform X3 [Homo sapiens]
+Probab=78.51  E-value=3.3  Score=33.11  Aligned_cols=24  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             cccccCCCCCeeCccCCcchhhee
+Q Q_fap222         16 LPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus        16 lPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      .+....++|||+||+|...-.+++
+T Consensus        45 ~tpePhyIPGYTGycPQlKyr~Gk   68 (306)
+T XP_011516998.1   45 FTPEPHYVPGYAGFFPQLRYQVGN   68 (306)
+T ss_pred             CCCCCcCCCCcccccccchheecC
+
+
+No 70
+>XP_011537645.1 PREDICTED: uncharacterized protein C10orf82 isoform X3 [Homo sapiens]
+Probab=77.28  E-value=4.6  Score=31.43  Aligned_cols=20  Identities=30%  Similarity=0.650  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             eecccccCCCCCeeCc-cCCcc
+Q Q_fap222         14 ETLPIRSGHLPGYQGH-VPGGV   34 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gH-VPg~~   34 (48)
+                      +..+ ..|-+|.|+|| |||..
+T Consensus       192 ~IY~-~~GLiP~YtGh~IPg~~  212 (287)
+T XP_011537645.1  192 KVLQ-HEELLPKYPDFSIPAGT  212 (287)
+T ss_pred             cccC-CCcCCCCCCCCCCCCCC
+
+
+No 71
+>NP_001001710.1 protein FAM166A [Homo sapiens]
+Probab=76.32  E-value=3.3  Score=31.59  Aligned_cols=23  Identities=22%  Similarity=0.430  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             cccCCCCCeeCccCCcchhheee
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      |+.-.||||+||||-....++.|
+T Consensus       211 ~~~~~IpGytGfVPr~~~~~G~~  233 (317)
+T NP_001001710.1  211 IQRKAISGYAGFIPRFTWVMGLN  233 (317)
+T ss_pred             hhccCCCccceeechhhhhcccC
+
+
+No 72
+>XP_001693237.1 flagellar associated protein [Chlamydomonas reinhardtii]
+Probab=75.97  E-value=3.8  Score=34.73  Aligned_cols=10  Identities=60%  Similarity=1.547  Sum_probs=0.0  Template_Neff=3.100
+
+Q ss_pred             CCCCeeCccC
+Q Q_fap222         22 HLPGYQGHVP   31 (48)
+Q Consensus        22 hlPGy~gHVP   31 (48)
+                      |||||.||+|
+T Consensus       331 HIPGY~GFIP  340 (496)
+T XP_001693237.1  331 HIPRYTGHIP  340 (496)
+T ss_pred             cCCCccCcCC
+
+
+No 73
+>XP_011537642.1 PREDICTED: uncharacterized protein C10orf82 isoform X1 [Homo sapiens]
+Probab=75.10  E-value=5.6  Score=31.60  Aligned_cols=20  Identities=30%  Similarity=0.650  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             eecccccCCCCCeeCc-cCCcc
+Q Q_fap222         14 ETLPIRSGHLPGYQGH-VPGGV   34 (48)
+Q Consensus        14 ETlPi~~ghlPGy~gH-VPg~~   34 (48)
+                      +..+ ..|-+|.|+|| |||..
+T Consensus       192 ~IY~-~~GLiP~YtGh~IPg~~  212 (317)
+T XP_011537642.1  192 KVLQ-HEELLPKYPDFSIPAGT  212 (317)
+T ss_pred             cccC-CCcCCCCCCCCCCCCCC
+
+
+No 74
+>PF15073.9 ; SPATA48 ; Spermatogenesis-associated protein 48
+Probab=69.41  E-value=8.2  Score=25.61  Aligned_cols=14  Identities=43%  Similarity=0.605  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             ccCCCCCeeCccCC
+Q Q_fap222         19 RSGHLPGYQGHVPG   32 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg   32 (48)
+                      +.++||+|.|+|-+
+T Consensus        12 r~~~ip~ysG~vg~   25 (128)
+T M3Z388_MUSPF/3   12 RSKYIPLYTGYVQS   25 (128)
+T ss_pred             cccCCCCCCCcccC
+
+
+No 75
+>XP_001698455.1 flagellar associated protein [Chlamydomonas reinhardtii]
+Probab=68.25  E-value=6.5  Score=27.42  Aligned_cols=11  Identities=55%  Similarity=1.198  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCeeCccCC
+Q Q_fap222         22 HLPGYQGHVPG   32 (48)
+Q Consensus        22 hlPGy~gHVPg   32 (48)
+                      +||||+|.||+
+T Consensus        16 ~~~~~~~~~~~   26 (352)
+T XP_001698455.1   16 KIPGYTGYVQG   26 (352)
+T ss_pred             cCCCccccchh
+
+
+No 76
+>XP_011516999.1 PREDICTED: protein FAM166A isoform X5 [Homo sapiens]
+Probab=68.18  E-value=12  Score=29.61  Aligned_cols=37  Identities=14%  Similarity=0.190  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             ceeecccccCCCCCeeCccCCcchhheeecchhhccC
+Q Q_fap222         12 KYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        12 ~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      ..+...+...-||||+|+.||..-.+.-+.+-+....
+T Consensus       110 s~gD~~ltepmIPGYTGf~pGkrY~~~~reAlsEFe~  146 (255)
+T XP_011516999.1  110 RVPCQDLTEPYIPHYTSLKPSKNFEILGQLPPLEVDA  146 (255)
+T ss_pred             CCCCCCCCCCCCCCCcccccCCCHHHhcCCChhHhhc
+
+
+No 77
+>XP_011516997.1 PREDICTED: protein FAM166A isoform X2 [Homo sapiens]
+Probab=66.39  E-value=11  Score=29.24  Aligned_cols=24  Identities=13%  Similarity=0.223  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ccccCCCCCeeCccCCcchhheee
+Q Q_fap222         17 PIRSGHLPGYQGHVPGGVGAIAQR   40 (48)
+Q Consensus        17 Pi~~ghlPGy~gHVPg~~~~~aQR   40 (48)
+                      .+....+|||+|+||+...-.+++
+T Consensus       115 ~~~~~~iPGYTGfiP~~~~~~~~~  138 (314)
+T XP_011516997.1  115 DLTEPYIPHYTSFTPDTPHPPCPP  138 (314)
+T ss_pred             cCCCCCCCCCccccCCCCCCCCCC
+
+
+No 78
+>XP_001693237.1 flagellar associated protein [Chlamydomonas reinhardtii]
+Probab=63.95  E-value=11  Score=32.32  Aligned_cols=11  Identities=55%  Similarity=1.159  Sum_probs=0.0  Template_Neff=3.100
+
+Q ss_pred             CCCCCeeCccC
+Q Q_fap222         21 GHLPGYQGHVP   31 (48)
+Q Consensus        21 ghlPGy~gHVP   31 (48)
+                      +++|||+||.|
+T Consensus       377 ~niPGYTGhKP  387 (496)
+T XP_001693237.1  377 GRLPGYTGFKA  387 (496)
+T ss_pred             CCCCCCCCCCC
+
+
+No 79
+>XP_011516998.1 PREDICTED: protein FAM166A isoform X3 [Homo sapiens]
+Probab=62.23  E-value=17  Score=29.47  Aligned_cols=37  Identities=14%  Similarity=0.190  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             ceeecccccCCCCCeeCccCCcchhheeecchhhccC
+Q Q_fap222         12 KYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        12 ~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      ..+...+...-||||+|++||..-.+.-+.+-+....
+T Consensus       110 s~gD~~~tepMIPGYTGf~pGkrY~~~~~eALsEFe~  146 (306)
+T XP_011516998.1  110 RVPCQDLTEPYIPHYTSLKPSKNFEILGQLPPLEVDA  146 (306)
+T ss_pred             CCCCCCCCCCCCCCCCccccCCCHHHhccCChhHhhc
+
+
+No 80
+>NP_001001710.1 protein FAM166A [Homo sapiens]
+Probab=59.27  E-value=20  Score=27.68  Aligned_cols=37  Identities=14%  Similarity=0.190  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             ceeecccccCCCCCeeCccCCcchhheeecchhhccC
+Q Q_fap222         12 KYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        12 ~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      +.....+...-+|||+|++||..-...-+.+-+....
+T Consensus        75 ~~~~~~~~~p~iPGYtG~~pg~~y~~~~~~al~eF~~  111 (317)
+T NP_001001710.1   75 RVPCQDLTEPYIPHYTSLKPSKNFEILGQLPPLEVDA  111 (317)
+T ss_pred             CCCCCCCCCCCCCCCCccccCCChhhhccCChHHHhc
+
+
+No 81
+>XP_011516996.1 PREDICTED: protein FAM166A isoform X1 [Homo sapiens]
+Probab=56.51  E-value=24  Score=28.02  Aligned_cols=37  Identities=14%  Similarity=0.190  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             ceeecccccCCCCCeeCccCCcchhheeecchhhccC
+Q Q_fap222         12 KYETLPIRSGHLPGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        12 ~YETlPi~~ghlPGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      +.....+...-+|||+|++||..-...-+.+-+....
+T Consensus       110 ~~~~~~~~~p~iPGYTGf~pg~~y~~~~~~al~eF~~  146 (352)
+T XP_011516996.1  110 RVPCQDLTEPYIPHYTSLKPSKNFEILGQLPPLEVDA  146 (352)
+T ss_pred             CCCCCCCCCCCCCCCCccccCCChhhhccCChHHHhc
+
+
+No 82
+>XP_016880175.1 PREDICTED: alpha-N-acetylglucosaminidase isoform X1 [Homo sapiens]
+Probab=52.77  E-value=19  Score=29.92  Aligned_cols=9  Identities=67%  Similarity=1.501  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             CCCeeCccC
+Q Q_fap222         23 LPGYQGHVP   31 (48)
+Q Consensus        23 lPGy~gHVP   31 (48)
+                      +|||.||||
+T Consensus        39 Lp~F~G~VP   47 (540)
+T XP_016880175.1   39 LPAFAGHVP   47 (540)
+T ss_pred             CccccCCCc
+
+
+No 83
+>PF15073.9 ; SPATA48 ; Spermatogenesis-associated protein 48
+Probab=51.81  E-value=25  Score=23.47  Aligned_cols=17  Identities=47%  Similarity=0.798  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             ecccccCCCCCeeCccC
+Q Q_fap222         15 TLPIRSGHLPGYQGHVP   31 (48)
+Q Consensus        15 TlPi~~ghlPGy~gHVP   31 (48)
+                      |-.-....||||+|.|+
+T Consensus        52 t~t~~~pniPGYtGkv~   68 (128)
+T M3Z388_MUSPF/3   52 TNTSRSANIPGYTGKVH   68 (128)
+T ss_pred             CCCCCCCCCCCeeeEee
+
+
+No 84
+>XP_011513354.1 PREDICTED: uncharacterized protein C7orf72 isoform X1 [Homo sapiens]
+Probab=41.52  E-value=36  Score=28.75  Aligned_cols=11  Identities=45%  Similarity=0.918  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             CCCCeeCccCC
+Q Q_fap222         22 HLPGYQGHVPG   32 (48)
+Q Consensus        22 hlPGy~gHVPg   32 (48)
+                      +||||+|+|+.
+T Consensus       351 nIPGYtGkvh~  361 (424)
+T XP_011513354.1  351 NIPGYTGKVHF  361 (424)
+T ss_pred             CCCCCCceecc
+
+
+No 85
+>XP_011516330.1 PREDICTED: protein FAM166B isoform X1 [Homo sapiens]
+Probab=39.76  E-value=49  Score=26.59  Aligned_cols=27  Identities=7%  Similarity=0.220  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             cccCcccceeecccccCCCCCeeCccCCcchhhee
+Q Q_fap222          5 MNSLPSHKYETLPIRSGHLPGYQGHVPGGVGAIAQ   39 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~ghlPGy~gHVPg~~~~~aQ   39 (48)
+                      |.+..-+||        -||||+|.||.+..-+++
+T Consensus       165 MEd~dP~K~--------fISGYTGyvPra~~~~G~  191 (301)
+T XP_011516330.1  165 MDDRDPRKF--------FMSAFLCSPTRHCRNLGR  191 (301)
+T ss_pred             ccCCCCccc--------CCCCcccCCchHHHHhCC
+
+
+No 86
+>NP_001274167.1 protein FAM166B isoform 3 [Homo sapiens]
+Probab=39.68  E-value=46  Score=24.61  Aligned_cols=14  Identities=29%  Similarity=0.439  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             cccCCCC----CeeCccC
+Q Q_fap222         18 IRSGHLP----GYQGHVP   31 (48)
+Q Consensus        18 i~~ghlP----Gy~gHVP   31 (48)
+                      +..+-+|    ||+||||
+T Consensus       161 ~~~~~~p~~~~GytG~VP  178 (263)
+T NP_001274167.1  161 VVEQVRPRSWWGVQRLLP  178 (263)
+T ss_pred             eccccCCCccCCCCCccC
+
+
+No 87
+>NP_000254.2 alpha-N-acetylglucosaminidase precursor [Homo sapiens]
+Probab=36.84  E-value=45  Score=29.10  Aligned_cols=9  Identities=67%  Similarity=1.501  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CCCeeCccC
+Q Q_fap222         23 LPGYQGHVP   31 (48)
+Q Consensus        23 lPGy~gHVP   31 (48)
+                      +|||.||||
+T Consensus       242 LpaF~G~VP  250 (743)
+T NP_000254.2     242 LPAFAGHVP  250 (743)
+T ss_pred             cccccCCCc
+
+
+No 88
+>NP_001274168.1 protein FAM166B isoform 4 [Homo sapiens]
+Probab=33.95  E-value=77  Score=25.49  Aligned_cols=19  Identities=11%  Similarity=0.293  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cccCcccceeecccccCCCCCeeCccC
+Q Q_fap222          5 MNSLPSHKYETLPIRSGHLPGYQGHVP   31 (48)
+Q Consensus         5 mN~L~s~~YETlPi~~ghlPGy~gHVP   31 (48)
+                      |.+...+||        -||||+|.||
+T Consensus       170 MEd~DP~K~--------fISGYTGy~p  188 (306)
+T NP_001274168.1  170 MDDRDPRKF--------FMSAFLCSPT  188 (306)
+T ss_pred             ccCCCCccc--------CCCCccCCCc
+
+
+No 89
+>NP_001155306.2 uncharacterized protein C7orf72 [Homo sapiens]
+Probab=32.35  E-value=64  Score=27.48  Aligned_cols=14  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             ccCCCCCeeCccCC
+Q Q_fap222         19 RSGHLPGYQGHVPG   32 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg   32 (48)
+                      +.++||+|.|||.+
+T Consensus       318 Rs~~IPlYsG~v~s  331 (438)
+T NP_001155306.2  318 RSKYIPLYTGHVQS  331 (438)
+T ss_pred             CcccCCCCCceecc
+
+
+No 90
+>NP_001180416.1 TFIIA-alpha and beta-like factor isoform 2 [Homo sapiens]
+Probab=26.16  E-value=96  Score=26.40  Aligned_cols=12  Identities=67%  Similarity=1.298  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             CCCeeCccCCcc
+Q Q_fap222         23 LPGYQGHVPGGV   34 (48)
+Q Consensus        23 lPGy~gHVPg~~   34 (48)
+                      +|||..|||.|+
+T Consensus        78 lP~YPi~vPAGV   89 (444)
+T NP_001180416.1   78 FPGYPIHVPAGV   89 (444)
+T ss_pred             cCCCCccccCCC
+
+
+No 91
+>XP_001691087.1 predicted protein, partial [Chlamydomonas reinhardtii]
+Probab=22.44  E-value=81  Score=23.00  Aligned_cols=12  Identities=33%  Similarity=0.310  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             ccCCCCCeeCcc
+Q Q_fap222         19 RSGHLPGYQGHV   30 (48)
+Q Consensus        19 ~~ghlPGy~gHV   30 (48)
+                      +.+.-+||+||+
+T Consensus       136 ~~~~R~GYmGHL  147 (251)
+T XP_001691087.1  136 PSGRRDRSVGFV  147 (251)
+T ss_pred             CCCCCCccHHHH
+
+
+No 92
+>XP_011510093.1 PREDICTED: paired box protein Pax-8 isoform X2 [Homo sapiens]
+Probab=21.85  E-value=1.3e+02  Score=24.67  Aligned_cols=9  Identities=67%  Similarity=1.512  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCeeCccC
+Q Q_fap222         23 LPGYQGHVP   31 (48)
+Q Consensus        23 lPGy~gHVP   31 (48)
+                      +|||..|||
+T Consensus       428 lPgypPh~p  436 (500)
+T XP_011510093.1  428 LPGYPPHIP  436 (500)
+T ss_pred             CCCCCCCCC
+
+
+No 93
+>NP_006863.2 TFIIA-alpha and beta-like factor isoform 1 [Homo sapiens]
+Probab=21.11  E-value=1.3e+02  Score=26.10  Aligned_cols=12  Identities=67%  Similarity=1.298  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CCCeeCccCCcc
+Q Q_fap222         23 LPGYQGHVPGGV   34 (48)
+Q Consensus        23 lPGy~gHVPg~~   34 (48)
+                      +|||..|||.|+
+T Consensus       112 lP~yPi~vPAGv  123 (478)
+T NP_006863.2     112 FPGYPIHVPAGV  123 (478)
+T ss_pred             cCCCCeeecCCC
+
+
+No 94
+>XP_001697520.1 predicted protein [Chlamydomonas reinhardtii]
+Probab=15.68  E-value=2e+02  Score=27.22  Aligned_cols=14  Identities=57%  Similarity=1.061  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CCCeeCccCCcchh
+Q Q_fap222         23 LPGYQGHVPGGVGA   36 (48)
+Q Consensus        23 lPGy~gHVPg~~~~   36 (48)
+                      +-||.|||||+.++
+T Consensus      1096 ~~~~~~~~~~~~~~ 1109 (1248)
+T XP_001697520.1 1096 LASWPGHVPGVAGA 1109 (1248)
+T ss_pred             hhcCCCCCCCCchh
+
+
+No 95
+>NP_003457.1 paired box protein Pax-8 isoform PAX8A [Homo sapiens]
+Probab=14.92  E-value=3.1e+02  Score=21.88  Aligned_cols=15  Identities=40%  Similarity=0.875  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccccCCCCCeeCccC
+Q Q_fap222         17 PIRSGHLPGYQGHVP   31 (48)
+Q Consensus        17 Pi~~ghlPGy~gHVP   31 (48)
+                      .+.+-.+|||..|||
+T Consensus       365 ~~~s~~lpgypp~~p  379 (450)
+T NP_003457.1     365 EMVGPTLPGYPPHIP  379 (450)
+T ss_pred             ccCCCCCCCCCCCCC
+
+
+No 96
+>XP_016868381.1 PREDICTED: pituitary tumor-transforming gene 1 protein-interacting protein isoform X5 [Homo sapiens]
+Probab=14.34  E-value=2.6e+02  Score=20.05  Aligned_cols=19  Identities=26%  Similarity=0.293  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             CcccceeecccccCCCCCe
+Q Q_fap222          8 LPSHKYETLPIRSGHLPGY   26 (48)
+Q Consensus         8 L~s~~YETlPi~~ghlPGy   26 (48)
+                      +.+.+-|+++|.++..|+|
+T Consensus       102 ~~~~~~~~v~~~~~~~~~~  120 (122)
+T XP_016868381.1  102 YFYGRRETVPIHDRSATVY  120 (122)
+T ss_pred             eecccCCcccCCCcCcccc
+
+
+No 97
+>XP_016868382.1 PREDICTED: pituitary tumor-transforming gene 1 protein-interacting protein isoform X5 [Homo sapiens]
+Probab=14.34  E-value=2.6e+02  Score=20.05  Aligned_cols=19  Identities=26%  Similarity=0.293  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             CcccceeecccccCCCCCe
+Q Q_fap222          8 LPSHKYETLPIRSGHLPGY   26 (48)
+Q Consensus         8 L~s~~YETlPi~~ghlPGy   26 (48)
+                      +.+.+-|+++|.++..|+|
+T Consensus       102 ~~~~~~~~v~~~~~~~~~~  120 (122)
+T XP_016868382.1  102 YFYGRRETVPIHDRSATVY  120 (122)
+T ss_pred             eecccCCcccCCCcCcccc
+
+
+No 98
+>XP_016868383.1 PREDICTED: pituitary tumor-transforming gene 1 protein-interacting protein isoform X5 [Homo sapiens]
+Probab=14.34  E-value=2.6e+02  Score=20.05  Aligned_cols=19  Identities=26%  Similarity=0.293  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             CcccceeecccccCCCCCe
+Q Q_fap222          8 LPSHKYETLPIRSGHLPGY   26 (48)
+Q Consensus         8 L~s~~YETlPi~~ghlPGy   26 (48)
+                      +.+.+-|+++|.++..|+|
+T Consensus       102 ~~~~~~~~v~~~~~~~~~~  120 (122)
+T XP_016868383.1  102 YFYGRRETVPIHDRSATVY  120 (122)
+T ss_pred             eecccCCcccCCCcCcccc
+
+
+No 99
+>XP_011510092.1 PREDICTED: paired box protein Pax-8 isoform X1 [Homo sapiens]
+Probab=13.58  E-value=2.7e+02  Score=22.96  Aligned_cols=9  Identities=67%  Similarity=1.512  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCeeCccC
+Q Q_fap222         23 LPGYQGHVP   31 (48)
+Q Consensus        23 lPGy~gHVP   31 (48)
+                      +|||..|||
+T Consensus       428 lPgypPh~p  436 (507)
+T XP_011510092.1  428 LPGYPPHIP  436 (507)
+T ss_pred             CCCCCCCCC
+
+
+No 100
+>XP_016864113.1 PREDICTED: TNFAIP3-interacting protein 3 isoform X8 [Homo sapiens]
+Probab=12.96  E-value=3e+02  Score=21.20  Aligned_cols=24  Identities=25%  Similarity=0.234  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccCCCCCeeCccCCcchhheeecc
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQRKP   42 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQRka   42 (48)
+                      +..|.|.|.+.||+-..--.|-||
+T Consensus       291 ~~~~~~~~~~~~~~~~~~~~~~~~  314 (353)
+T XP_016864113.1  291 QREHPPDYQWYALDQLPPDVQHKA  314 (353)
+T ss_pred             ccCCCCCCcccchhhCCCCCcCcc
+
+
+No 101
+>XP_016864114.1 PREDICTED: TNFAIP3-interacting protein 3 isoform X8 [Homo sapiens]
+Probab=12.96  E-value=3e+02  Score=21.20  Aligned_cols=24  Identities=25%  Similarity=0.234  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccCCCCCeeCccCCcchhheeecc
+Q Q_fap222         19 RSGHLPGYQGHVPGGVGAIAQRKP   42 (48)
+Q Consensus        19 ~~ghlPGy~gHVPg~~~~~aQRka   42 (48)
+                      +..|.|.|.+.||+-..--.|-||
+T Consensus       291 ~~~~~~~~~~~~~~~~~~~~~~~~  314 (353)
+T XP_016864114.1  291 QREHPPDYQWYALDQLPPDVQHKA  314 (353)
+T ss_pred             ccCCCCCCcccchhhCCCCCcCcc
+
+
+No 102
+>XP_001693237.1 flagellar associated protein [Chlamydomonas reinhardtii]
+Probab=12.80  E-value=2.8e+02  Score=24.67  Aligned_cols=11  Identities=45%  Similarity=1.204  Sum_probs=0.0  Template_Neff=3.100
+
+Q ss_pred             CCCeeCccCCc
+Q Q_fap222         23 LPGYQGHVPGG   33 (48)
+Q Consensus        23 lPGy~gHVPg~   33 (48)
+                      ||||+|-+|+.
+T Consensus        36 IpGYTGf~Ps~   46 (496)
+T XP_001693237.1   36 IPGYTGFMPST   46 (496)
+T ss_pred             CCCCCCcccch
+
+
+No 103
+>PF15636.9 ; Tox-GHH ; GHH signature containing HNH/Endo VII superfamily nuclease toxin
+Probab=12.61  E-value=2.7e+02  Score=15.90  Aligned_cols=12  Identities=42%  Similarity=1.118  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             cccCCCCCeeCc
+Q Q_fap222         18 IRSGHLPGYQGH   29 (48)
+Q Consensus        18 i~~ghlPGy~gH   29 (48)
+                      +..|.++||.+|
+T Consensus        46 l~~g~~~~y~~~   57 (79)
+T B7P2D5_IXOSC/1   46 LRTGSVPGYRED   57 (79)
+T ss_pred             HHhCCCCCccce
+
+
+No 104
+>XP_011539952.1 PREDICTED: integrator complex subunit 11 isoform X3 [Homo sapiens]
+Probab=12.24  E-value=1.6e+02  Score=22.94  Aligned_cols=25  Identities=24%  Similarity=0.244  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCeeCccCCcchhheeecchhhccC
+Q Q_fap222         24 PGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        24 PGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      +.+.||+||+....-+-.-..-+||
+T Consensus        28 ~~~AGH~lGa~~~~ie~~~~~Ilyt   52 (476)
+T XP_011539952.1   28 AYYAGHVLGAAMFQIKVGSESVVYT   52 (476)
+T ss_pred             EEECCCcceeEEEEEEECCeEEEEE
+
+
+No 105
+>XP_016857046.1 PREDICTED: integrator complex subunit 11 isoform X3 [Homo sapiens]
+Probab=12.24  E-value=1.6e+02  Score=22.94  Aligned_cols=25  Identities=24%  Similarity=0.244  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCeeCccCCcchhheeecchhhccC
+Q Q_fap222         24 PGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        24 PGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      +.+.||+||+....-+-.-..-+||
+T Consensus        28 ~~~AGH~lGa~~~~ie~~~~~Ilyt   52 (476)
+T XP_016857046.1   28 AYYAGHVLGAAMFQIKVGSESVVYT   52 (476)
+T ss_pred             EEECCCcceeEEEEEEECCeEEEEE
+
+
+No 106
+>XP_016857047.1 PREDICTED: integrator complex subunit 11 isoform X3 [Homo sapiens]
+Probab=12.24  E-value=1.6e+02  Score=22.94  Aligned_cols=25  Identities=24%  Similarity=0.244  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCeeCccCCcchhheeecchhhccC
+Q Q_fap222         24 PGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        24 PGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      +.+.||+||+....-+-.-..-+||
+T Consensus        28 ~~~AGH~lGa~~~~ie~~~~~Ilyt   52 (476)
+T XP_016857047.1   28 AYYAGHVLGAAMFQIKVGSESVVYT   52 (476)
+T ss_pred             EEECCCcceeEEEEEEECCeEEEEE
+
+
+No 107
+>PF19364.2 ; DUF5940 ; Family of unknown function (DUF5940)
+Probab=12.20  E-value=3.2e+02  Score=21.27  Aligned_cols=16  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CCCe---eCccCCcchhhe
+Q Q_fap222         23 LPGY---QGHVPGGVGAIA   38 (48)
+Q Consensus        23 lPGy---~gHVPg~~~~~a   38 (48)
+                      +|||   .||+|.++..++
+T Consensus        74 mpGfaPTQGHIpSgvPylG   92 (166)
+T R5D1Z6_9FIRM/3   74 LTGFAPTQGHIPSGVPYVG   92 (166)
+T ss_pred             CCcccCCCCCCCcccccHH
+
+
+No 108
+>XP_001702564.1 predicted protein [Chlamydomonas reinhardtii]
+Probab=12.04  E-value=3.3e+02  Score=21.67  Aligned_cols=21  Identities=43%  Similarity=0.716  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             cccCCCCCeeCccCCcchhhe
+Q Q_fap222         18 IRSGHLPGYQGHVPGGVGAIA   38 (48)
+Q Consensus        18 i~~ghlPGy~gHVPg~~~~~a   38 (48)
+                      +..|.+||-...|||..+..|
+T Consensus       191 ~~~~~~~~~~~~~~~~~~~~~  211 (267)
+T XP_001702564.1  191 LGAGGLPGAVVSVPGPDGSLA  211 (267)
+T ss_pred             hccCCCCceEEEeeCCCCchh
+
+
+No 109
+>XP_016873473.1 PREDICTED: serine/threonine-protein phosphatase 6 regulatory subunit 3 isoform X29 [Homo sapiens]
+Probab=11.33  E-value=2e+02  Score=24.90  Aligned_cols=12  Identities=42%  Similarity=0.902  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             ccCCCCCeeCcc
+Q Q_fap222         19 RSGHLPGYQGHV   30 (48)
+Q Consensus        19 ~~ghlPGy~gHV   30 (48)
+                      +.|.-.|||||+
+T Consensus       225 ~~g~R~GYMGHL  236 (619)
+T XP_016873473.1  225 EGGRRHGYMGHL  236 (619)
+T ss_pred             ccCCCCcHHHHH
+
+
+No 110
+>XP_016868378.1 PREDICTED: pituitary tumor-transforming gene 1 protein-interacting protein isoform X1 [Homo sapiens]
+Probab=10.85  E-value=3.8e+02  Score=20.10  Aligned_cols=19  Identities=26%  Similarity=0.293  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             CcccceeecccccCCCCCe
+Q Q_fap222          8 LPSHKYETLPIRSGHLPGY   26 (48)
+Q Consensus         8 L~s~~YETlPi~~ghlPGy   26 (48)
+                      +.+.+-|+++|.++..|+|
+T Consensus       134 ~~~~~~~~v~~~~~~~~~~  152 (154)
+T XP_016868378.1  134 YFYGRRETVPIHDRSATVY  152 (154)
+T ss_pred             hhhcCCCcccCCCcCcccc
+
+
+No 111
+>XP_001693075.1 predicted protein, partial [Chlamydomonas reinhardtii]
+Probab=10.75  E-value=3.2e+02  Score=19.74  Aligned_cols=8  Identities=38%  Similarity=0.609  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             eeCccCCc
+Q Q_fap222         26 YQGHVPGG   33 (48)
+Q Consensus        26 y~gHVPg~   33 (48)
+                      |-.||||+
+T Consensus       109 YRC~v~~g  116 (155)
+T XP_001693075.1  109 YRCYVKDG  116 (155)
+T ss_pred             cchhccCC
+
+
+No 112
+>PF04499.18 ; SAPS ; SIT4 phosphatase-associated protein
+Probab=10.67  E-value=2.2e+02  Score=23.97  Aligned_cols=10  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCeeCcc
+Q Q_fap222         21 GHLPGYQGHV   30 (48)
+Q Consensus        21 ghlPGy~gHV   30 (48)
+                      +.-+|||||+
+T Consensus       467 ~~r~GymGhl  476 (525)
+T Q59QN2_CANAL/2  467 NPRPGYMGHL  476 (525)
+T ss_pred             CCCCchHHHH
+
+
+No 113
+>NP_008955.1 transmembrane protein 115 [Homo sapiens]
+Probab=10.54  E-value=2.6e+02  Score=21.04  Aligned_cols=17  Identities=29%  Similarity=0.409  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             cCCcchhheeecchhhc
+Q Q_fap222         30 VPGGVGAIAQRKPAAAM   46 (48)
+Q Consensus        30 VPg~~~~~aQRkaqaal   46 (48)
+                      .||...+.|.||.|-||
+T Consensus       272 ~~~~~~~~aeRRR~~Al  288 (351)
+T NP_008955.1     272 LPGTDPQDAERRRQLAL  288 (351)
+T ss_pred             CCCCCHHHHHHHHHHHH
+
+
+No 114
+>PF08043.15 ; Xin ; Xin repeat
+Probab=10.53  E-value=4.2e+02  Score=13.23  Aligned_cols=7  Identities=43%  Similarity=0.942  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             eeecccc
+Q Q_fap222         13 YETLPIR   19 (48)
+Q Consensus        13 YETlPi~   19 (48)
+                      +||.|+.
+T Consensus        10 FETqpld   16 (16)
+T W5MUI2_LEPOC/9   10 FETQPLS   16 (16)
+T ss_pred             EeccCCC
+
+
+No 115
+>NP_001243391.1 integrator complex subunit 11 isoform 4 [Homo sapiens]
+Probab=10.36  E-value=2e+02  Score=22.96  Aligned_cols=25  Identities=24%  Similarity=0.244  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CCeeCccCCcchhheeecchhhccC
+Q Q_fap222         24 PGYQGHVPGGVGAIAQRKPAAAMHT   48 (48)
+Q Consensus        24 PGy~gHVPg~~~~~aQRkaqaalHt   48 (48)
+                      +.+.||+||+....-+-.-..-+||
+T Consensus        54 ~~~AGHvlGAa~~~Ie~~~~~IlYt   78 (502)
+T NP_001243391.1   54 AYYAGHVLGAAMFQIKVGSESVVYT   78 (502)
+T ss_pred             EEeCCCCCeeEEEEEEECCeEEEEE
+
+
