@@ -1,0 +1,302 @@
+Query         Q_cfap161
+Match_columns 301
+No_of_seqs    221 out of 1932
+Neff          9.56468
+Searched_HMMs 19632
+Date          Wed Apr 12 19:36:03 2023
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -o ../results/cfap161.hhr -oa3m ../results/cfap161.a3m -p 20 -Z 4000 -loc -z 1 -b 1 -B 4000 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF08709.14 ; Ins145_P3_rec ; I  99.5 8.4E-14 4.3E-18  116.1  14.7  114  138-271   115-236 (240)
+  2 PF02815.22 ; MIR ; MIR domain   99.5 7.8E-14   4E-18  110.1  13.8  149  111-272    17-173 (176)
+  3 PF08709.14 ; Ins145_P3_rec ; I  98.8 2.6E-08 1.3E-12   82.2  11.2  114   60-200   114-236 (240)
+  4 PF02815.22 ; MIR ; MIR domain   98.6 1.3E-07 6.5E-12   73.6   9.3  104  161-270     2-105 (176)
+  5 PF02815.22 ; MIR ; MIR domain   98.0 6.6E-05 3.4E-09   57.7  12.3  115   60-196    44-168 (176)
+  6 PF08709.14 ; Ins145_P3_rec ; I  97.8 4.1E-05 2.1E-09   62.6   8.1  134  137-280     2-180 (240)
+  7 PF06608.14 ; DUF1143 ; Protein  91.9   0.018 9.3E-07   42.4  -0.2   16    4-19     54-69  (141)
+  8 PF09270.13 ; BTD ; Beta-trefoi  75.2     7.7 0.00039   27.1   7.0   60   61-166    34-97  (123)
+  9 PF04601.16 ; DUF569 ; Domain o  66.4      24  0.0012   24.9  10.9  115   62-232     2-116 (141)
+ 10 PF08709.14 ; Ins145_P3_rec ; I  63.7     5.7 0.00029   30.9   4.7   54   60-134   175-236 (240)
+ 11 PF04601.16 ; DUF569 ; Domain o  45.6      56  0.0029   22.8   7.8   66  139-233     2-68  (141)
+ 12 PF15139.9 ; DUF4572 ; Domain o  26.4     9.7  0.0005   28.9   0.1   21    2-22     11-31  (193)
+
+No 1
+>PF08709.14 ; Ins145_P3_rec ; Inositol 1,4,5-trisphosphate/ryanodine receptor
+Probab=99.54  E-value=8.4e-14  Score=116.09  Aligned_cols=114  Identities=18%  Similarity=0.112  Sum_probs=86.2  Template_Neff=9.600
+
+Q ss_pred             CCceeeCCeEEEEEcCCCCCceEEEEecCccccccCCCCCCceEEeeCCCCcCceEEEECCChhhcceeCCcccCCCCEE
+Q Q_cfap161       138 GQVLRYGQDFCLGITGGFDNKMLYLSSDHRTLLKSSKRSWLQEVYLTDEVSHVNCWQAAFPDPQLRLEYEGFPVPANAKI  217 (301)
+Q Consensus       138 g~~v~yGd~v~L~~~~~~~~~~~yL~s~~~~~~~~~~~s~~~~V~~~~~~~~~~~W~i~~~~~~~r~~~~g~~v~~~~~v  217 (301)
+                      |.+|+||+.|+|+|..+    ..||+++...+..  ..+..+.|++....+..+.|+|.+...   ...+|.+|..|+.|
+T Consensus       115 g~~V~yG~~i~L~h~~t----~~yL~~~~~~~~~--~~~~~~~v~l~~~~~~~~~w~i~p~~~---~~~~g~~V~~gd~v  185 (240)
+T ITPR_CAEEL/78-  115 GNVIQYGSMVQLLHVKS----NKYITVQKNSPAK--RERNAMKVYLDRAGNEGSWFIIEPAYK---HYAIGDNVSAGNKI  185 (240)
+T ss_pred             CCeeeeCCeEEEEEeCC----CcEEEEecCCCcc--cCCCceEEEEEcCCCCCcEEEEEeCCC---CcCCCCceecCCEE
+Confidence            36799999999999998    7999988754221  124567788877777889999986543   23478899999999
+
+
+Q ss_pred             EEEeCCCC-------CC-ccccCceeeecCCCCceEEEEEEEeccCCCCCCCcEEEEEeCCC
+Q Q_cfap161       218 LINHCHTN-------RG-LAAHRHLFLSTYFGKEAEVVAHTYLDSHRVEKPRNHWMLVTGNP  271 (301)
+Q Consensus       218 ~L~H~~T~-------~~-L~~~~~~~~~~~~g~e~eVs~~~~~~~~~~~~~~n~W~i~~~~~  271 (301)
+                      +|.|+.|+       ++ |+++...  ...++.++||+|..         ..+.|.|+....
+T Consensus       186 ~L~~~~t~~~~~~~~~~~L~~~~~~--~~~~~~~~EV~~~~---------~~~~W~v~~~~~  236 (240)
+T ITPR_CAEEL/78-  186 SLIPNSVSTTQAGHVKSQLHLSSFN--LLDHQSAAEVNCLN---------EPTEWQVFMFLL  236 (240)
+T ss_pred             EEEEcCCCCCcCCceeEEEEEeccc--ccCCCccEEEEeec---------CCCceEEEEeee
+Confidence            99999999       99 9987532  22346789999965         346799876543
+
+
+No 2
+>PF02815.22 ; MIR ; MIR domain
+Probab=99.54  E-value=7.8e-14  Score=110.06  Aligned_cols=149  Identities=17%  Similarity=0.130  Sum_probs=105.5  Template_Neff=10.700
+
+Q ss_pred             cEEEeeCCCCCccceEEEEEEccC---CCCCCceeeCCeEEEEEcCCCCCceEEEEecCccccccCCCCCCceEEeeCCC
+Q Q_cfap161       111 CGLSAVQAKTPIGRNTFIILSVHR---DATGQVLRYGQDFCLGITGGFDNKMLYLSSDHRTLLKSSKRSWLQEVYLTDEV  187 (301)
+Q Consensus       111 ~~vs~~~~~~p~~r~~f~I~~~~~---~~~g~~v~yGd~v~L~~~~~~~~~~~yL~s~~~~~~~~~~~s~~~~V~~~~~~  187 (301)
+                      +.|++...  +..++.|+|.+.+.   ...+.+|++|+.|+|+|..+    +.||+++....+.. .....++|++....
+T Consensus        17 ~~v~~~~~--~~~~~~w~i~~~~~~~~~~~~~~v~~g~~v~L~h~~t----~~yL~~~~~~~~~~-~~~~~~~v~~~~~~   89 (176)
+T PMT1_CANAL/359   17 QQITLYPH--LDSNNKWLIEPYNGTIHNETFVPLINGMKIRLKHINT----GRRLHSHDEKPPVS-ERDWQKECSCYGYD   89 (176)
+T ss_pred             cEEEeEec--cCCCCcEEEecCCCCCCCCCCeeccCCCEEEEEECCC----CCceEeCCCCCCCC-ccccceEEEEecCC
+Confidence            35666654  35789999998875   34678999999999999998    79999886543321 11356777775432
+
+
+Q ss_pred             ----CcCceEEEECCChhhc-ceeCCcccCCCCEEEEEeCCCCCCccccCceeeecCCCCceEEEEEEEeccCCCCCCCc
+Q Q_cfap161       188 ----SHVNCWQAAFPDPQLR-LEYEGFPVPANAKILINHCHTNRGLAAHRHLFLSTYFGKEAEVVAHTYLDSHRVEKPRN  262 (301)
+Q Consensus       188 ----~~~~~W~i~~~~~~~r-~~~~g~~v~~~~~v~L~H~~T~~~L~~~~~~~~~~~~g~e~eVs~~~~~~~~~~~~~~n  262 (301)
+                          ...+.|++...+.... ....+.++..++.|+|+|..|+++|++++.. .......++||+|....     ....+
+T Consensus        90 ~~~~~~~~~W~v~~~~~~~~~~~~~~~~~~~~s~i~l~h~~t~~~L~~~~~~-~~~~~~~~~ev~c~~~~-----~~~~~  163 (176)
+T PMT1_CANAL/359   90 GFAGDANDDWVVEIVNYRSQKGEAQTFVKAINTIFRLRHAMTGHYLFSSEVK-LPEWGFGQQEVTSASQG-----KRALT  163 (176)
+T ss_pred             CCCCCccccEEEEEEccccccccccccEEEeeeeEEEEECCcCeEEEECCCC-CCCCcCCCeEEEeecCC-----Ccccc
+Confidence                2378899987654211 1134568889999999999999999998754 23322358999998752     23578
+
+
+Q ss_pred             EEEEEeCCCc
+Q Q_cfap161       263 HWMLVTGNPR  272 (301)
+Q Consensus       263 ~W~i~~~~~~  272 (301)
+                      .|.|+...++
+T Consensus       164 ~W~i~~~~~~  173 (176)
+T PMT1_CANAL/359  164 HWYIETNENS  173 (176)
+T ss_pred             eEEEEEeecC
+Confidence            8999876654
+
+
+No 3
+>PF08709.14 ; Ins145_P3_rec ; Inositol 1,4,5-trisphosphate/ryanodine receptor
+Probab=98.79  E-value=2.6e-08  Score=82.22  Aligned_cols=114  Identities=18%  Similarity=0.120  Sum_probs=79.5  Template_Neff=9.600
+
+Q ss_pred             CCCceeCCCEEEEECCCCCCCccccccCCcEEEEeChHHHHHhccCcccCCcEEEeeCCCCCccceEEEEEEccC-CCCC
+Q Q_cfap161        60 EDGYIHYGDKVMLVNPDDPDTEADVFLRGDLSLCMTPDEIQSHLKDELEVPCGLSAVQAKTPIGRNTFIILSVHR-DATG  138 (301)
+Q Consensus        60 ~~~~v~~Gd~V~L~~~~~~~~~~~~~l~~~~~l~~~~~~~~~~~~~~~~~~~~vs~~~~~~p~~r~~f~I~~~~~-~~~g  138 (301)
+                      .+..|+||+.|+|+|..++     .||+++.      ...  ....  .....|++...  +...++|+|.+... ...|
+T Consensus       114 ~g~~V~yG~~i~L~h~~t~-----~yL~~~~------~~~--~~~~--~~~~~v~l~~~--~~~~~~w~i~p~~~~~~~g  176 (240)
+T ITPR_CAEEL/78-  114 LGNVIQYGSMVQLLHVKSN-----KYITVQK------NSP--AKRE--RNAMKVYLDRA--GNEGSWFIIEPAYKHYAIG  176 (240)
+T ss_pred             hCCeeeeCCeEEEEEeCCC-----cEEEEec------CCC--cccC--CCceEEEEEcC--CCCCcEEEEEeCCCCcCCC
+Confidence            3578999999999999987     6887542      110  0111  11234666553  46789999998765 3478
+
+
+Q ss_pred             CceeeCCeEEEEEcCCCCCce-------EE-EEecCccccccCCCCCCceEEeeCCCCcCceEEEECCCh
+Q Q_cfap161       139 QVLRYGQDFCLGITGGFDNKM-------LY-LSSDHRTLLKSSKRSWLQEVYLTDEVSHVNCWQAAFPDP  200 (301)
+Q Consensus       139 ~~v~yGd~v~L~~~~~~~~~~-------~y-L~s~~~~~~~~~~~s~~~~V~~~~~~~~~~~W~i~~~~~  200 (301)
+                      ++|++||.|+|.|..+    +       .| |+++....+.   .....+|++..   ..+.|+|.....
+T Consensus       177 ~~V~~gd~v~L~~~~t----~~~~~~~~~~~L~~~~~~~~~---~~~~~EV~~~~---~~~~W~v~~~~~  236 (240)
+T ITPR_CAEEL/78-  177 DNVSAGNKISLIPNSV----STTQAGHVKSQLHLSSFNLLD---HQSAAEVNCLN---EPTEWQVFMFLL  236 (240)
+T ss_pred             CceecCCEEEEEEcCC----CCCcCCceeEEEEEecccccC---CCccEEEEeec---CCCceEEEEeee
+Confidence            8999999999999998    6       88 9887543321   24567888765   467899987653
+
+
+No 4
+>PF02815.22 ; MIR ; MIR domain
+Probab=98.60  E-value=1.3e-07  Score=73.61  Aligned_cols=104  Identities=19%  Similarity=0.185  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             EEEecCccccccCCCCCCceEEeeCCCCcCceEEEECCChhhcceeCCcccCCCCEEEEEeCCCCCCccccCceeeecCC
+Q Q_cfap161       161 YLSSDHRTLLKSSKRSWLQEVYLTDEVSHVNCWQAAFPDPQLRLEYEGFPVPANAKILINHCHTNRGLAAHRHLFLSTYF  240 (301)
+Q Consensus       161 yL~s~~~~~~~~~~~s~~~~V~~~~~~~~~~~W~i~~~~~~~r~~~~g~~v~~~~~v~L~H~~T~~~L~~~~~~~~~~~~  240 (301)
+                      ||+|+...++.   .+..+.|++....+.++.|+|...+... ....+.+|..|+.|+|+|..|++||+++......+..
+T Consensus         2 ~Lhs~~~~~~~---~~~~~~v~~~~~~~~~~~w~i~~~~~~~-~~~~~~~v~~g~~v~L~h~~t~~yL~~~~~~~~~~~~   77 (176)
+T PMT1_CANAL/359    2 YLHSHEHFYQT---GSKQQQITLYPHLDSNNKWLIEPYNGTI-HNETFVPLINGMKIRLKHINTGRRLHSHDEKPPVSER   77 (176)
+T ss_pred             ceeccCcccCC---CCCCcEEEeEeccCCCCcEEEecCCCCC-CCCCCeeccCCCEEEEEECCCCCceEeCCCCCCCCcc
+
+
+Q ss_pred             CCceEEEEEEEeccCCCCCCCcEEEEEeCC
+Q Q_cfap161       241 GKEAEVVAHTYLDSHRVEKPRNHWMLVTGN  270 (301)
+Q Consensus       241 g~e~eVs~~~~~~~~~~~~~~n~W~i~~~~  270 (301)
+                      ....+|+|......  .....+.|.+....
+T Consensus        78 ~~~~~v~~~~~~~~--~~~~~~~W~v~~~~  105 (176)
+T PMT1_CANAL/359   78 DWQKECSCYGYDGF--AGDANDDWVVEIVN  105 (176)
+T ss_pred             ccceEEEEecCCCC--CCCccccEEEEEEc
+
+
+No 5
+>PF02815.22 ; MIR ; MIR domain
+Probab=98.00  E-value=6.6e-05  Score=57.67  Aligned_cols=115  Identities=16%  Similarity=0.014  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCceeCCCEEEEECCCCCCCccccccCCcEEEEeChHHHHHhccCcc--cCCcEEEeeCCC--CCccceEEEEEEccCC
+Q Q_cfap161        60 EDGYIHYGDKVMLVNPDDPDTEADVFLRGDLSLCMTPDEIQSHLKDEL--EVPCGLSAVQAK--TPIGRNTFIILSVHRD  135 (301)
+Q Consensus        60 ~~~~v~~Gd~V~L~~~~~~~~~~~~~l~~~~~l~~~~~~~~~~~~~~~--~~~~~vs~~~~~--~p~~r~~f~I~~~~~~  135 (301)
+                      .+..|++|+.|.|+|..++     .||+++           .......  .....|++....  .....+.|+|...+..
+T Consensus        44 ~~~~v~~g~~v~L~h~~t~-----~yL~~~-----------~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~W~v~~~~~~  107 (176)
+T PMT1_CANAL/359   44 TFVPLINGMKIRLKHINTG-----RRLHSH-----------DEKPPVSERDWQKECSCYGYDGFAGDANDDWVVEIVNYR  107 (176)
+T ss_pred             CCeeccCCCEEEEEECCCC-----CceEeC-----------CCCCCCCccccceEEEEecCCCCCCCccccEEEEEEccc
+
+
+Q ss_pred             -----CCCCceeeCCeEEEEEcCCCCCceEEEEecCccccccCCCCCCceEEeeCCC-CcCceEEEE
+Q Q_cfap161       136 -----ATGQVLRYGQDFCLGITGGFDNKMLYLSSDHRTLLKSSKRSWLQEVYLTDEV-SHVNCWQAA  196 (301)
+Q Consensus       136 -----~~g~~v~yGd~v~L~~~~~~~~~~~yL~s~~~~~~~~~~~s~~~~V~~~~~~-~~~~~W~i~  196 (301)
+                           ..+..+..++.|+|+|..+    ..||+++....+.....  .++|.+.... ..++.|.|+
+T Consensus       108 ~~~~~~~~~~~~~~s~i~l~h~~t----~~~L~~~~~~~~~~~~~--~~ev~c~~~~~~~~~~W~i~  168 (176)
+T PMT1_CANAL/359  108 SQKGEAQTFVKAINTIFRLRHAMT----GHYLFSSEVKLPEWGFG--QQEVTSASQGKRALTHWYIE  168 (176)
+T ss_pred             cccccccccEEEeeeeEEEEECCc----CeEEEECCCCCCCCcCC--CeEEEeecCCCcccceEEEE
+
+
+No 6
+>PF08709.14 ; Ins145_P3_rec ; Inositol 1,4,5-trisphosphate/ryanodine receptor
+Probab=97.80  E-value=4.1e-05  Score=62.58  Aligned_cols=134  Identities=7%  Similarity=-0.054  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCceeeCCeEEEEEcCCCCCce----EEEEecCccccccCCCCCCceEEeeCCCCcCceEEEECCChhhccee------
+Q Q_cfap161       137 TGQVLRYGQDFCLGITGGFDNKM----LYLSSDHRTLLKSSKRSWLQEVYLTDEVSHVNCWQAAFPDPQLRLEY------  206 (301)
+Q Consensus       137 ~g~~v~yGd~v~L~~~~~~~~~~----~yL~s~~~~~~~~~~~s~~~~V~~~~~~~~~~~W~i~~~~~~~r~~~------  206 (301)
+                      ....|+|||.|.|.+....   .    .||.+....-...............+.....+.|+|.+.........      
+T Consensus         2 ~~~~L~~Gd~I~L~~~~~~---~~~~~g~l~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~F~I~p~~~~~~~~~~~~~~~   78 (240)
+T ITPR_CAEEL/78-    2 NNGNLHIGDIISLYTESSS---NQEQRGFLSTLGLVDDRCIVELKDGRPESPPKKFRDCLFKVCPVNRYAAQKHLWTEQK   78 (240)
+T ss_pred             CCCcccCCcEEEEEeCCCC---ccceeeEEEEecccCCeEEEEeCCCCCCCCCcchhHhheehhccchHHHHHHHHHHHH
+
+
+Q ss_pred             -----------------------------------CCcccCCCCEEEEEeCCCCCCccccCceeeecCCCCceEEEEEEE
+Q Q_cfap161       207 -----------------------------------EGFPVPANAKILINHCHTNRGLAAHRHLFLSTYFGKEAEVVAHTY  251 (301)
+Q Consensus       207 -----------------------------------~g~~v~~~~~v~L~H~~T~~~L~~~~~~~~~~~~g~e~eVs~~~~  251 (301)
+                                                         .|.+|..|+.|+|+|+.|++||+++... +.......++|++...
+T Consensus        79 ~~~~~~~~~~~~~~~~l~~~~~~E~~~N~~~~~~~~g~~V~yG~~i~L~h~~t~~yL~~~~~~-~~~~~~~~~~v~l~~~  157 (240)
+T ITPR_CAEEL/78-   79 RFQTGDSMFDDDLMNKLKVAADKEREENESEFQKTLGNVIQYGSMVQLLHVKSNKYITVQKNS-PAKRERNAMKVYLDRA  157 (240)
+T ss_pred             hhccCCCcccHHHHHHHHHHHHHHHHHHHHHHHHHhCCeeeeCCeEEEEEeCCCcEEEEecCC-CcccCCCceEEEEEcC
+
+
+Q ss_pred             eccCCCCCCCcEEEEEeCCCccccccccc
+Q Q_cfap161       252 LDSHRVEKPRNHWMLVTGNPRDASSSMLD  280 (301)
+Q Consensus       252 ~~~~~~~~~~n~W~i~~~~~~~~~~~~~~  280 (301)
+                            ....+.|+|..........++..
+T Consensus       158 ------~~~~~~w~i~p~~~~~~~g~~V~  180 (240)
+T ITPR_CAEEL/78-  158 ------GNEGSWFIIEPAYKHYAIGDNVS  180 (240)
+T ss_pred             ------CCCCcEEEEEeCCCCcCCCCcee
+
+
+No 7
+>PF06608.14 ; DUF1143 ; Protein of unknown function (DUF1143)
+Probab=91.87  E-value=0.018  Score=42.36  Aligned_cols=16  Identities=38%  Similarity=0.848  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CccCCCCccCCccHHH
+Q Q_cfap161         4 NVYGPGVRIGNWNEDV   19 (301)
+Q Consensus         4 ~~y~~~~~vGNW~E~~   19 (301)
+                      ..|+.+++||||.|++
+T Consensus        54 ~~Ys~ktLiGNW~Eer   69 (141)
+T H9GBH7_ANOCA/7   54 DSYNNKTLLGNWNEER   69 (141)
+T ss_pred             cccCCCeEecCcccee
+
+
+No 8
+>PF09270.13 ; BTD ; Beta-trefoil DNA-binding domain
+Probab=75.23  E-value=7.7  Score=27.12  Aligned_cols=60  Identities=25%  Similarity=0.428  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCceeCCCEEEEECCCCCCCccccccCCcEEEEeChHHHHHhccCcccCCcEEEeeCCCCCccceEEEEEEccCC----C
+Q Q_cfap161        61 DGYIHYGDKVMLVNPDDPDTEADVFLRGDLSLCMTPDEIQSHLKDELEVPCGLSAVQAKTPIGRNTFIILSVHRD----A  136 (301)
+Q Consensus        61 ~~~v~~Gd~V~L~~~~~~~~~~~~~l~~~~~l~~~~~~~~~~~~~~~~~~~~vs~~~~~~p~~r~~f~I~~~~~~----~  136 (301)
+                      +++|+||+.|.|+...++                                           ...-..+|..+++.    .
+T Consensus        34 ~~~I~YGs~V~L~d~~tG-------------------------------------------~~sppliIrkVdk~~i~~~   70 (123)
+T C3Y1H3_BRAFL/1   34 DGYIHYGSCVKLVCCVTG-------------------------------------------MALPRLVIRKVDKQMAHLT   70 (123)
+T ss_pred             CCceecCCEEEEEECCCC-------------------------------------------cccCcEEEEEcccCEeccC
+
+
+Q ss_pred             CCCceeeCCeEEEEEcCCCCCceEEEEecC
+Q Q_cfap161       137 TGQVLRYGQDFCLGITGGFDNKMLYLSSDH  166 (301)
+Q Consensus       137 ~g~~v~yGd~v~L~~~~~~~~~~~yL~s~~  166 (301)
+                      .+++|.--++|.|+-....   ..||....
+T Consensus        71 ~~ePVsQLqKvAfq~~~~~---~~yL~~~~   97 (123)
+T C3Y1H3_BRAFL/1   71 ADDPVSQLHKCCFHLKDSD---RMYLCVSQ   97 (123)
+T ss_pred             CCCCCccceeEEEEEcCCC---CeEEEecC
+
+
+No 9
+>PF04601.16 ; DUF569 ; Domain of unknown function (DUF569)
+Probab=66.36  E-value=24  Score=24.87  Aligned_cols=115  Identities=13%  Similarity=0.131  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CceeCCCEEEEECCCCCCCccccccCCcEEEEeChHHHHHhccCcccCCcEEEeeCCCCCccceEEEEEEccCCCCCCce
+Q Q_cfap161        62 GYIHYGDKVMLVNPDDPDTEADVFLRGDLSLCMTPDEIQSHLKDELEVPCGLSAVQAKTPIGRNTFIILSVHRDATGQVL  141 (301)
+Q Consensus        62 ~~v~~Gd~V~L~~~~~~~~~~~~~l~~~~~l~~~~~~~~~~~~~~~~~~~~vs~~~~~~p~~r~~f~I~~~~~~~~g~~v  141 (301)
+                      +.+.-+..|.|++.. +     .||+..                  ..+..|+.... .+.....|.+++..+       
+T Consensus         2 e~f~~~~~v~Lrs~~-g-----~YL~A~------------------~dg~~V~~~~~-~~~~~~~W~v~~~~~-------   49 (141)
+T Q8GXC9_ARATH/3    2 EIFKKAETVRLRSYH-D-----KYLLAE------------------EDEESVSQDRD-GRSMNARWTVEVVEK-------   49 (141)
+T ss_pred             ceecCCCEEEEEeCC-C-----CEEEEc------------------CCCCeEEEcCC-CCCcCceEEEEEeCC-------
+
+
+Q ss_pred             eeCCeEEEEEcCCCCCceEEEEecCccccccCCCCCCceEEeeCCCCcCceEEEECCChhhcceeCCcccCCCCEEEEEe
+Q Q_cfap161       142 RYGQDFCLGITGGFDNKMLYLSSDHRTLLKSSKRSWLQEVYLTDEVSHVNCWQAAFPDPQLRLEYEGFPVPANAKILINH  221 (301)
+Q Consensus       142 ~yGd~v~L~~~~~~~~~~~yL~s~~~~~~~~~~~s~~~~V~~~~~~~~~~~W~i~~~~~~~r~~~~g~~v~~~~~v~L~H  221 (301)
+                        +..|.|+....     .||...+..... ........-......+....|..               +..|..|.|++
+T Consensus        50 --~~~v~L~s~~G-----rYL~a~~~~~~~-g~~g~~v~q~~~~~~~~~~~W~~---------------~~~g~~v~Lr~  106 (141)
+T Q8GXC9_ARATH/3   50 --ADVIRLKSCFG-----KYLTASNIPMFL-GMTGKRVTQTLPRRLDSSTEWEP---------------VREGVQVRLKT  106 (141)
+T ss_pred             --CcEEEEEeCCC-----cccccccccccc-CCcceeEEecCCCCCCCCCeeEE---------------EEcCCEEEEEc
+
+
+Q ss_pred             CCCCCCccccC
+Q Q_cfap161       222 CHTNRGLAAHR  232 (301)
+Q Consensus       222 ~~T~~~L~~~~  232 (301)
+                       ..|+||.+..
+T Consensus       107 -~~g~~Lra~~  116 (141)
+T Q8GXC9_ARATH/3  107 -RYGQYLRANG  116 (141)
+T ss_pred             -CCCCeeecCC
+
+
+No 10
+>PF08709.14 ; Ins145_P3_rec ; Inositol 1,4,5-trisphosphate/ryanodine receptor
+Probab=63.71  E-value=5.7  Score=30.90  Aligned_cols=54  Identities=9%  Similarity=0.079  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCceeCCCEEEEECCCCC-------CCccccc-cCCcEEEEeChHHHHHhccCcccCCcEEEeeCCCCCccceEEEEEE
+Q Q_cfap161        60 EDGYIHYGDKVMLVNPDDP-------DTEADVF-LRGDLSLCMTPDEIQSHLKDELEVPCGLSAVQAKTPIGRNTFIILS  131 (301)
+Q Consensus        60 ~~~~v~~Gd~V~L~~~~~~-------~~~~~~~-l~~~~~l~~~~~~~~~~~~~~~~~~~~vs~~~~~~p~~r~~f~I~~  131 (301)
+                      .+..|++||.|.|+|..++       .     | |+++           ............|++..     ..+.|+|..
+T Consensus       175 ~g~~V~~gd~v~L~~~~t~~~~~~~~~-----~~L~~~-----------~~~~~~~~~~~EV~~~~-----~~~~W~v~~  233 (240)
+T ITPR_CAEEL/78-  175 IGDNVSAGNKISLIPNSVSTTQAGHVK-----SQLHLS-----------SFNLLDHQSAAEVNCLN-----EPTEWQVFM  233 (240)
+T ss_pred             CCCceecCCEEEEEEcCCCCCcCCcee-----EEEEEe-----------cccccCCCccEEEEeec-----CCCceEEEE
+
+
+Q ss_pred             ccC
+Q Q_cfap161       132 VHR  134 (301)
+Q Consensus       132 ~~~  134 (301)
+                      ...
+T Consensus       234 ~~~  236 (240)
+T ITPR_CAEEL/78-  234 FLL  236 (240)
+T ss_pred             eee
+
+
+No 11
+>PF04601.16 ; DUF569 ; Domain of unknown function (DUF569)
+Probab=45.61  E-value=56  Score=22.75  Aligned_cols=66  Identities=15%  Similarity=0.164  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CceeeCCeEEEEEcCCCCCceEEEEecCccccccCCCCCCceEEeeC-CCCcCceEEEECCChhhcceeCCcccCCCCEE
+Q Q_cfap161       139 QVLRYGQDFCLGITGGFDNKMLYLSSDHRTLLKSSKRSWLQEVYLTD-EVSHVNCWQAAFPDPQLRLEYEGFPVPANAKI  217 (301)
+Q Consensus       139 ~~v~yGd~v~L~~~~~~~~~~~yL~s~~~~~~~~~~~s~~~~V~~~~-~~~~~~~W~i~~~~~~~r~~~~g~~v~~~~~v  217 (301)
+                      +.+..+..|+|++...     .||++....          ..|.+.. .......|.++.             +..+..|
+T Consensus         2 e~f~~~~~v~Lrs~~g-----~YL~A~~dg----------~~V~~~~~~~~~~~~W~v~~-------------~~~~~~v   53 (141)
+T Q8GXC9_ARATH/3    2 EIFKKAETVRLRSYHD-----KYLLAEEDE----------ESVSQDRDGRSMNARWTVEV-------------VEKADVI   53 (141)
+T ss_pred             ceecCCCEEEEEeCCC-----CEEEEcCCC----------CeEEEcCCCCCcCceEEEEE-------------eCCCcEE
+
+
+Q ss_pred             EEEeCCCCCCccccCc
+Q Q_cfap161       218 LINHCHTNRGLAAHRH  233 (301)
+Q Consensus       218 ~L~H~~T~~~L~~~~~  233 (301)
+                      .|+- ..|+||++.+.
+T Consensus        54 ~L~s-~~GrYL~a~~~   68 (141)
+T Q8GXC9_ARATH/3   54 RLKS-CFGKYLTASNI   68 (141)
+T ss_pred             EEEe-CCCcccccccc
+
+
+No 12
+>PF15139.9 ; DUF4572 ; Domain of unknown function (DUF4572)
+Probab=26.35  E-value=9.7  Score=28.91  Aligned_cols=21  Identities=14%  Similarity=0.256  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCccCCCCccCCccHHHHHH
+Q Q_cfap161         2 AQNVYGPGVRIGNWNEDVYLE   22 (301)
+Q Consensus         2 ~~~~y~~~~~vGNW~E~~~~~   22 (301)
+                      ....|+..|+|.||...+..|
+T Consensus        11 ~~~~Ys~~vlv~~Wh~~rEae   31 (193)
+T G1PA27_MYOLU/2   11 RHKKYSNPVLVYSWHRNREAY   31 (193)
+T ss_pred             CCcccCCCceeeecccchhcC
+
+
